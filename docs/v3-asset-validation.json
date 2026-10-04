@@ -1,0 +1,62 @@
+{
+  "pngs": [
+    {
+      "path": "frontend/public/assets/effects/combat-v3.png",
+      "width": 256,
+      "height": 256,
+      "mode": "RGBA",
+      "nonemptyAlpha": true
+    },
+    {
+      "path": "frontend/public/assets/effects/source-v3.png",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "nonemptyAlpha": true
+    },
+    {
+      "path": "frontend/public/assets/projectiles/hostile-bolt-v3.png",
+      "width": 32,
+      "height": 16,
+      "mode": "RGBA",
+      "nonemptyAlpha": true
+    },
+    {
+      "path": "frontend/public/assets/projectiles/orbit-blade-v3.png",
+      "width": 32,
+      "height": 32,
+      "mode": "RGBA",
+      "nonemptyAlpha": true
+    },
+    {
+      "path": "frontend/public/assets/projectiles/own-bolt-v3.png",
+      "width": 32,
+      "height": 16,
+      "mode": "RGBA",
+      "nonemptyAlpha": true
+    },
+    {
+      "path": "frontend/public/assets/projectiles/spread-bolt-v3.png",
+      "width": 32,
+      "height": 16,
+      "mode": "RGBA",
+      "nonemptyAlpha": true
+    },
+    {
+      "path": "frontend/public/assets/particles/ember-v3.png",
+      "width": 8,
+      "height": 8,
+      "mode": "RGBA",
+      "nonemptyAlpha": true
+    },
+    {
+      "path": "frontend/public/assets/particles/shard-v3.png",
+      "width": 12,
+      "height": 12,
+      "mode": "RGBA",
+      "nonemptyAlpha": true
+    }
+  ],
+  "atlasFrames": 16,
+  "allFramesNonempty": true
+}

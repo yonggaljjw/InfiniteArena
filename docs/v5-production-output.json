@@ -1,0 +1,32 @@
+{
+  "build": "Vite production dist",
+  "browser": "Chromium134 headless",
+  "menu": {
+    "rms": 0.04537600331459178,
+    "state": "running",
+    "loops": 1
+  },
+  "loopBoundary": {
+    "rms": 0.05407817890924649,
+    "state": "running",
+    "loops": 1
+  },
+  "world": {
+    "rms": 0.05193927946180564,
+    "state": "running",
+    "loops": 1
+  },
+  "mute": {
+    "rms": 0,
+    "state": "running",
+    "loops": 1
+  },
+  "returned": {
+    "rms": 0,
+    "state": "running",
+    "loops": 1
+  },
+  "loaded": 18,
+  "pageErrors": [],
+  "actualSignal": "Final output compressor node analyser; no dev module imports"
+}

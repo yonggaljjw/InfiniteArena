@@ -1,0 +1,33 @@
+{
+  "backendTests": 23,
+  "browserTests": 10,
+  "browserSeconds": 56.3,
+  "buildPassed": true,
+  "authorityComparedTicks": 3600,
+  "authorityDifferences": 0,
+  "preservedFiles": 45,
+  "realSoakSeconds": 120,
+  "realConnections": 20,
+  "rendererCount": 1,
+  "socketBots": 19,
+  "pageErrors": [],
+  "botErrors": [],
+  "rafFps": 30.183886286597254,
+  "cleanup": {
+    "gameDestroyed": true,
+    "images": 0,
+    "texts": 0,
+    "active": 0,
+    "listeners": 0,
+    "seen": 0
+  },
+  "stressMethod": "240 projectile render packets, 300 virtual expiry cycles, 30000 unique hit events; not a 300-second gameplay test",
+  "notRun": [
+    "Docker Compose/MySQL",
+    "external HTTPS/WSS",
+    "30-minute stability",
+    "real GPU/mobile 60FPS"
+  ],
+  "v3ImplementationComplete": true,
+  "v4Implemented": false
+}

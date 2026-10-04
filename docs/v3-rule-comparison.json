@@ -1,0 +1,11 @@
+{
+  "baseline": "supplied V2 World",
+  "seeds": 3,
+  "ticksPerSeed": 1200,
+  "players": 20,
+  "initialMonsters": 80,
+  "totalComparedTicks": 3600,
+  "comparedSimulationSeconds": 180,
+  "authoritativeDifferences": 0,
+  "note": "V2 World loaded against unchanged shared entity/progression/movement modules; telemetry fields excluded."
+}

@@ -1,0 +1,214 @@
+{
+  "backendTests": 23,
+  "backendDurationSeconds": 0.56,
+  "browserTests": 13,
+  "browserDuration": "about1.3minutes",
+  "browser": "Chromium134 headless",
+  "buildPassed": true,
+  "viewports": [
+    [
+      1366,
+      768
+    ],
+    [
+      1920,
+      1080
+    ],
+    [
+      2560,
+      1440
+    ]
+  ],
+  "uiScalesTested": [
+    1,
+    1.25
+  ],
+  "zoomEquivalentViewport": [
+    1093,
+    614
+  ],
+  "preservedFiles": 112,
+  "backendPreservedFiles": 44,
+  "realCombatFixture": "unmodified FastAPI/Vite/SQLite; independent worlds and RNG seed83; normal REST/WS input, no entity/reward injection",
+  "displayReplay": "UI-only high level/long nicknames/top5/HP/death layouts, separate from live combat",
+  "notRun": [
+    "Docker/MySQL",
+    "external HTTPS/WSS",
+    "30-minute stability",
+    "actual browser zoom-menu operation",
+    "actual GPU/mobile60FPS"
+  ],
+  "v1ToV4LocalRegressionPassed": true,
+  "renderingSamples": [
+    {
+      "viewport": [
+        1366,
+        768
+      ],
+      "fps": 52.10410849621304,
+      "frameMedianMs": 16.699999999999818,
+      "frameP95Ms": 33.30000000000109,
+      "durationMs": 4011.1999999998134,
+      "renderer": 2,
+      "objects": 426,
+      "environment": {
+        "tileLayers": 2,
+        "props": 361,
+        "visibleProps": 56,
+        "dust": 16,
+        "obstaclesConfigured": true
+      },
+      "combat": {
+        "quality": "normal",
+        "pool": {
+          "spriteAllocated": 0,
+          "spriteActive": 0,
+          "textAllocated": 0,
+          "textActive": 0,
+          "dropped": 0,
+          "limits": {
+            "sprites": 192,
+            "texts": 40,
+            "trails": 100,
+            "fragments": 4
+          }
+        },
+        "projectiles": {
+          "active": 0,
+          "allocated": 0,
+          "free": 0,
+          "trails": 0,
+          "orbits": 0,
+          "limit": 240
+        },
+        "seen": 0,
+        "seenLimit": 2048,
+        "events": {
+          "fire": 0,
+          "hit": 0,
+          "death": 0,
+          "experience": 0,
+          "level_up": 0
+        },
+        "skipped": 0,
+        "listeners": 1,
+        "tweens": 0
+      },
+      "domElements": 93
+    },
+    {
+      "viewport": [
+        1920,
+        1080
+      ],
+      "fps": 26.697649123673166,
+      "frameMedianMs": 33.399999999999636,
+      "frameP95Ms": 50.100000000000364,
+      "durationMs": 4045.300000000185,
+      "renderer": 2,
+      "objects": 462,
+      "environment": {
+        "tileLayers": 2,
+        "props": 361,
+        "visibleProps": 80,
+        "dust": 16,
+        "obstaclesConfigured": true
+      },
+      "combat": {
+        "quality": "normal",
+        "pool": {
+          "spriteAllocated": 0,
+          "spriteActive": 0,
+          "textAllocated": 0,
+          "textActive": 0,
+          "dropped": 0,
+          "limits": {
+            "sprites": 192,
+            "texts": 40,
+            "trails": 100,
+            "fragments": 4
+          }
+        },
+        "projectiles": {
+          "active": 0,
+          "allocated": 0,
+          "free": 0,
+          "trails": 0,
+          "orbits": 0,
+          "limit": 240
+        },
+        "seen": 0,
+        "seenLimit": 2048,
+        "events": {
+          "fire": 0,
+          "hit": 0,
+          "death": 0,
+          "experience": 0,
+          "level_up": 0
+        },
+        "skipped": 0,
+        "listeners": 1,
+        "tweens": 0
+      },
+      "domElements": 93
+    },
+    {
+      "viewport": [
+        2560,
+        1440
+      ],
+      "fps": 17.168022691646986,
+      "frameMedianMs": 66.59999999999854,
+      "frameP95Ms": 66.70000000000073,
+      "durationMs": 4019.100000000093,
+      "renderer": 2,
+      "objects": 506,
+      "environment": {
+        "tileLayers": 2,
+        "props": 361,
+        "visibleProps": 80,
+        "dust": 16,
+        "obstaclesConfigured": true
+      },
+      "combat": {
+        "quality": "normal",
+        "pool": {
+          "spriteAllocated": 0,
+          "spriteActive": 0,
+          "textAllocated": 0,
+          "textActive": 0,
+          "dropped": 0,
+          "limits": {
+            "sprites": 192,
+            "texts": 40,
+            "trails": 100,
+            "fragments": 4
+          }
+        },
+        "projectiles": {
+          "active": 0,
+          "allocated": 0,
+          "free": 0,
+          "trails": 0,
+          "orbits": 0,
+          "limit": 240
+        },
+        "seen": 0,
+        "seenLimit": 2048,
+        "events": {
+          "fire": 0,
+          "hit": 0,
+          "death": 0,
+          "experience": 0,
+          "level_up": 0
+        },
+        "skipped": 0,
+        "listeners": 1,
+        "tweens": 0
+      },
+      "domElements": 93
+    }
+  ],
+  "pageErrors": [],
+  "sixtyFpsAchieved": false
+}

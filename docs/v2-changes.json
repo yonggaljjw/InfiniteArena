@@ -1,0 +1,170 @@
+[
+  {
+    "path": "README.md",
+    "status": "modified"
+  },
+  {
+    "path": "docs/architecture.md",
+    "status": "modified"
+  },
+  {
+    "path": "docs/assets-v2.md",
+    "status": "added"
+  },
+  {
+    "path": "docs/benchmark-v1-baseline.png",
+    "status": "added"
+  },
+  {
+    "path": "docs/benchmark-v2.png",
+    "status": "added"
+  },
+  {
+    "path": "docs/imagegen-prompts-v2.json",
+    "status": "added"
+  },
+  {
+    "path": "docs/phase-v2.md",
+    "status": "added"
+  },
+  {
+    "path": "docs/preview-after-v2.png",
+    "status": "added"
+  },
+  {
+    "path": "docs/preview.png",
+    "status": "modified"
+  },
+  {
+    "path": "docs/respawn-v2.png",
+    "status": "added"
+  },
+  {
+    "path": "docs/roadmap.md",
+    "status": "modified"
+  },
+  {
+    "path": "docs/v2-asset-validation.json",
+    "status": "added"
+  },
+  {
+    "path": "docs/v2-changes.json",
+    "status": "added"
+  },
+  {
+    "path": "docs/v2-performance.json",
+    "status": "added"
+  },
+  {
+    "path": "docs/v2-preservation.json",
+    "status": "added"
+  },
+  {
+    "path": "docs/validation.md",
+    "status": "modified"
+  },
+  {
+    "path": "frontend/public/assets/README.md",
+    "status": "modified"
+  },
+  {
+    "path": "frontend/public/assets/animations/README.md",
+    "status": "added"
+  },
+  {
+    "path": "frontend/public/assets/animations/entity-v2.json",
+    "status": "added"
+  },
+  {
+    "path": "frontend/public/assets/characters/README.md",
+    "status": "added"
+  },
+  {
+    "path": "frontend/public/assets/characters/player-source-v2.png",
+    "status": "added"
+  },
+  {
+    "path": "frontend/public/assets/characters/player-v2.png",
+    "status": "added"
+  },
+  {
+    "path": "frontend/public/assets/monsters/README.md",
+    "status": "added"
+  },
+  {
+    "path": "frontend/public/assets/monsters/ghoul-source-v2.png",
+    "status": "added"
+  },
+  {
+    "path": "frontend/public/assets/monsters/ghoul-v2.png",
+    "status": "added"
+  },
+  {
+    "path": "frontend/scripts/README.md",
+    "status": "added"
+  },
+  {
+    "path": "frontend/scripts/benchmark-v2.mjs",
+    "status": "added"
+  },
+  {
+    "path": "frontend/src/game/README.md",
+    "status": "modified"
+  },
+  {
+    "path": "frontend/src/game/scene.ts",
+    "status": "modified"
+  },
+  {
+    "path": "frontend/src/game/visuals/README.md",
+    "status": "added"
+  },
+  {
+    "path": "frontend/src/game/visuals/animations.ts",
+    "status": "added"
+  },
+  {
+    "path": "frontend/src/game/visuals/assets.ts",
+    "status": "added"
+  },
+  {
+    "path": "frontend/src/game/visuals/renderers.ts",
+    "status": "added"
+  },
+  {
+    "path": "frontend/src/game/visuals/state.ts",
+    "status": "added"
+  },
+  {
+    "path": "frontend/src/shared/protocol.ts",
+    "status": "modified"
+  },
+  {
+    "path": "frontend/tests/multiplayer.spec.ts",
+    "status": "modified"
+  },
+  {
+    "path": "frontend/tests/visuals.spec.ts",
+    "status": "added"
+  },
+  {
+    "path": "frontend/tests/z-combat-visuals.spec.ts",
+    "status": "added"
+  },
+  {
+    "path": "frontend/tsconfig.json",
+    "status": "modified"
+  },
+  {
+    "path": "tools/README.md",
+    "status": "added"
+  },
+  {
+    "path": "tools/build_entity_atlases.py",
+    "status": "added"
+  },
+  {
+    "path": "tools/requirements.txt",
+    "status": "added"
+  }
+]

@@ -1,0 +1,254 @@
+[
+  {
+    "path": "README.md",
+    "status": "modified"
+  },
+  {
+    "path": "backend/app/game/README.md",
+    "status": "modified"
+  },
+  {
+    "path": "backend/app/game/combat.py",
+    "status": "modified"
+  },
+  {
+    "path": "backend/app/game/combat_events.py",
+    "status": "added"
+  },
+  {
+    "path": "backend/app/game/world.py",
+    "status": "modified"
+  },
+  {
+    "path": "backend/tests/test_combat_events.py",
+    "status": "added"
+  },
+  {
+    "path": "docs/README.md",
+    "status": "modified"
+  },
+  {
+    "path": "docs/architecture.md",
+    "status": "modified"
+  },
+  {
+    "path": "docs/assets-v3.md",
+    "status": "added"
+  },
+  {
+    "path": "docs/benchmark-v2-baseline.png",
+    "status": "added"
+  },
+  {
+    "path": "docs/benchmark-v3.png",
+    "status": "added"
+  },
+  {
+    "path": "docs/combat-replay-v3.png",
+    "status": "added"
+  },
+  {
+    "path": "docs/imagegen-prompt-v3.txt",
+    "status": "added"
+  },
+  {
+    "path": "docs/phase-v3.md",
+    "status": "added"
+  },
+  {
+    "path": "docs/preview-after-v3.png",
+    "status": "added"
+  },
+  {
+    "path": "docs/protocol.md",
+    "status": "modified"
+  },
+  {
+    "path": "docs/pvp-v3.png",
+    "status": "added"
+  },
+  {
+    "path": "docs/respawn-v3.png",
+    "status": "added"
+  },
+  {
+    "path": "docs/roadmap.md",
+    "status": "modified"
+  },
+  {
+    "path": "docs/soak-v3.png",
+    "status": "added"
+  },
+  {
+    "path": "docs/v3-asset-validation.json",
+    "status": "added"
+  },
+  {
+    "path": "docs/v3-changes.json",
+    "status": "added"
+  },
+  {
+    "path": "docs/v3-performance-initial.json",
+    "status": "added"
+  },
+  {
+    "path": "docs/v3-performance.json",
+    "status": "added"
+  },
+  {
+    "path": "docs/v3-preservation.json",
+    "status": "added"
+  },
+  {
+    "path": "docs/v3-rule-comparison.json",
+    "status": "added"
+  },
+  {
+    "path": "docs/v3-soak-samples.jsonl",
+    "status": "added"
+  },
+  {
+    "path": "docs/v3-soak.json",
+    "status": "added"
+  },
+  {
+    "path": "docs/v3-validation.json",
+    "status": "added"
+  },
+  {
+    "path": "docs/validation.md",
+    "status": "modified"
+  },
+  {
+    "path": "frontend/public/assets/README.md",
+    "status": "modified"
+  },
+  {
+    "path": "frontend/public/assets/effects/README.md",
+    "status": "added"
+  },
+  {
+    "path": "frontend/public/assets/effects/combat-v3.png",
+    "status": "added"
+  },
+  {
+    "path": "frontend/public/assets/effects/manifest-v3.json",
+    "status": "added"
+  },
+  {
+    "path": "frontend/public/assets/effects/source-v3.png",
+    "status": "added"
+  },
+  {
+    "path": "frontend/public/assets/particles/README.md",
+    "status": "added"
+  },
+  {
+    "path": "frontend/public/assets/particles/ember-v3.png",
+    "status": "added"
+  },
+  {
+    "path": "frontend/public/assets/particles/shard-v3.png",
+    "status": "added"
+  },
+  {
+    "path": "frontend/public/assets/projectiles/README.md",
+    "status": "added"
+  },
+  {
+    "path": "frontend/public/assets/projectiles/hostile-bolt-v3.png",
+    "status": "added"
+  },
+  {
+    "path": "frontend/public/assets/projectiles/orbit-blade-v3.png",
+    "status": "added"
+  },
+  {
+    "path": "frontend/public/assets/projectiles/own-bolt-v3.png",
+    "status": "added"
+  },
+  {
+    "path": "frontend/public/assets/projectiles/spread-bolt-v3.png",
+    "status": "added"
+  },
+  {
+    "path": "frontend/scripts/README.md",
+    "status": "modified"
+  },
+  {
+    "path": "frontend/scripts/benchmark-v3.mjs",
+    "status": "added"
+  },
+  {
+    "path": "frontend/scripts/soak-v3.mjs",
+    "status": "added"
+  },
+  {
+    "path": "frontend/src/game/README.md",
+    "status": "modified"
+  },
+  {
+    "path": "frontend/src/game/combat/README.md",
+    "status": "added"
+  },
+  {
+    "path": "frontend/src/game/combat/assets.ts",
+    "status": "added"
+  },
+  {
+    "path": "frontend/src/game/combat/effects.ts",
+    "status": "added"
+  },
+  {
+    "path": "frontend/src/game/combat/manager.ts",
+    "status": "added"
+  },
+  {
+    "path": "frontend/src/game/combat/pool.ts",
+    "status": "added"
+  },
+  {
+    "path": "frontend/src/game/combat/projectiles.ts",
+    "status": "added"
+  },
+  {
+    "path": "frontend/src/game/scene.ts",
+    "status": "modified"
+  },
+  {
+    "path": "frontend/src/shared/protocol.ts",
+    "status": "modified"
+  },
+  {
+    "path": "frontend/tests/README.md",
+    "status": "modified"
+  },
+  {
+    "path": "frontend/tests/a-pvp-effects.spec.ts",
+    "status": "added"
+  },
+  {
+    "path": "frontend/tests/combat-effects.spec.ts",
+    "status": "added"
+  },
+  {
+    "path": "frontend/tests/multiplayer.spec.ts",
+    "status": "modified"
+  },
+  {
+    "path": "frontend/tests/z-combat-visuals.spec.ts",
+    "status": "modified"
+  },
+  {
+    "path": "tools/README.md",
+    "status": "modified"
+  },
+  {
+    "path": "tools/build_combat_assets.py",
+    "status": "added"
+  },
+  {
+    "path": "tools/compare_v2_rules.py",
+    "status": "added"
+  }
+]

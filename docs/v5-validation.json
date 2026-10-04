@@ -1,0 +1,63 @@
+{
+  "phase": "V5",
+  "status": "Menu/world audio integration complete; optional intense combat BGM deferred",
+  "backendTests": 23,
+  "chromiumTests": 19,
+  "priorRegressionTests": 13,
+  "audioTests": 6,
+  "productionBuild": "passed",
+  "assetDecodeCount": 36,
+  "productionOutput": "passed; real analyser PCM incl.32s loop boundary",
+  "actualMultiplayer": "two independent contexts: movement/PvP damage,kill,death,respawn passed",
+  "actualGrowth": "NPC kill/direct EXP/level-up/server-confirmed upgrade passed",
+  "limits": {
+    "activeSfx": 12,
+    "allocatedSfx": 25,
+    "pooledReuseIterations": 300
+  },
+  "tabTest": "visibility policy replay, not OS background-tab audition",
+  "notExecuted": [
+    "Human speaker/headphone audition",
+    "Chrome installed browser",
+    "Edge installed browser",
+    "30-minute soak and device FPS guarantee",
+    "Docker Compose/MySQL startup",
+    "external deployment"
+  ],
+  "warnings": [
+    "Existing Phaser production bundle >500kB",
+    "Existing Starlette TestClient anyio deprecation"
+  ],
+  "actualOutput": {
+    "build": "Vite production dist",
+    "browser": "Chromium134 headless",
+    "menu": {
+      "rms": 0.04537600331459178,
+      "state": "running",
+      "loops": 1
+    },
+    "loopBoundary": {
+      "rms": 0.05407817890924649,
+      "state": "running",
+      "loops": 1
+    },
+    "world": {
+      "rms": 0.05193927946180564,
+      "state": "running",
+      "loops": 1
+    },
+    "mute": {
+      "rms": 0,
+      "state": "running",
+      "loops": 1
+    },
+    "returned": {
+      "rms": 0,
+      "state": "running",
+      "loops": 1
+    },
+    "loaded": 18,
+    "pageErrors": [],
+    "actualSignal": "Final output compressor node analyser; no dev module imports"
+  }
+}

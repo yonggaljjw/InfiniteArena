@@ -1,0 +1,41 @@
+/* 역할: 폰트와 V4 공통 스타일 진입점. 화면 전체 크기와 캔버스/오류 패널 기본 배치를 정의합니다. */
+/* 유지보수: 공통 색/크기는 tokens.css, PC 배치는 game-ui.css에서 변경합니다. */
+@import "./ui/tokens.css";
+@import "./ui/game-ui.css";
+:root {
+  font-family: "Noto Sans KR", system-ui, sans-serif;
+  color: var(--text);
+  background: var(--ink);
+  font-synthesis: weight;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  overflow: hidden;
+}
+main,
+.game-canvas {
+  height: 100dvh;
+  width: 100vw;
+  overflow: hidden;
+}
+main {
+  position: relative;
+  --ui-font: calc(13px * var(--ui-scale));
+}
+canvas {
+  display: block;
+  image-rendering: pixelated;
+}
+button,
+input,
+select {
+  font: inherit;
+}
+h1,
+h2,
+p {
+  overflow-wrap: break-word;
+}

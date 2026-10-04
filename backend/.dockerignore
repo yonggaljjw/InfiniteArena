@@ -1,0 +1,8 @@
+# 역할: 비밀 설정·로컬 의존성·생성 산출물의 포함을 막습니다. 실행에 필요한 .env.example과 소스는 보존합니다.
+__pycache__
+.pytest_cache
+.venv
+*.db
+
+.env
+.env.*

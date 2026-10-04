@@ -1,0 +1,20 @@
+{
+  "players_requested": 20,
+  "peak_online": 20,
+  "duration_s": 15,
+  "snapshot_frames": 3019,
+  "received_bytes": 11647042,
+  "bytes_per_client_s": 38823,
+  "tick_ms_median_sampled": 0.511,
+  "tick_ms_p95_sampled": 1.537,
+  "health": {
+    "status": "ok",
+    "players": 20,
+    "protocol": 1,
+    "tick_ms": 0.26762400011648424,
+    "overruns": 0,
+    "stats_failed": 0,
+    "stats_rejected": 0
+  },
+  "errors": []
+}

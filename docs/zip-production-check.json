@@ -1,0 +1,67 @@
+{
+  "build": "production dist from extracted ZIP",
+  "errors": [],
+  "bad": [],
+  "assets": [
+    "/assets/tiles/ground-v1.png",
+    "/assets/tiles/details-v1.png",
+    "/assets/props/fir-v1.png",
+    "/assets/props/oak-v1.png",
+    "/assets/props/dead-tree-v1.png",
+    "/assets/props/boulder-v1.png",
+    "/assets/props/pillar-v1.png",
+    "/assets/props/rubble-v1.png",
+    "/assets/props/wall-v1.png",
+    "/assets/environment/fir-canopy-v1.png",
+    "/assets/environment/oak-canopy-v1.png",
+    "/assets/ambient/dust-v1.png",
+    "/assets/ambient/shadow-v1.png",
+    "/assets/characters/player-v2.png",
+    "/assets/monsters/ghoul-v2.png",
+    "/assets/effects/combat-v3.png",
+    "/assets/projectiles/hostile-bolt-v3.png",
+    "/assets/projectiles/own-bolt-v3.png",
+    "/assets/projectiles/spread-bolt-v3.png",
+    "/assets/projectiles/orbit-blade-v3.png",
+    "/assets/particles/shard-v3.png",
+    "/assets/particles/ember-v3.png"
+  ],
+  "events": [
+    "fire",
+    "hit",
+    "death",
+    "experience",
+    "level_up"
+  ],
+  "players": 2,
+  "movement": true,
+  "viewports": [
+    {
+      "width": 1366,
+      "height": 768,
+      "css": {
+        "border": "1px",
+        "position": "absolute",
+        "bg": "linear-gradient(140deg, rgba(42, 48, 51, 0.92), rgba(21, 27, 31, 0.92) 55%, rgba(16, 23, 25, 0.95))"
+      }
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "css": {
+        "border": "1px",
+        "position": "absolute",
+        "bg": "linear-gradient(140deg, rgba(42, 48, 51, 0.92), rgba(21, 27, 31, 0.92) 55%, rgba(16, 23, 25, 0.95))"
+      }
+    },
+    {
+      "width": 2560,
+      "height": 1440,
+      "css": {
+        "border": "1px",
+        "position": "absolute",
+        "bg": "linear-gradient(140deg, rgba(42, 48, 51, 0.92), rgba(21, 27, 31, 0.92) 55%, rgba(16, 23, 25, 0.95))"
+      }
+    }
+  ]
+}

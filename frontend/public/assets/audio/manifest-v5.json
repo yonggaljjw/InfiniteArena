@@ -1,0 +1,402 @@
+{
+  "version": 5,
+  "sampleRate": 22050,
+  "globalVoiceLimit": 12,
+  "fadeMs": 900,
+  "maxDistance": 650,
+  "origin": "Original deterministic synthesis; no external recordings, samples or melodies",
+  "bgm": {
+    "menu": {
+      "urls": [
+        "/assets/audio/bgm/menu.ogg",
+        "/assets/audio/bgm/menu.mp3"
+      ],
+      "duration": 32.0,
+      "channels": 2,
+      "peakPCM": 0.52,
+      "rmsPCM": 0.14131201496352136
+    },
+    "world": {
+      "urls": [
+        "/assets/audio/bgm/world.ogg",
+        "/assets/audio/bgm/world.mp3"
+      ],
+      "duration": 32.0,
+      "channels": 2,
+      "peakPCM": 0.52,
+      "rmsPCM": 0.14145447142126044
+    }
+  },
+  "sfx": {
+    "shot": {
+      "urls": [
+        "/assets/audio/sfx/shot.ogg",
+        "/assets/audio/sfx/shot.mp3"
+      ],
+      "duration": 0.12,
+      "channels": 1,
+      "peakPCM": 0.38,
+      "rmsPCM": 0.06461536196568322,
+      "cooldownMs": 120,
+      "voices": 2,
+      "priority": 30,
+      "gain": 0.45
+    },
+    "spread": {
+      "urls": [
+        "/assets/audio/sfx/spread.ogg",
+        "/assets/audio/sfx/spread.mp3"
+      ],
+      "duration": 0.2,
+      "channels": 1,
+      "peakPCM": 0.38,
+      "rmsPCM": 0.06575063830236479,
+      "cooldownMs": 140,
+      "voices": 2,
+      "priority": 40,
+      "gain": 0.5
+    },
+    "orbit": {
+      "urls": [
+        "/assets/audio/sfx/orbit.ogg",
+        "/assets/audio/sfx/orbit.mp3"
+      ],
+      "duration": 0.28,
+      "channels": 1,
+      "peakPCM": 0.38,
+      "rmsPCM": 0.054441996908126886,
+      "cooldownMs": 180,
+      "voices": 2,
+      "priority": 45,
+      "gain": 0.5
+    },
+    "monster_hit": {
+      "urls": [
+        "/assets/audio/sfx/monster_hit.ogg",
+        "/assets/audio/sfx/monster_hit.mp3"
+      ],
+      "duration": 0.14997732426303856,
+      "channels": 1,
+      "peakPCM": 0.38,
+      "rmsPCM": 0.06204528957043537,
+      "cooldownMs": 75,
+      "voices": 2,
+      "priority": 45,
+      "gain": 0.55
+    },
+    "heavy_hit": {
+      "urls": [
+        "/assets/audio/sfx/heavy_hit.ogg",
+        "/assets/audio/sfx/heavy_hit.mp3"
+      ],
+      "duration": 0.26,
+      "channels": 1,
+      "peakPCM": 0.38,
+      "rmsPCM": 0.06061231848719436,
+      "cooldownMs": 110,
+      "voices": 2,
+      "priority": 55,
+      "gain": 0.6
+    },
+    "player_hit": {
+      "urls": [
+        "/assets/audio/sfx/player_hit.ogg",
+        "/assets/audio/sfx/player_hit.mp3"
+      ],
+      "duration": 0.3,
+      "channels": 1,
+      "peakPCM": 0.38,
+      "rmsPCM": 0.06732577146579756,
+      "cooldownMs": 130,
+      "voices": 2,
+      "priority": 100,
+      "gain": 0.9
+    },
+    "pvp_hit": {
+      "urls": [
+        "/assets/audio/sfx/pvp_hit.ogg",
+        "/assets/audio/sfx/pvp_hit.mp3"
+      ],
+      "duration": 0.18,
+      "channels": 1,
+      "peakPCM": 0.38,
+      "rmsPCM": 0.06792219636968917,
+      "cooldownMs": 90,
+      "voices": 2,
+      "priority": 60,
+      "gain": 0.65
+    },
+    "monster_death": {
+      "urls": [
+        "/assets/audio/sfx/monster_death.ogg",
+        "/assets/audio/sfx/monster_death.mp3"
+      ],
+      "duration": 0.48,
+      "channels": 1,
+      "peakPCM": 0.38,
+      "rmsPCM": 0.0655949750077875,
+      "cooldownMs": 140,
+      "voices": 2,
+      "priority": 20,
+      "gain": 0.5
+    },
+    "player_death": {
+      "urls": [
+        "/assets/audio/sfx/player_death.ogg",
+        "/assets/audio/sfx/player_death.mp3"
+      ],
+      "duration": 0.9,
+      "channels": 1,
+      "peakPCM": 0.38,
+      "rmsPCM": 0.06380625877940825,
+      "cooldownMs": 800,
+      "voices": 1,
+      "priority": 95,
+      "gain": 0.8
+    },
+    "pvp_kill": {
+      "urls": [
+        "/assets/audio/sfx/pvp_kill.ogg",
+        "/assets/audio/sfx/pvp_kill.mp3"
+      ],
+      "duration": 0.6499773242630386,
+      "channels": 1,
+      "peakPCM": 0.38,
+      "rmsPCM": 0.061345585043418256,
+      "cooldownMs": 400,
+      "voices": 1,
+      "priority": 85,
+      "gain": 0.75
+    },
+    "experience": {
+      "urls": [
+        "/assets/audio/sfx/experience.ogg",
+        "/assets/audio/sfx/experience.mp3"
+      ],
+      "duration": 0.18,
+      "channels": 1,
+      "peakPCM": 0.38,
+      "rmsPCM": 0.08023098228700103,
+      "cooldownMs": 150,
+      "voices": 1,
+      "priority": 65,
+      "gain": 0.45
+    },
+    "level_up": {
+      "urls": [
+        "/assets/audio/sfx/level_up.ogg",
+        "/assets/audio/sfx/level_up.mp3"
+      ],
+      "duration": 0.8499773242630385,
+      "channels": 1,
+      "peakPCM": 0.38,
+      "rmsPCM": 0.05781136232046747,
+      "cooldownMs": 550,
+      "voices": 1,
+      "priority": 90,
+      "gain": 0.8
+    },
+    "upgrade": {
+      "urls": [
+        "/assets/audio/sfx/upgrade.ogg",
+        "/assets/audio/sfx/upgrade.mp3"
+      ],
+      "duration": 0.5,
+      "channels": 1,
+      "peakPCM": 0.38,
+      "rmsPCM": 0.06581005572624468,
+      "cooldownMs": 300,
+      "voices": 1,
+      "priority": 90,
+      "gain": 0.7
+    },
+    "respawn": {
+      "urls": [
+        "/assets/audio/sfx/respawn.ogg",
+        "/assets/audio/sfx/respawn.mp3"
+      ],
+      "duration": 0.6499773242630386,
+      "channels": 1,
+      "peakPCM": 0.38,
+      "rmsPCM": 0.06280115089643967,
+      "cooldownMs": 500,
+      "voices": 1,
+      "priority": 80,
+      "gain": 0.7
+    },
+    "ui_click": {
+      "urls": [
+        "/assets/audio/sfx/ui_click.ogg",
+        "/assets/audio/sfx/ui_click.mp3"
+      ],
+      "duration": 0.06498866213151927,
+      "channels": 1,
+      "peakPCM": 0.38,
+      "rmsPCM": 0.09173045519344926,
+      "cooldownMs": 65,
+      "voices": 2,
+      "priority": 70,
+      "gain": 0.5
+    },
+    "ui_hover": {
+      "urls": [
+        "/assets/audio/sfx/ui_hover.ogg",
+        "/assets/audio/sfx/ui_hover.mp3"
+      ],
+      "duration": 0.04498866213151927,
+      "channels": 1,
+      "peakPCM": 0.38,
+      "rmsPCM": 0.09865758101155842,
+      "cooldownMs": 130,
+      "voices": 1,
+      "priority": 10,
+      "gain": 0.22
+    }
+  },
+  "files": {
+    "bgm/menu.mp3": {
+      "bytes": 384985,
+      "sha256": "ea3d123eabffb73c8f21ced4d2a41d339425a20ea451ce53fdb9b956bc9bcd14"
+    },
+    "bgm/menu.ogg": {
+      "bytes": 110628,
+      "sha256": "c921d12c2d18a1f7ae32133a73d7af34b8bc4dc5ffd9433a08905b94f2d783f6"
+    },
+    "bgm/world.mp3": {
+      "bytes": 384985,
+      "sha256": "728e9f7f25777d1bfce3578c9a0ca5b1e415e212585a5d84a9c5e69ddfc350a0"
+    },
+    "bgm/world.ogg": {
+      "bytes": 111142,
+      "sha256": "af95e42b79a93a3ae743bf980d0ff58a8f2d442ed93de4bdd56a271443b11b8a"
+    },
+    "sfx/experience.mp3": {
+      "bytes": 3179,
+      "sha256": "6459f7c23b8833485e3f7d83954e08c27243ebcf1e1d9e93184abd1eec184207"
+    },
+    "sfx/experience.ogg": {
+      "bytes": 3998,
+      "sha256": "9f546b60a5327b4d8e91378690ff950f5ea04838c669eab732576ad796faae84"
+    },
+    "sfx/heavy_hit.mp3": {
+      "bytes": 4120,
+      "sha256": "d786f8f6945073248f8e1c173aaca4f4cbdf1ca0ab9f828b34ff111f133263f1"
+    },
+    "sfx/heavy_hit.ogg": {
+      "bytes": 5011,
+      "sha256": "deb6b1f05ab30c9dfc50e628559819b2e0458a211adce614d35257d3e434698e"
+    },
+    "sfx/level_up.mp3": {
+      "bytes": 11329,
+      "sha256": "791c861bdae2a8263e525bb7f2b4d0a15ea1dde4830ee0b62c0c303454fbd1ee"
+    },
+    "sfx/level_up.ogg": {
+      "bytes": 5981,
+      "sha256": "947123241f667d5c37373ca4791ebd247de8120c2f832afb8634628e25ab8083"
+    },
+    "sfx/monster_death.mp3": {
+      "bytes": 6941,
+      "sha256": "7eda9b4a22553edf302d9a485e5904c0f286c3dd0fc928b00ef6a1e27804eaa0"
+    },
+    "sfx/monster_death.ogg": {
+      "bytes": 6085,
+      "sha256": "422d216da0474de3779386410b1e1c56eb3edd1a22e52368ce2b520baa295ff5"
+    },
+    "sfx/monster_hit.mp3": {
+      "bytes": 2866,
+      "sha256": "dda257ec0f534db5519ee6b1bca58f2738e271598ef4d3b61f4782cf82d2ef91"
+    },
+    "sfx/monster_hit.ogg": {
+      "bytes": 4369,
+      "sha256": "ad37edfe37bfc11f6ded1548d060dc5a046bb1594bbe2bc2c9a412420699b8c5"
+    },
+    "sfx/orbit.mp3": {
+      "bytes": 4433,
+      "sha256": "f0bae058e295830835ec84ec44690ced3b609f34f85c58fd5fffc88c7dbd133e"
+    },
+    "sfx/orbit.ogg": {
+      "bytes": 5105,
+      "sha256": "13e5a1c85ee07d9f431e0bf412699161ade6d843b9f9ad69619f352e1997205f"
+    },
+    "sfx/player_death.mp3": {
+      "bytes": 11956,
+      "sha256": "3b83450416df337e3ffeceb7d773318688bd9d9d94174139d744f99d44258536"
+    },
+    "sfx/player_death.ogg": {
+      "bytes": 8250,
+      "sha256": "ed5a737cf57639ec3056c18ecfe75721482eb0e83a5ea14b6271a113196395cf"
+    },
+    "sfx/player_hit.mp3": {
+      "bytes": 4747,
+      "sha256": "b4360dec1bb79183b5ace7750c4ef27d74573e7cdd13c910eac18957756780da"
+    },
+    "sfx/player_hit.ogg": {
+      "bytes": 5203,
+      "sha256": "4c2a63a1cb14d52355630f80f98c924c064066b5830a9ce2120ca2378b455f40"
+    },
+    "sfx/pvp_hit.mp3": {
+      "bytes": 3179,
+      "sha256": "842d20fc4cc6a8ba610ffd71994e8b79548c3cc3f594ff425b738b600e1d503c"
+    },
+    "sfx/pvp_hit.ogg": {
+      "bytes": 4594,
+      "sha256": "5c66cf5bcb4e36fa801805eeec5f4bd0cdc6fc4f36d54ba3808d042bd5bab8b4"
+    },
+    "sfx/pvp_kill.mp3": {
+      "bytes": 8822,
+      "sha256": "7b05bde976c6a0fc0b717f88884fca39fd71536a1a5fd8c51cf2637d29f077a2"
+    },
+    "sfx/pvp_kill.ogg": {
+      "bytes": 5367,
+      "sha256": "0dc139493f15f02c7b04aaef077d724d2dd8cb1fb299fb7aba926c3965c8a062"
+    },
+    "sfx/respawn.mp3": {
+      "bytes": 8822,
+      "sha256": "df47c232e78eb29da8fd5899e8e378dd1050739f0e577a841b0b92dd27748a97"
+    },
+    "sfx/respawn.ogg": {
+      "bytes": 5450,
+      "sha256": "6507dab27306e1665ef2fcc2c164395db3922cd2574c7d4e2df1f9f8c2388001"
+    },
+    "sfx/shot.mp3": {
+      "bytes": 2552,
+      "sha256": "946ffbb1454bf48f1b46c4bec725630adef91fa1f63818385b570fea58ddc9b5"
+    },
+    "sfx/shot.ogg": {
+      "bytes": 4270,
+      "sha256": "8fdd4b0c039df02bf9d9e4d883e0d435c90634fff2ddfadf0483ce9c7234af42"
+    },
+    "sfx/spread.mp3": {
+      "bytes": 3493,
+      "sha256": "e1ca4f5137ae5545285bb2f70a996ddebcb9c29944d4bd982e723bcceda0ab37"
+    },
+    "sfx/spread.ogg": {
+      "bytes": 4656,
+      "sha256": "baae867eed121222a49e943a2827b75c670c9007f1a8b3c17020b620ee9d4eee"
+    },
+    "sfx/ui_click.mp3": {
+      "bytes": 1925,
+      "sha256": "aa669759f59f791d58665f80372624c8afb6c42729541ee6b143ba612c5aa76b"
+    },
+    "sfx/ui_click.ogg": {
+      "bytes": 3649,
+      "sha256": "9e5bbcf7c62d639eab6b8a252b8671da08bfff008708f311d6391389e06f25ec"
+    },
+    "sfx/ui_hover.mp3": {
+      "bytes": 1612,
+      "sha256": "a0c1c7efdcb197ec9a7da15673307f23dcf519f093fa60c534acb91f1d906c8d"
+    },
+    "sfx/ui_hover.ogg": {
+      "bytes": 3638,
+      "sha256": "369e34ba63b70616271ce94a51e334e8fa0355835917ab283cecb6c7e64fce59"
+    },
+    "sfx/upgrade.mp3": {
+      "bytes": 7254,
+      "sha256": "c6154226de4e62ecd64f73351477bcf98b1ba436b3d65458debf2f053b451c1f"
+    },
+    "sfx/upgrade.ogg": {
+      "bytes": 5104,
+      "sha256": "38948ca55c3d90cac7920eded637e515bb3199ccf3a726605632ad24a413f00b"
+    }
+  }
+}

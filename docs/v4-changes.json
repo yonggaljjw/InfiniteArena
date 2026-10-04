@@ -1,0 +1,210 @@
+[
+  {
+    "path": "README.md",
+    "status": "modified"
+  },
+  {
+    "path": "docs/README.md",
+    "status": "modified"
+  },
+  {
+    "path": "docs/architecture.md",
+    "status": "modified"
+  },
+  {
+    "path": "docs/death-live-v4.png",
+    "status": "added"
+  },
+  {
+    "path": "docs/death-v4-1366.png",
+    "status": "added"
+  },
+  {
+    "path": "docs/design-system-v4.md",
+    "status": "added"
+  },
+  {
+    "path": "docs/hud-live-v4-1366.png",
+    "status": "added"
+  },
+  {
+    "path": "docs/hud-live-v4-1920.png",
+    "status": "added"
+  },
+  {
+    "path": "docs/hud-live-v4-2560.png",
+    "status": "added"
+  },
+  {
+    "path": "docs/hud-v4-1366-1.25.png",
+    "status": "added"
+  },
+  {
+    "path": "docs/menu-live-v4.png",
+    "status": "added"
+  },
+  {
+    "path": "docs/phase-v4.md",
+    "status": "added"
+  },
+  {
+    "path": "docs/preview-after-v4.png",
+    "status": "added"
+  },
+  {
+    "path": "docs/roadmap.md",
+    "status": "modified"
+  },
+  {
+    "path": "docs/settings-v4.png",
+    "status": "added"
+  },
+  {
+    "path": "docs/upgrade-applied-live-v4.png",
+    "status": "added"
+  },
+  {
+    "path": "docs/upgrade-v4-1366.png",
+    "status": "added"
+  },
+  {
+    "path": "docs/v4-changes.json",
+    "status": "added"
+  },
+  {
+    "path": "docs/v4-performance.json",
+    "status": "added"
+  },
+  {
+    "path": "docs/v4-preservation.json",
+    "status": "added"
+  },
+  {
+    "path": "docs/v4-validation.json",
+    "status": "added"
+  },
+  {
+    "path": "docs/validation.md",
+    "status": "modified"
+  },
+  {
+    "path": "frontend/README.md",
+    "status": "modified"
+  },
+  {
+    "path": "frontend/scripts/README.md",
+    "status": "modified"
+  },
+  {
+    "path": "frontend/scripts/benchmark-v4.mjs",
+    "status": "added"
+  },
+  {
+    "path": "frontend/src/App.vue",
+    "status": "modified"
+  },
+  {
+    "path": "frontend/src/components/DeathOverlay.vue",
+    "status": "added"
+  },
+  {
+    "path": "frontend/src/components/GameHud.vue",
+    "status": "modified"
+  },
+  {
+    "path": "frontend/src/components/GameSettings.vue",
+    "status": "added"
+  },
+  {
+    "path": "frontend/src/components/JoinPanel.vue",
+    "status": "modified"
+  },
+  {
+    "path": "frontend/src/components/README.md",
+    "status": "modified"
+  },
+  {
+    "path": "frontend/src/components/UpgradeSelection.vue",
+    "status": "added"
+  },
+  {
+    "path": "frontend/src/components/ui/GameIcon.vue",
+    "status": "added"
+  },
+  {
+    "path": "frontend/src/components/ui/Leaderboard.vue",
+    "status": "added"
+  },
+  {
+    "path": "frontend/src/components/ui/README.md",
+    "status": "added"
+  },
+  {
+    "path": "frontend/src/components/ui/VitalBars.vue",
+    "status": "added"
+  },
+  {
+    "path": "frontend/src/components/ui/WeaponPanel.vue",
+    "status": "added"
+  },
+  {
+    "path": "frontend/src/game/input.ts",
+    "status": "modified"
+  },
+  {
+    "path": "frontend/src/network/client.ts",
+    "status": "modified"
+  },
+  {
+    "path": "frontend/src/shared/README.md",
+    "status": "modified"
+  },
+  {
+    "path": "frontend/src/shared/preferences.ts",
+    "status": "added"
+  },
+  {
+    "path": "frontend/src/shared/presentation.ts",
+    "status": "added"
+  },
+  {
+    "path": "frontend/src/style.css",
+    "status": "modified"
+  },
+  {
+    "path": "frontend/src/ui/README.md",
+    "status": "added"
+  },
+  {
+    "path": "frontend/src/ui/game-ui.css",
+    "status": "added"
+  },
+  {
+    "path": "frontend/src/ui/tokens.css",
+    "status": "added"
+  },
+  {
+    "path": "frontend/tests/README.md",
+    "status": "modified"
+  },
+  {
+    "path": "frontend/tests/a-growth-ui.spec.ts",
+    "status": "added"
+  },
+  {
+    "path": "frontend/tests/a-pvp-effects.spec.ts",
+    "status": "modified"
+  },
+  {
+    "path": "frontend/tests/support/isolatedArena.ts",
+    "status": "added"
+  },
+  {
+    "path": "frontend/tests/ui-v4.spec.ts",
+    "status": "added"
+  },
+  {
+    "path": "frontend/tests/z-combat-visuals.spec.ts",
+    "status": "modified"
+  }
+]

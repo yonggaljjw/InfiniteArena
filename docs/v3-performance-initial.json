@@ -1,0 +1,44 @@
+{
+  "viewport": [
+    1280,
+    800
+  ],
+  "browser": "Chromium 134 headless",
+  "method": "단일 활성 페이지에서 2.2초 예열 후 requestAnimationFrame 4초 표본. 서버 전투 상태와 배치는 완전히 동일하지 않음. GPU 하드웨어 성능 보장 아님.",
+  "results": [
+    {
+      "name": "v2-baseline",
+      "frames": 40,
+      "durationMs": 4171.100000000373,
+      "fps": 9.589796456569351,
+      "frameMsMedian": 83.39999999999964,
+      "frameMsP95": 300.10000000000036,
+      "environment": {
+        "tileLayers": 2,
+        "props": 361,
+        "visibleProps": 59,
+        "dust": 16,
+        "obstaclesConfigured": true
+      },
+      "renderer": 2,
+      "pageErrors": []
+    },
+    {
+      "name": "v3",
+      "frames": 136,
+      "durationMs": 4016.7999999992553,
+      "fps": 33.8577972515498,
+      "frameMsMedian": 33.30000000000018,
+      "frameMsP95": 33.400000000001455,
+      "environment": {
+        "tileLayers": 2,
+        "props": 361,
+        "visibleProps": 56,
+        "dust": 16,
+        "obstaclesConfigured": true
+      },
+      "renderer": 2,
+      "pageErrors": []
+    }
+  ]
+}

@@ -1,0 +1,1190 @@
+/* 역할: V4 메뉴·HUD·카드·사망·설정의 스타일과 PC 반응형 배치. 가운데 전투 시야와 클릭 전달을 유지합니다. */
+/* 유지보수: 공통 색/크기는 tokens.css, PC 배치는 game-ui.css에서 변경합니다. */
+/* Vue의 화면 공간 UI에 공통 스타일을 적용하며 Phaser 월드는 아래에서 계속 렌더링합니다. */
+/* 공통 석재 패널의 배경·테두리·그림자. 모서리 장식은 pointer-events:none으로 입력을 막지 않습니다. */
+.stone-panel {
+  position: relative;
+  background: linear-gradient(140deg, #2a3033eb, #151b1feb 55%, #101719f2);
+  border: 1px solid var(--line);
+  box-shadow: var(--panel-shadow);
+  border-radius: 2px;
+}
+.stone-panel::before,
+.stone-panel::after {
+  content: "";
+  position: absolute;
+  pointer-events: none;
+  width: 7px;
+  height: 7px;
+  border-color: var(--gold-muted);
+  border-style: solid;
+}
+.stone-panel::before {
+  left: 3px;
+  top: 3px;
+  border-width: 1px 0 0 1px;
+}
+.stone-panel::after {
+  right: 3px;
+  bottom: 3px;
+  border-width: 0 1px 1px 0;
+}
+.eyebrow {
+  display: block;
+  font-size: 0.72em;
+  letter-spacing: 0.18em;
+  color: var(--gold-muted);
+  font-weight: 700;
+}
+.caption {
+  font-size: 0.7em;
+  letter-spacing: 0.15em;
+  color: var(--muted);
+  margin-left: auto;
+}
+.game-icon {
+  display: block;
+  flex: none;
+  color: var(--gold);
+}
+button,
+input,
+select {
+  font: inherit;
+}
+button {
+  cursor: pointer;
+  border-radius: 2px;
+}
+button:disabled {
+  cursor: default;
+  opacity: 0.5;
+}
+button:focus-visible,
+input:focus-visible,
+select:focus-visible {
+  outline: 2px solid var(--gold);
+  outline-offset: 4px;
+}
+.primary-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  width: 100%;
+  padding: 14px 20px;
+  color: #1a1811;
+  border: 1px solid #ecd29a;
+  background: linear-gradient(#dfc38d, #b5965c);
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  box-shadow:
+    inset 0 0 0 2px #907744,
+    0 3px 0 #453d2c;
+  transition:
+    filter 0.15s,
+    transform 0.15s;
+}
+.primary-button:hover:not(:disabled) {
+  filter: brightness(1.12);
+}
+.primary-button:active:not(:disabled) {
+  transform: translateY(2px);
+}
+.quiet-button,
+.icon-button {
+  color: var(--muted);
+  border: 1px solid #62625066;
+  background: #0e1517aa;
+  transition:
+    color 0.15s,
+    border-color 0.15s,
+    background 0.15s;
+}
+.quiet-button {
+  padding: 8px 12px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+.icon-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 34px;
+  min-height: 34px;
+  font-size: 20px;
+}
+.quiet-button:hover,
+.icon-button:hover {
+  color: var(--text);
+  border-color: var(--gold-muted);
+  background: #2b3030;
+}
+kbd {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 20px;
+  height: 22px;
+  margin-right: 3px;
+  padding: 0 3px;
+  font: 11px monospace;
+  color: #ddd7c7;
+  background: #0c1113c9;
+  border: 1px solid #66635666;
+  border-bottom-width: 2px;
+  border-radius: 2px;
+}
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+/* 실제 V1 월드를 메뉴 배경으로 사용하고 명암 레이어로 분위기를 더합니다. */
+/* 입장 메뉴의 화면 전체 레이어. 실제 월드 위에 배경 명암을 추가합니다. */
+.game-menu-shell {
+  position: absolute;
+  inset: 0;
+  z-index: 20;
+  pointer-events: none;
+  font-size: var(--ui-font);
+}
+.menu-backdrop {
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(ellipse at 67% 43%, #0e171e40, transparent 48%),
+    linear-gradient(
+      90deg,
+      #0b1115f5 0%,
+      #0b1115e8 34%,
+      #0b141878 73%,
+      #0a1113ad
+    ),
+    linear-gradient(0deg, #060b0ee8, transparent 45%);
+}
+.game-menu {
+  position: absolute;
+  left: clamp(48px, 10vw, 270px);
+  top: 50%;
+  transform: translateY(-50%);
+  width: min(calc(380px * var(--ui-scale)), calc(100vw - 64px));
+  max-height: calc(100dvh - 88px);
+  overflow-y: auto;
+  pointer-events: auto;
+  scrollbar-width: thin;
+}
+.menu-crest {
+  margin-bottom: 24px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 72px;
+  height: 72px;
+  border: 1px solid #ae926054;
+  transform: rotate(45deg);
+  box-shadow: inset 0 0 0 5px #11181dc9;
+  background: linear-gradient(135deg, #41403733, #17222788);
+}
+.menu-crest svg {
+  transform: rotate(-45deg);
+}
+.game-menu h1 {
+  font-family: Georgia, "Times New Roman", serif;
+  font-weight: 500;
+  font-size: clamp(40px, calc(56px * var(--ui-scale)), 76px);
+  letter-spacing: 0.075em;
+  line-height: 0.98;
+  margin: 20px 0 22px;
+  color: #e6dcc7;
+  text-shadow:
+    0 3px 0 #000,
+    0 0 30px #d7b87117;
+}
+.game-menu h1 span {
+  display: block;
+  font-size: 1.23em;
+  letter-spacing: 0.1em;
+  margin-top: 8px;
+  color: var(--gold);
+}
+.title-rule {
+  height: 1px;
+  background: linear-gradient(90deg, var(--gold-muted), transparent);
+  width: 75%;
+  margin-bottom: 16px;
+}
+.menu-tagline {
+  font-size: 1em;
+  color: #afb6b0;
+  letter-spacing: 0.1em;
+  margin: 0 0 28px;
+}
+.menu-form {
+  padding: 22px;
+  display: grid;
+  gap: 12px;
+}
+.menu-form label {
+  color: var(--text);
+  font-weight: 700;
+  font-size: 0.95em;
+  display: flex;
+  justify-content: space-between;
+}
+.menu-form label span {
+  color: var(--muted);
+  font-size: 0.84em;
+  font-weight: 400;
+}
+.menu-form input {
+  width: 100%;
+  height: 46px;
+  color: var(--text);
+  background: #0b1115c9;
+  border: 1px solid #68665270;
+  padding: 0 12px;
+  border-radius: 2px;
+  letter-spacing: 0.03em;
+}
+.menu-form input::placeholder {
+  font-size: 0.9em;
+  color: #7d8582;
+}
+.menu-form small {
+  font-size: 0.8em;
+  color: var(--muted);
+  line-height: 1.5;
+}
+.start-button {
+  margin-top: 6px;
+  justify-content: space-between;
+}
+.menu-settings {
+  margin-top: 18px;
+  width: 100%;
+}
+.menu-status {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  color: var(--muted);
+  font-size: 0.78em;
+  margin-top: 15px;
+  line-height: 1.5;
+}
+.menu-status i,
+.connection-state i,
+.combat-status i {
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  background: #85877b;
+  flex: none;
+}
+.menu-status i.connected,
+.connection-state.connected i {
+  background: var(--experience);
+  box-shadow: 0 0 6px #54b8b650;
+}
+.menu-controls {
+  display: grid;
+  gap: 8px;
+  font-size: 0.78em;
+  color: #9daba4;
+  margin-top: 28px;
+}
+.menu-controls span {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.menu-footer {
+  position: absolute;
+  bottom: 24px;
+  left: var(--edge);
+  right: var(--edge);
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  font-size: 10px;
+  color: #8a958e;
+  letter-spacing: 0.1em;
+}
+/* HUD는 가운데 전투 시야를 비우고 조작 버튼 외의 패널은 월드 클릭을 가로채지 않습니다. */
+/* 화면 공간 HUD 컨테이너. 패널은 클릭을 통과시키고 버튼만 조작 대상으로 설정합니다. */
+.hud-surface {
+  position: absolute;
+  inset: 0;
+  z-index: 10;
+  pointer-events: none;
+  font-size: var(--ui-font);
+}
+/* 좌측 위 본인 상태. UI 배율과 공통 여백을 기준으로 HP/EXP 패널 크기를 정합니다. */
+.player-panel {
+  position: absolute;
+  top: var(--edge);
+  left: var(--edge);
+  width: calc(292px * var(--ui-scale));
+  padding: calc(16px * var(--ui-scale));
+  border-top-color: #ab8c58;
+}
+.player-heading {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+.portrait {
+  height: 40px;
+  width: 40px;
+  background: linear-gradient(135deg, #6e5a353b, #11191df2);
+  border: 1px solid var(--gold-muted);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: none;
+}
+.player-name {
+  flex: 1;
+  min-width: 0;
+}
+.player-name strong {
+  display: block;
+  font-size: 1.1em;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-top: 3px;
+}
+.level-badge {
+  display: flex;
+  align-items: baseline;
+  gap: 4px;
+  color: var(--gold);
+  font-family: Georgia, serif;
+  font-size: 2em;
+  white-space: nowrap;
+}
+.level-badge small {
+  font-family: inherit;
+  font-size: 0.35em;
+  letter-spacing: 0.04em;
+}
+.vital + .vital {
+  margin-top: 12px;
+}
+.meter-label {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  font-size: 0.85em;
+  margin-bottom: 6px;
+}
+.meter-label strong {
+  font-variant-numeric: tabular-nums;
+  font-weight: 500;
+}
+.meter-label small {
+  font-size: 0.78em;
+  color: var(--muted);
+  margin-left: 3px;
+}
+.meter {
+  height: 11px;
+  padding: 2px;
+  background: #070e12;
+  border: 1px solid #5d585070;
+  box-shadow: inset 0 1px 2px #000;
+}
+.meter-fill {
+  height: 100%;
+  transition: width 0.18s var(--ease);
+  background: linear-gradient(0deg, #973c3b, var(--health));
+  box-shadow: inset 0 1px #f0aaa46b;
+}
+.experience .meter {
+  height: 8px;
+}
+.experience .meter-fill {
+  background: linear-gradient(0deg, #286d74, var(--experience));
+  box-shadow: inset 0 1px #b7fbf04d;
+}
+.next-level {
+  display: block;
+  font-size: 0.72em;
+  color: var(--muted);
+  text-align: right;
+  margin-top: 6px;
+}
+.session-bar {
+  position: absolute;
+  left: 50%;
+  top: var(--edge);
+  transform: translateX(-50%);
+  pointer-events: auto;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: #0b1216c4;
+  padding: 5px 7px;
+  border: 1px solid #53564a77;
+  border-radius: 2px;
+  white-space: nowrap;
+  font-size: 0.82em;
+}
+.connection-state {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  color: #b3b9b1;
+  padding: 0 8px;
+}
+.session-bar .quiet-button {
+  padding: 7px 9px;
+}
+.session-bar .icon-button {
+  min-height: 29px;
+  min-width: 29px;
+}
+.session-bar svg {
+  color: #b5a07b;
+}
+/* 우측 위 서버 TOP5. 긴 닉네임과 숫자가 전투 시야로 번지지 않게 목록 폭을 제한합니다. */
+.ranking {
+  position: absolute;
+  top: var(--edge);
+  right: var(--edge);
+  width: calc(262px * var(--ui-scale));
+  padding: calc(14px * var(--ui-scale));
+}
+.panel-heading {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+}
+.panel-heading h2 {
+  margin: 0;
+  font-size: 1em;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+}
+.ranking-meta {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.74em;
+  margin: 14px 0 7px;
+  color: var(--muted);
+}
+.ranking-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 3px;
+}
+.ranking-list li {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding: 9px 7px;
+  min-height: 43px;
+  background: #0c15192e;
+  border-left: 2px solid transparent;
+}
+.ranking-list li.is-self {
+  border-left-color: var(--gold);
+  background: linear-gradient(90deg, #9b794426, transparent);
+  color: #f0d69c;
+}
+.rank-index {
+  font:
+    1.15em Georgia,
+    serif;
+  color: #8c917f;
+}
+.is-self .rank-index {
+  color: var(--gold);
+}
+.rank-name {
+  flex: 1;
+  min-width: 0;
+  overflow-wrap: anywhere;
+  font-size: 0.86em;
+  line-height: 1.4;
+}
+.rank-name small {
+  display: block;
+  font-size: 0.8em;
+  color: var(--muted);
+}
+.ranking-list li > strong {
+  font:
+    1.4em Georgia,
+    serif;
+  font-variant-numeric: tabular-nums;
+  text-align: right;
+  white-space: nowrap;
+}
+.ranking-list li > strong small {
+  display: block;
+  font:
+    0.47em "Noto Sans KR",
+    sans-serif;
+  color: var(--muted);
+}
+.my-rank {
+  border-top: 1px solid #53564a5c;
+  margin-top: 9px;
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  color: var(--muted);
+  font-size: 0.75em;
+}
+.my-rank strong {
+  color: var(--gold);
+  font-weight: 500;
+}
+/* 좌측 아래 현재 무기/상세 능력치. 서버 제공값만 표시하는 컴포넌트의 배치입니다. */
+.weapon-panel {
+  position: absolute;
+  bottom: 58px;
+  left: var(--edge);
+  width: calc(366px * var(--ui-scale));
+  padding: calc(12px * var(--ui-scale));
+}
+.weapon-list {
+  display: flex;
+  gap: 13px;
+  flex-wrap: wrap;
+}
+.weapon-slot {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.weapon-slot > svg {
+  background: #3b3b2c52;
+  padding: 5px;
+  box-sizing: content-box;
+  border: 1px solid #84745366;
+}
+.weapon-slot strong {
+  display: block;
+  font-size: 0.81em;
+}
+.weapon-slot small {
+  display: block;
+  font-size: 0.64em;
+  color: var(--muted);
+  margin-top: 4px;
+}
+.weapon-stats {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+  padding-top: 12px;
+  font-size: 0.67em;
+  color: var(--muted);
+}
+.weapon-stats b {
+  font-weight: 500;
+  color: #d7d9cf;
+  margin-left: 3px;
+  font-variant-numeric: tabular-nums;
+}
+.combat-status {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  font-size: 0.72em;
+  color: #d3a097;
+  margin-top: 12px;
+  border-top: 1px solid #53564a5c;
+  padding-top: 9px;
+}
+.combat-status i {
+  background: var(--health);
+}
+.combat-status.safe {
+  color: #90b3ac;
+}
+.combat-status.safe i {
+  background: var(--experience);
+}
+.help {
+  position: absolute;
+  bottom: var(--edge);
+  left: var(--edge);
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 0.74em;
+  color: #bbc7bd;
+  text-shadow: 0 2px 3px #000;
+  background: #09121591;
+  padding: 7px 9px;
+}
+.help > span {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.feed {
+  position: absolute;
+  bottom: var(--edge);
+  right: var(--edge);
+  width: calc(285px * var(--ui-scale));
+  display: grid;
+  gap: 5px;
+  font-size: 0.8em;
+  color: #b8c0b6;
+  line-height: 1.5;
+}
+.feed > div {
+  padding: 6px 8px;
+  border-left: 1px solid #9e835556;
+  background: linear-gradient(90deg, #091215d4, #09121540);
+  overflow-wrap: anywhere;
+}
+/* 강화 카드는 플레이어 아래에 배치하며 월드와 네트워크는 일시정지하지 않습니다. */
+/* 강화 제안은 플레이어 아래에 배치합니다. 선택 대기 중에도 세계는 계속 렌더링됩니다. */
+.upgrade {
+  position: absolute;
+  left: 50%;
+  bottom: var(--edge);
+  transform: translateX(-50%);
+  width: min(calc(810px * var(--ui-scale)), calc(100vw - 48px));
+  pointer-events: auto;
+}
+.upgrade-heading {
+  text-align: center;
+  margin-bottom: 13px;
+  text-shadow: 0 2px 6px #000;
+}
+.upgrade-heading h2 {
+  font-size: 1.65em;
+  color: var(--gold);
+  margin: 6px 0;
+}
+.upgrade-heading p {
+  font-size: 0.78em;
+  color: #d0d3c6;
+  margin: 0;
+}
+.upgrade-cards {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+}
+.upgrade-card {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  padding: calc(17px * var(--ui-scale));
+  text-align: left;
+  color: var(--text);
+  min-height: 214px;
+  transition:
+    transform 0.15s var(--ease),
+    border-color 0.15s,
+    background 0.15s;
+  position: relative;
+  border-top-color: var(--gold-muted);
+}
+.upgrade-card .game-icon {
+  margin-bottom: 12px;
+}
+.card-number {
+  position: absolute;
+  top: 15px;
+  right: 16px;
+  color: #71684f;
+  font-family: Georgia, serif;
+  font-size: 1.5em;
+}
+.card-category {
+  font-size: max(10px, 0.75em);
+  letter-spacing: 0.1em;
+  color: var(--gold-muted);
+  margin-bottom: 6px;
+}
+.upgrade-card > strong {
+  font-size: 1.08em;
+  color: #e9dab9;
+}
+.card-description {
+  font-size: 0.9em;
+  line-height: 1.65;
+  color: #b9c0b8;
+  margin: 11px 0 13px;
+}
+.card-current {
+  margin-top: auto;
+  font-size: 0.8em;
+  color: #9faaa3;
+}
+.card-select {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  font-size: 0.85em;
+  color: var(--gold);
+  margin-top: 14px;
+  padding-top: 10px;
+  border-top: 1px solid #7b694441;
+}
+.upgrade-card:hover:not(:disabled) {
+  border-color: var(--gold);
+  transform: translateY(-5px);
+  background: linear-gradient(140deg, #403c2fec, #20282bec 55%, #151b1fee);
+}
+.upgrade-card:active:not(:disabled),
+.upgrade-card.chosen {
+  transform: translateY(-2px);
+  border-color: #ead29a;
+  box-shadow:
+    inset 0 0 30px #d8b67824,
+    0 0 18px #d8b67822;
+}
+.upgrade-card.chosen {
+  opacity: 1;
+}
+.hud-surface:has(.upgrade) .weapon-panel,
+.hud-surface:has(.upgrade) .help,
+.hud-surface:has(.upgrade) .feed {
+  opacity: 0;
+}
+/* 사망 안내 레이어. 뒤 월드는 유지하고 버튼의 서버 대기 상태를 명확히 표시합니다. */
+.death-layer {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+.death-shade {
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(ellipse at center, #07111630, #080c10a6);
+}
+.death-overlay {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: min(calc(400px * var(--ui-scale)), calc(100vw - 40px));
+  padding: calc(28px * var(--ui-scale));
+  text-align: center;
+  pointer-events: auto;
+  border-top-color: #ad6657;
+}
+.death-overlay > .game-icon {
+  margin: 0 auto 16px;
+  color: #ba7968;
+}
+.death-overlay > .eyebrow {
+  color: #af8973;
+}
+.death-overlay h2 {
+  font-size: 1.9em;
+  letter-spacing: 0.06em;
+  color: #e1c4b4;
+  margin: 12px 0;
+}
+.death-overlay p {
+  font-size: 0.9em;
+  color: var(--muted);
+  line-height: 1.7;
+}
+.death-summary {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 24px 0 20px;
+  gap: 6px;
+  padding: 15px 0;
+  border-block: 1px solid #7267565e;
+}
+.death-summary dt {
+  color: var(--muted);
+  font-size: 0.75em;
+}
+.death-summary dd {
+  color: var(--gold);
+  font:
+    2em Georgia,
+    serif;
+  margin: 6px 0 0;
+}
+.death-overlay .respawn-note {
+  font-size: 0.76em;
+  margin: 0 0 23px;
+}
+.death-overlay > small {
+  display: block;
+  font-size: 0.67em;
+  color: var(--muted);
+  margin-top: 17px;
+}
+.hud-surface:has(.death-layer) .weapon-panel,
+.hud-surface:has(.death-layer) .help {
+  opacity: 0.25;
+}
+/* 설정 대화상자와 뒤 음영. 키보드 포커스 제어는 GameSettings.vue가 담당합니다. */
+.settings-backdrop {
+  position: absolute;
+  inset: 0;
+  z-index: 40;
+  background: #050b10b5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  font-size: var(--ui-font);
+}
+.settings-dialog {
+  width: min(calc(420px * var(--ui-scale)), 100%);
+  max-height: calc(100dvh - 48px);
+  overflow-y: auto;
+  padding: calc(25px * var(--ui-scale));
+  border-top-color: var(--gold-muted);
+}
+.settings-dialog .panel-heading h2 {
+  font-size: 1.3em;
+}
+.settings-dialog .panel-heading .icon-button {
+  margin-left: auto;
+}
+.settings-dialog p {
+  font-size: 0.8em;
+  line-height: 1.7;
+  color: var(--muted);
+  margin: 18px 0;
+}
+.setting-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 17px 0;
+  border-top: 1px solid #53564a66;
+  font-size: 0.9em;
+}
+.setting-row small {
+  display: block;
+  font-size: 0.78em;
+  color: var(--muted);
+  margin-top: 6px;
+}
+.setting-row input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  accent-color: var(--gold);
+  flex: none;
+  cursor: pointer;
+}
+.setting-row select {
+  background: #0b1115;
+  border: 1px solid #85775480;
+  border-radius: 2px;
+  padding: 7px;
+  color: var(--text);
+}
+.settings-actions {
+  display: flex;
+  gap: 12px;
+  margin-top: 24px;
+}
+.settings-actions > * {
+  flex: 1;
+  font-size: 0.8em;
+}
+.settings-actions .primary-button {
+  width: auto;
+}
+.error {
+  position: absolute;
+  left: 50%;
+  bottom: var(--edge);
+  transform: translateX(-50%);
+  width: min(580px, calc(100vw - 32px));
+  z-index: 50;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 12px 15px;
+  color: #f0b4a6;
+  border-color: #a36a57;
+  font-size: 12px;
+  line-height: 1.6;
+}
+.menu-enter-active,
+.menu-leave-active {
+  transition: opacity 0.22s var(--ease);
+}
+.menu-enter-from,
+.menu-leave-to {
+  opacity: 0;
+}
+.menu-leave-active {
+  pointer-events: none;
+}
+.overlay-enter-active,
+.overlay-leave-active {
+  transition: opacity 0.18s var(--ease);
+}
+.overlay-enter-from,
+.overlay-leave-to {
+  opacity: 0;
+}
+.overlay-leave-active {
+  pointer-events: none;
+}
+.rank-move {
+  transition: transform 0.25s var(--ease);
+}
+.rank-enter-active,
+.rank-leave-active,
+.feed-enter-active,
+.feed-leave-active {
+  transition: opacity 0.2s;
+}
+.rank-enter-from,
+.rank-leave-to,
+.feed-enter-from,
+.feed-leave-to {
+  opacity: 0;
+}
+.rank-leave-active {
+  position: absolute;
+}
+.level-enter-active {
+  animation: level-glow 0.35s var(--ease);
+}
+.level-leave-active {
+  transition: opacity 0.05s;
+}
+.level-leave-to {
+  opacity: 0;
+}
+@keyframes level-glow {
+  from {
+    color: #fff5d6;
+    text-shadow: 0 0 15px #dfb86a;
+    transform: scale(1.1);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+.reduce-motion *,
+.reduce-motion *::before,
+.reduce-motion *::after {
+  animation-duration: 0.001ms !important;
+  transition-duration: 0.001ms !important;
+  scroll-behavior: auto !important;
+}
+/* 낮은 PC 화면에서는 간격/메뉴를 줄여 1366×768에서도 카드와 HUD가 잘리지 않게 합니다. */
+@media (max-height: 850px) {
+  .game-menu .menu-crest {
+    width: 52px;
+    height: 52px;
+    margin-bottom: 16px;
+  }
+  .menu-crest svg {
+    width: 34px;
+    height: 34px;
+  }
+  .game-menu h1 {
+    font-size: calc(43px * var(--ui-scale));
+    margin: 14px 0 18px;
+  }
+  .menu-tagline {
+    margin-bottom: 20px;
+  }
+  .menu-controls {
+    margin-top: 18px;
+  }
+  .menu-form {
+    padding: 18px;
+  }
+  .game-menu {
+    max-height: calc(100dvh - 72px);
+  }
+  .upgrade-card {
+    padding: calc(14px * var(--ui-scale));
+    min-height: 200px;
+  }
+  .upgrade-card .game-icon {
+    width: 28px;
+    height: 28px;
+    margin-bottom: 8px;
+  }
+  .card-description {
+    margin: 9px 0 10px;
+  }
+  .upgrade-heading h2 {
+    font-size: 1.5em;
+  }
+}
+/* 좁은 CSS viewport 대응. 브라우저 확대 상황도 고려해 패널 크기와 랭킹 배치를 줄입니다. */
+@media (max-width: 1100px) {
+  .session-bar {
+    left: auto;
+    right: var(--edge);
+    transform: none;
+  }
+  .ranking {
+    top: 76px;
+  }
+  .game-menu {
+    left: 7vw;
+  }
+  .weapon-panel {
+    max-width: calc(100vw - 32px);
+  }
+}
+/* 더 좁은 화면의 최소 배치입니다. 모바일 터치 이동 기능이 구현되었다는 의미는 아닙니다. */
+@media (max-width: 760px) {
+  .player-panel {
+    width: calc(234px * var(--ui-scale));
+  }
+  .ranking {
+    width: 210px;
+    max-height: 34vh;
+    overflow: auto;
+    top: 76px;
+    font-size: 11px;
+    padding: 10px;
+  }
+  .ranking-list li {
+    padding: 5px;
+    min-height: 35px;
+  }
+  .session-bar .connection-state {
+    display: none;
+  }
+  .help {
+    display: none;
+  }
+  .weapon-panel {
+    bottom: var(--edge);
+  }
+  .feed {
+    display: none;
+  }
+  .upgrade {
+    width: calc(100vw - 24px);
+    bottom: 12px;
+  }
+  .upgrade-cards {
+    gap: 6px;
+  }
+  .upgrade-card {
+    padding: 12px 9px;
+    min-height: 190px;
+    font-size: 11px;
+  }
+  .card-number {
+    display: none;
+  }
+  .card-description {
+    font-size: 0.85em;
+  }
+  .settings-dialog {
+    padding: 20px;
+  }
+  .menu-footer span:last-child {
+    display: none;
+  }
+}
+/* 극도로 낮은 화면에서는 카드/패널 여백을 줄입니다. 실제 값이나 서버 상태는 변경하지 않습니다. */
+@media (max-height: 600px) {
+  .game-menu {
+    top: 12px;
+    transform: none;
+    max-height: calc(100dvh - 24px);
+  }
+  .menu-footer {
+    display: none;
+  }
+  .menu-controls {
+    display: none;
+  }
+  .death-overlay {
+    max-height: calc(100dvh - 30px);
+    overflow: auto;
+  }
+  .upgrade-card .card-description {
+    display: none;
+  }
+  .upgrade-card {
+    min-height: 140px;
+  }
+  .upgrade-heading p {
+    display: none;
+  }
+}
+.menu-leave-active *,
+.overlay-leave-active * {
+  pointer-events: none !important;
+}
+
+/* V5 설정은 V4 패널을 유지하며 슬라이더와 작은 잠금 안내만 추가합니다. */
+.audio-options {
+  border: 0;
+  border-top: 1px solid var(--line);
+  margin: 12px 0 0;
+  padding: 14px 0 0;
+}
+.audio-options legend {
+  color: var(--gold);
+  padding-right: 10px;
+  font-size: 0.85em;
+}
+.audio-slider {
+  display: block;
+  margin-bottom: 12px;
+  font-size: 0.85em;
+}
+.audio-slider > span {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 7px;
+}
+.audio-slider output {
+  color: var(--gold);
+  font-variant-numeric: tabular-nums;
+}
+.audio-slider input {
+  width: 100%;
+  accent-color: var(--gold);
+  cursor: pointer;
+}
+.audio-options > small {
+  display: block;
+  color: var(--muted);
+  font-size: 0.7em;
+  line-height: 1.5;
+}
+.audio-notice {
+  position: absolute;
+  z-index: 30;
+  top: calc(var(--edge) + 50px);
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 7px 12px;
+  font-size: 11px;
+  max-width: 260px;
+  text-align: center;
+}

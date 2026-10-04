@@ -1,0 +1,22 @@
+/* 역할: UI 공통 색상·여백·크기·전환·그림자 토큰. HP/EXP/금색 강조의 기준은 여기서 바꿉니다. */
+/* 유지보수: 공통 색/크기는 tokens.css, PC 배치는 game-ui.css에서 변경합니다. */
+:root {
+  color-scheme: dark;
+  --ink: #101417;
+  --panel: #171c20;
+  --panel-light: #252b2e;
+  --line: #4f5148;
+  --gold: #d9b776;
+  --gold-muted: #8f7954;
+  --text: #eeece4;
+  --muted: #a4aaa6;
+  --health: #cd5a58;
+  --experience: #54b8b6;
+  --danger: #e5968b;
+  /* 화면 여백은 viewport에 반응하고, UI 배율은 Vue 설정이 루트 main의 변수로 덮어씁니다. */
+  --edge: clamp(16px, 1.3vw, 32px);
+  --ui-scale: 1;
+  --ui-font: calc(13px * var(--ui-scale));
+  --ease: cubic-bezier(0.22, 0.68, 0.28, 1);
+  --panel-shadow: 0 8px 24px #0008, inset 0 0 0 3px #0b1013b0;
+}

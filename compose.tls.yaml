@@ -1,0 +1,11 @@
+# 역할: 선택적 TLS 프록시 추가 설정. 기본 HTTP 실행에는 필요하지 않습니다.
+# 인증서 파일 준비 후: docker compose -f compose.yaml -f compose.tls.yaml up --build -d
+services:
+  frontend:
+    healthcheck:
+      test: ["CMD", "wget", "-q", "-O", "/dev/null", "http://127.0.0.1/health"]
+    ports:
+      - "443:443"
+    volumes:
+      - ./infra/nginx.tls.conf:/etc/nginx/conf.d/default.conf:ro
+      - ./certs:/etc/nginx/certs:ro

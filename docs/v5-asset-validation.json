@@ -1,0 +1,228 @@
+{
+  "files": 36,
+  "bytes": 1159700,
+  "allDecodePassed": true,
+  "validation": "FFmpeg decode and PCM; browser output measured separately",
+  "results": [
+    {
+      "file": "bgm/menu.mp3",
+      "rms": 0.16036057472229004,
+      "peak": 0.5670151710510254,
+      "decoded": true,
+      "loopEdgeDifference": 8.18708667793544e-06
+    },
+    {
+      "file": "bgm/menu.ogg",
+      "rms": 0.16887500882148743,
+      "peak": 0.5908039808273315,
+      "decoded": true,
+      "loopEdgeDifference": 0.00044953878386877477
+    },
+    {
+      "file": "bgm/world.mp3",
+      "rms": 0.1609809845685959,
+      "peak": 0.607711672782898,
+      "decoded": true,
+      "loopEdgeDifference": 5.478206730913371e-05
+    },
+    {
+      "file": "bgm/world.ogg",
+      "rms": 0.16958735883235931,
+      "peak": 0.6367781162261963,
+      "decoded": true,
+      "loopEdgeDifference": 0.00038568166201002896
+    },
+    {
+      "file": "sfx/experience.mp3",
+      "rms": 0.07621059566736221,
+      "peak": 0.3609630763530731,
+      "decoded": true
+    },
+    {
+      "file": "sfx/experience.ogg",
+      "rms": 0.07588864862918854,
+      "peak": 0.3878384232521057,
+      "decoded": true
+    },
+    {
+      "file": "sfx/heavy_hit.mp3",
+      "rms": 0.05757572874426842,
+      "peak": 0.36472874879837036,
+      "decoded": true
+    },
+    {
+      "file": "sfx/heavy_hit.ogg",
+      "rms": 0.06247761845588684,
+      "peak": 0.38946473598480225,
+      "decoded": true
+    },
+    {
+      "file": "sfx/level_up.mp3",
+      "rms": 0.05491280183196068,
+      "peak": 0.3609384298324585,
+      "decoded": true
+    },
+    {
+      "file": "sfx/level_up.ogg",
+      "rms": 0.05726230517029762,
+      "peak": 0.3776421546936035,
+      "decoded": true
+    },
+    {
+      "file": "sfx/monster_death.mp3",
+      "rms": 0.062346961349248886,
+      "peak": 0.3627663254737854,
+      "decoded": true
+    },
+    {
+      "file": "sfx/monster_death.ogg",
+      "rms": 0.06455281376838684,
+      "peak": 0.3632303476333618,
+      "decoded": true
+    },
+    {
+      "file": "sfx/monster_hit.mp3",
+      "rms": 0.0588504821062088,
+      "peak": 0.3494632840156555,
+      "decoded": true
+    },
+    {
+      "file": "sfx/monster_hit.ogg",
+      "rms": 0.05867947265505791,
+      "peak": 0.37973839044570923,
+      "decoded": true
+    },
+    {
+      "file": "sfx/orbit.mp3",
+      "rms": 0.051706183701753616,
+      "peak": 0.363774836063385,
+      "decoded": true
+    },
+    {
+      "file": "sfx/orbit.ogg",
+      "rms": 0.05540872737765312,
+      "peak": 0.372395783662796,
+      "decoded": true
+    },
+    {
+      "file": "sfx/player_death.mp3",
+      "rms": 0.06059739366173744,
+      "peak": 0.3644704818725586,
+      "decoded": true
+    },
+    {
+      "file": "sfx/player_death.ogg",
+      "rms": 0.06444138288497925,
+      "peak": 0.38039082288742065,
+      "decoded": true
+    },
+    {
+      "file": "sfx/player_hit.mp3",
+      "rms": 0.06388404965400696,
+      "peak": 0.36463382840156555,
+      "decoded": true
+    },
+    {
+      "file": "sfx/player_hit.ogg",
+      "rms": 0.06892315298318863,
+      "peak": 0.38171282410621643,
+      "decoded": true
+    },
+    {
+      "file": "sfx/pvp_hit.mp3",
+      "rms": 0.06447573751211166,
+      "peak": 0.3639950752258301,
+      "decoded": true
+    },
+    {
+      "file": "sfx/pvp_hit.ogg",
+      "rms": 0.07007137686014175,
+      "peak": 0.37776824831962585,
+      "decoded": true
+    },
+    {
+      "file": "sfx/pvp_kill.mp3",
+      "rms": 0.058267734944820404,
+      "peak": 0.36096349358558655,
+      "decoded": true
+    },
+    {
+      "file": "sfx/pvp_kill.ogg",
+      "rms": 0.06203285977244377,
+      "peak": 0.3778511881828308,
+      "decoded": true
+    },
+    {
+      "file": "sfx/respawn.mp3",
+      "rms": 0.05965492129325867,
+      "peak": 0.36096543073654175,
+      "decoded": true
+    },
+    {
+      "file": "sfx/respawn.ogg",
+      "rms": 0.0631706640124321,
+      "peak": 0.3738679885864258,
+      "decoded": true
+    },
+    {
+      "file": "sfx/shot.mp3",
+      "rms": 0.061270374804735184,
+      "peak": 0.3635307848453522,
+      "decoded": true
+    },
+    {
+      "file": "sfx/shot.ogg",
+      "rms": 0.06780194491147995,
+      "peak": 0.3875972032546997,
+      "decoded": true
+    },
+    {
+      "file": "sfx/spread.mp3",
+      "rms": 0.06239701807498932,
+      "peak": 0.3605484664440155,
+      "decoded": true
+    },
+    {
+      "file": "sfx/spread.ogg",
+      "rms": 0.0635296180844307,
+      "peak": 0.3747687041759491,
+      "decoded": true
+    },
+    {
+      "file": "sfx/ui_click.mp3",
+      "rms": 0.08713351935148239,
+      "peak": 0.3609674572944641,
+      "decoded": true
+    },
+    {
+      "file": "sfx/ui_click.ogg",
+      "rms": 0.10147994011640549,
+      "peak": 0.38169950246810913,
+      "decoded": true
+    },
+    {
+      "file": "sfx/ui_hover.mp3",
+      "rms": 0.09371941536664963,
+      "peak": 0.360981822013855,
+      "decoded": true
+    },
+    {
+      "file": "sfx/ui_hover.ogg",
+      "rms": 0.11511048674583435,
+      "peak": 0.38304466009140015,
+      "decoded": true
+    },
+    {
+      "file": "sfx/upgrade.mp3",
+      "rms": 0.06250889599323273,
+      "peak": 0.36096152663230896,
+      "decoded": true
+    },
+    {
+      "file": "sfx/upgrade.ogg",
+      "rms": 0.06653884798288345,
+      "peak": 0.3869093954563141,
+      "decoded": true
+    }
+  ]
+}

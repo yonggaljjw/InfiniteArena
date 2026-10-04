@@ -1,0 +1,5460 @@
+{
+  "durationSeconds": 120,
+  "method": "Real 1 Chromium renderer + 19 browser WebSocket bots; 1-second sampled object/FPS counters, SQLite; not 30-minute stability or GPU guarantee.",
+  "viewport": [
+    1280,
+    800
+  ],
+  "network": {
+    "bytes": 97032515,
+    "snapshots": 23109,
+    "peakOnline": 20,
+    "botErrors": [],
+    "frames": 3732,
+    "mainBytes": 5677464,
+    "bytesPerClientSecond": 42795.824583333335
+  },
+  "health": {
+    "status": "ok",
+    "players": 20,
+    "protocol": 1,
+    "tick_ms": 0.48287200115737505,
+    "overruns": 5,
+    "stats_failed": 0,
+    "stats_rejected": 0
+  },
+  "leave": {
+    "canvasPreserved": true,
+    "players": 0,
+    "monsters": 0,
+    "stats": {
+      "quality": "normal",
+      "pool": {
+        "spriteAllocated": 54,
+        "spriteActive": 0,
+        "textAllocated": 5,
+        "textActive": 0,
+        "dropped": 0,
+        "limits": {
+          "sprites": 192,
+          "texts": 40,
+          "trails": 100,
+          "fragments": 4
+        }
+      },
+      "projectiles": {
+        "active": 0,
+        "allocated": 5,
+        "free": 5,
+        "trails": 5,
+        "orbits": 0,
+        "limit": 240
+      },
+      "seen": 0,
+      "seenLimit": 2048,
+      "events": {
+        "fire": 407,
+        "hit": 453,
+        "death": 66,
+        "experience": 44,
+        "level_up": 18
+      },
+      "skipped": 237,
+      "listeners": 1,
+      "tweens": 0
+    }
+  },
+  "cleanup": {
+    "gameDestroyed": true,
+    "images": 0,
+    "texts": 0,
+    "active": 0,
+    "listeners": 0,
+    "seen": 0
+  },
+  "pageErrors": [],
+  "samples": [
+    {
+      "seconds": 4.537599999999627,
+      "objects": 547,
+      "stats": {
+        "quality": "normal",
+        "pool": {
+          "spriteAllocated": 30,
+          "spriteActive": 16,
+          "textAllocated": 0,
+          "textActive": 0,
+          "dropped": 0,
+          "limits": {
+            "sprites": 192,
+            "texts": 40,
+            "trails": 100,
+            "fragments": 4
+          }
+        },
+        "projectiles": {
+          "active": 1,
+          "allocated": 2,
+          "free": 1,
+          "trails": 2,
+          "orbits": 0,
+          "limit": 240
+        },
+        "seen": 22,
+        "seenLimit": 2048,
+        "events": {
+          "fire": 12,
+          "hit": 10,
+          "death": 0,
+          "experience": 0,
+          "level_up": 0
+        },
+        "skipped": 0,
+        "listeners": 1,
+        "tweens": 0
+      },
+      "alive": true,
+      "choices": 0,
+      "respawn": 0,
+      "fps": 25.343235559869292,
+      "frameP95": 66.59999999999991,
+      "heap": 53500000
+    },
+    {
+      "seconds": 5.578,
+      "objects": 584,
+      "stats": {
+        "quality": "normal",
+        "pool": {
+          "spriteAllocated": 54,
+          "spriteActive": 28,
+          "textAllocated": 1,
+          "textActive": 1,
+          "dropped": 0,
+          "limits": {
+            "sprites": 192,
+            "texts": 40,
+            "trails": 100,
+            "fragments": 4
+          }
+        },
+        "projectiles": {
+          "active": 2,
+          "allocated": 4,
+          "free": 2,
+          "trails": 4,
+          "orbits": 0,
+          "limit": 240
+        },
+        "seen": 54,
+        "seenLimit": 2048,
+        "events": {
+          "fire": 30,
+          "hit": 25,
+          "death": 0,
+          "experience": 0,
+          "level_up": 0
+        },
+        "skipped": 0,
+        "listeners": 1,
+        "tweens": 0
+      },
+      "alive": true,
+      "choices": 0,
+      "respawn": 0,
+      "fps": 24.20178913967283,
+      "frameP95": 83.30000000000018,
+      "heap": 53500000
+    },
+    {
+      "seconds": 6.592,
+      "objects": 586,
+      "stats": {
+        "quality": "normal",
+        "pool": {
+          "spriteAllocated": 54,
+          "spriteActive": 26,
+          "textAllocated": 1,
+          "textActive": 0,
+          "dropped": 0,
+          "limits": {
+            "sprites": 192,
+            "texts": 40,
+            "trails": 100,
+            "fragments": 4
+          }
+        },
+        "projectiles": {
+          "active": 3,
+          "allocated": 5,
+          "free": 2,
+          "trails": 5,
+          "orbits": 0,
+          "limit": 240
+        },
+        "seen": 86,
+        "seenLimit": 2048,
+        "events": {
+          "fire": 55,
+          "hit": 48,
+          "death": 1,
+          "experience": 1,
+          "level_up": 0
+        },
+        "skipped": 16,
+        "listeners": 1,
+        "tweens": 0
+      },
+      "alive": true,
+      "choices": 0,
+      "respawn": 0,
+      "fps": 24.271844660194176,
+      "frameP95": 83.19999999999982,
+      "heap": 53500000
+    },
+    {
+      "seconds": 7.623300000000745,
+      "objects": 549,
+      "stats": {
+        "quality": "normal",
+        "pool": {
+          "spriteAllocated": 54,
+          "spriteActive": 16,
+          "textAllocated": 3,
+          "textActive": 2,
+          "dropped": 0,
+          "limits": {
+            "sprites": 192,
+            "texts": 40,
+            "trails": 100,
+            "fragments": 4
+          }
+        },
+        "projectiles": {
+          "active": 3,
+          "allocated": 5,
+          "free": 2,
+          "trails": 5,
+          "orbits": 0,
+          "limit": 240
+        },
+        "seen": 112,
+        "seenLimit": 2048,
+        "events": {
+          "fire": 80,
+          "hit": 72,
+          "death": 3,
+          "experience": 3,
+          "level_up": 1
+        },
+        "skipped": 35,
+        "listeners": 1,
+        "tweens": 0
+      },
+      "alive": true,
+      "choices": 0,
+      "respawn": 0,
+      "fps": 24.267705586816984,
+      "frameP95": 66.70000000000073,
+      "heap": 53500000
+    },
+    {
+      "seconds": 8.6435,
+      "objects": 521,
+      "stats": {
+        "quality": "normal",
+        "pool": {
+          "spriteAllocated": 54,
+          "spriteActive": 21,
+          "textAllocated": 3,
+          "textActive": 2,
+          "dropped": 0,
+          "limits": {
+            "sprites": 192,
+            "texts": 40,
+            "trails": 100,
+            "fragments": 4
+          }
+        },
+        "projectiles": {
+          "active": 1,
+          "allocated": 5,
+          "free": 4,
+          "trails": 5,
+          "orbits": 0,
+          "limit": 240
+        },
+        "seen": 90,
+        "seenLimit": 2048,
+        "events": {
+          "fire": 93,
+          "hit": 87,
+          "death": 4,
+          "experience": 5,
+          "level_up": 3
+        },
+        "skipped": 43,
+        "listeners": 1,
+        "tweens": 0
+      },
+      "alive": true,
+      "choices": 0,
+      "respawn": 0,
+      "fps": 24.527101289986696,
+      "frameP95": 66.70000000000073,
+      "heap": 53500000
+    },
+    {
+      "seconds": 9.651599999999627,
+      "objects": 521,
+      "stats": {
+        "quality": "normal",
+        "pool": {
+          "spriteAllocated": 54,
+          "spriteActive": 7,
+          "textAllocated": 3,
+          "textActive": 1,
+          "dropped": 0,
+          "limits": {
+            "sprites": 192,
+            "texts": 40,
+            "trails": 100,
+            "fragments": 4
+          }
+        },
+        "projectiles": {
+          "active": 0,
+          "allocated": 5,
+          "free": 5,
+          "trails": 5,
+          "orbits": 0,
+          "limit": 240
+        },
+        "seen": 62,
+        "seenLimit": 2048,
+        "events": {
+          "fire": 101,
+          "hit": 97,
+          "death": 5,
+          "experience": 6,
+          "level_up": 3
+        },
+        "skipped": 47,
+        "listeners": 1,
+        "tweens": 0
+      },
+      "alive": true,
+      "choices": 0,
+      "respawn": 0,
+      "fps": 25.073562932571733,
+      "frameP95": 66.69999999999982,
+      "heap": 53500000
+    },
+    {
+      "seconds": 10.7265,
+      "objects": 505,
+      "stats": {
+        "quality": "normal",
+        "pool": {
+          "spriteAllocated": 54,
+          "spriteActive": 15,
+          "textAllocated": 4,
+          "textActive": 4,
+          "dropped": 0,
+          "limits": {
+            "sprites": 192,
+            "texts": 40,
+            "trails": 100,
+            "fragments": 4
+          }
+        },
+        "projectiles": {
+          "active": 0,
+          "allocated": 5,
+          "free": 5,
+          "trails": 5,
+          "orbits": 0,
+          "limit": 240
+        },
+        "seen": 52,
+        "seenLimit": 2048,
+        "events": {
+          "fire": 110,
+          "hit": 105,
+          "death": 8,
+          "experience": 10,
+          "level_up": 6
+        },
+        "skipped": 61,
+        "listeners": 1,
+        "tweens": 0
+      },
+      "alive": true,
+      "choices": 3,
+      "respawn": 0,
+      "fps": 24.79816530867276,
+      "frameP95": 83.19999999999982,
+      "heap": 53500000
+    },
+    {
+      "seconds": 11.807199999999256,
+      "objects": 486,
+      "stats": {
+        "quality": "normal",
+        "pool": {
+          "spriteAllocated": 54,
+          "spriteActive": 0,
+          "textAllocated": 4,
+          "textActive": 1,
+          "dropped": 0,
+          "limits": {
+            "sprites": 192,
+            "texts": 40,
+            "trails": 100,
+            "fragments": 4
+          }
+        },
+        "projectiles": {
+          "active": 0,
+          "allocated": 5,
+          "free": 5,
+          "trails": 5,
+          "orbits": 0,
+          "limit": 240
+        },
+        "seen": 32,
+        "seenLimit": 2048,
+        "events": {
+          "fire": 111,
+          "hit": 107,
+          "death": 8,
+          "experience": 10,
+          "level_up": 6
+        },
+        "skipped": 62,
+        "listeners": 1,
+        "tweens": 0
+      },
+      "alive": true,
+      "choices": 0,
+      "respawn": 0,
+      "fps": 25.408225489533415,
+      "frameP95": 66.70000000000073,
+      "heap": 53500000
+    },
+    {
+      "seconds": 12.820300000000746,
+      "objects": 481,
+      "stats": {
+        "quality": "normal",
+        "pool": {
+          "spriteAllocated": 54,
+          "spriteActive": 0,
+          "textAllocated": 4,
+          "textActive": 0,
+          "dropped": 0,
+          "limits": {
+            "sprites": 192,
+            "texts": 40,
+            "trails": 100,
+            "fragments": 4
+          }
+        },
+        "projectiles": {
+          "active": 1,
+          "allocated": 5,
+          "free": 4,
+          "trails": 5,
+          "orbits": 0,
+          "limit": 240
+        },
+        "seen": 13,
+        "seenLimit": 2048,
+        "events": {
+          "fire": 113,
+          "hit": 109,
+          "death": 8,
+          "experience": 10,
+          "level_up": 6
+        },
+        "skipped": 63,
+        "listeners": 1,
+        "tweens": 0
+      },
+      "alive": true,
+      "choices": 0,
+      "respawn": 0,
+      "fps": 25.740427291091535,
+      "frameP95": 66.70000000000073,
+      "heap": 53500000
+    },
+    {
+      "seconds": 13.826300000000746,
+      "objects": 472,
+      "stats": {
+        "quality": "normal",
+        "pool": {
+          "spriteAllocated": 54,
+          "spriteActive": 0,
+          "textAllocated": 4,
+          "textActive": 0,
+          "dropped": 0,
+          "limits": {
+            "sprites": 192,
+            "texts": 40,
+            "trails": 100,
+            "fragments": 4
+          }
+        },
+        "projectiles": {
+          "active": 0,
+          "allocated": 5,
+          "free": 5,
+          "trails": 5,
+          "orbits": 0,
+          "limit": 240
+        },
+        "seen": 7,
+        "seenLimit": 2048,
+        "events": {
+          "fire": 113,
+          "hit": 110,
+          "death": 9,
+          "experience": 11,
+          "level_up": 6
+        },
+        "skipped": 63,
+        "listeners": 1,
+        "tweens": 0
+      },
+      "alive": true,
+      "choices": 0,
+      "respawn": 0,
+      "fps": 25.820356856135103,
+      "frameP95": 66.60000000000036,
+      "heap": 53500000
+    },
+    {
+      "seconds": 14.870800000000745,
+      "objects": 476,
+      "stats": {
+        "quality": "normal",
+        "pool": {
+          "spriteAllocated": 54,
+          "spriteActive": 0,
+          "textAllocated": 4,
+          "textActive": 0,
+          "dropped": 0,
+          "limits": {
+            "sprites": 192,
+            "texts": 40,
+            "trails": 100,
+            "fragments": 4
+          }
+        },
+        "projectiles": {
+          "active": 1,
+          "allocated": 5,
+          "free": 4,
+          "trails": 5,
+          "orbits": 0,
+          "limit": 240
+        },
+        "seen": 6,
+        "seenLimit": 2048,
+        "events": {
+          "fire": 115,
+          "hit": 111,
+          "death": 9,
+          "experience": 11,
+          "level_up": 6
+        },
+        "skipped": 66,
+        "listeners": 1,
+        "tweens": 0
+      },
+      "alive": true,
+      "choices": 0,
+      "respawn": 0,
+      "fps": 26.0912251444089,
+      "frameP95": 50.100000000000364,
+      "heap": 53500000
+    },
+    {
+      "seconds": 15.879800000000746,
+      "objects": 472,
+      "stats": {
+        "quality": "normal",
+        "pool": {
+          "spriteAllocated": 54,
+          "spriteActive": 6,
+          "textAllocated": 4,
+          "textActive": 0,
+          "dropped": 0,
+          "limits": {
+            "sprites": 192,
+            "texts": 40,
+            "trails": 100,
+            "fragments": 4
+          }
+        },
+        "projectiles": {
+          "active": 0,
+          "allocated": 5,
+          "free": 5,
+          "trails": 5,
+          "orbits": 0,
+          "limit": 240
+        },
+        "seen": 5,
+        "seenLimit": 2048,
+        "events": {
+          "fire": 116,
+          "hit": 112,
+          "death": 9,
+          "experience": 11,
+          "level_up": 6
+        },
+        "skipped": 67,
+        "listeners": 1,
+        "tweens": 0
+      },
+      "alive": true,
+      "choices": 0,
+      "respawn": 0,
+      "fps": 26.259611206619073,
+      "frameP95": 50.100000000000364,
+      "heap": 53500000
+    },
+    {
+      "seconds": 16.909699999999255,
+      "objects": 472,
+      "stats": {
+        "quality": "normal",
+        "pool": {
+          "spriteAllocated": 54,
+          "spriteActive": 4,
+          "textAllocated": 4,
+          "textActive": 1,
+          "dropped": 0,
+          "limits": {
+            "sprites": 192,
+            "texts": 40,
+            "trails": 100,
+            "fragments": 4
+          }
+        },
+        "projectiles": {
+          "active": 3,
+          "allocated": 5,
+          "free": 2,
+          "trails": 5,
+          "orbits": 0,
+          "limit": 240
+        },
+        "seen": 11,
+        "seenLimit": 2048,
+        "events": {
+          "fire": 121,
+          "hit": 114,
+          "death": 9,
+          "experience": 11,
+          "level_up": 6
+        },
+        "skipped": 67,
+        "listeners": 1,
+        "tweens": 0
+      },
+      "alive": true,
+      "choices": 0,
+      "respawn": 0,
+      "fps": 26.375394004625726,
+      "frameP95": 50.100000000000364,
+      "heap": 53500000
+    },
+    {
+      "seconds": 17.934199999999255,
+      "objects": 468,
+      "stats": {
+        "quality": "normal",
+        "pool": {
+          "spriteAllocated": 54,
+          "spriteActive": 0,
+          "textAllocated": 4,
+          "textActive": 0,
+          "dropped": 0,
+          "limits": {
+            "sprites": 192,
+            "texts": 40,
+            "trails": 100,
+            "fragments": 4
+          }
+        },
+        "projectiles": {
+          "active": 2,
+          "allocated": 5,
+          "free": 3,
+          "trails": 5,
+          "orbits": 0,
+          "limit": 240
+        },
+        "seen": 19,
+        "seenLimit": 2048,
+        "events": {
+          "fire": 123,
+          "hit": 117,
+          "death": 12,
+          "experience": 13,
+          "level_up": 7
+        },
+        "skipped": 67,
+        "listeners": 1,
+        "tweens": 0
+      },
+      "alive": false,
+      "choices": 0,
+      "respawn": 2.4,
+      "fps": 26.65298703036767,
+      "frameP95": 50.100000000000364,
+      "heap": 53500000
+    },
+    {
+      "seconds": 18.970800000000747,
+      "objects": 473,
+      "stats": {
+        "quality": "normal",
+        "pool": {
+          "spriteAllocated": 54,
+          "spriteActive": 5,
+          "textAllocated": 4,
+          "textActive": 0,
+          "dropped": 0,
+          "limits": {
+            "sprites": 192,
+            "texts": 40,
+            "trails": 100,
+            "fragments": 4
+          }
+        },
+        "projectiles": {
+          "active": 2,
+          "allocated": 5,
+          "free": 3,
+          "trails": 5,
+          "orbits": 0,
+          "limit": 240
+        },
+        "seen": 15,
+        "seenLimit": 2048,
+        "events": {
+          "fire": 125,
+          "hit": 119,
+          "death": 12,
+          "experience": 13,
+          "level_up": 7
+        },
+        "skipped": 67,
+        "listeners": 1,
+        "tweens": 0
+      },
+      "alive": false,
+      "choices": 0,
+      "respawn": 1.3,
+      "fps": 26.777995656481544,
+      "frameP95": 50.100000000000364,
+      "heap": 53500000
+    },
+    {
+      "seconds": 19.988,
+      "objects": 477,
+      "stats": {
+        "quality": "normal",
+        "pool": {
+          "spriteAllocated": 54,
+          "spriteActive": 0,
+          "textAllocated": 4,
+          "textActive": 0,
+          "dropped": 0,
+          "limits": {
+            "sprites": 192,
+            "texts": 40,
+            "trails": 100,
+            "fragments": 4
+          }
+        },
+        "projectiles": {
+          "active": 2,
+          "allocated": 5,
+          "free": 3,
+          "trails": 5,
+          "orbits": 0,
+          "limit": 240
+        },
+        "seen": 10,
+        "seenLimit": 2048,
+        "events": {
+          "fire": 128,
+          "hit": 122,
+          "death": 12,
+          "experience": 13,
+          "level_up": 7
+        },
+        "skipped": 67,
+        "listeners": 1,
+        "tweens": 0
+      },
+      "alive": false,
+      "choices": 0,
+      "respawn": 0.3,
+      "fps": 26.565939563738244,
+      "frameP95": 50.100000000000364,
+      "heap": 53500000
+    },
+    {
+      "seconds": 21.017699999999255,
+      "objects": 472,
+      "stats": {
+        "quality": "normal",
+        "pool": {
+          "spriteAllocated": 54,
+          "spriteActive": 4,
+          "textAllocated": 4,
+          "textActive": 0,
+          "dropped": 0,
+          "limits": {
+            "sprites": 192,
+            "texts": 40,
+            "trails": 100,
+            "fragments": 4
+          }
+        },
+        "projectiles": {
+          "active": 1,
+          "allocated": 5,
+          "free": 4,
+          "trails": 5,
+          "orbits": 0,
+          "limit": 240
+        },
+        "seen": 13,
+        "seenLimit": 2048,
+        "events": {
+          "fire": 130,
+          "hit": 125,
+          "death": 12,
+          "experience": 13,
+          "level_up": 7
+        },
+        "skipped": 67,
+        "listeners": 1,
+        "tweens": 0
+      },
+      "alive": false,
+      "choices": 0,
+      "respawn": 0,
+      "fps": 26.88197622967104,
+      "frameP95": 50.100000000000364,
+      "heap": 53500000
+    },
+    {
+      "seconds": 22.0985,
+      "objects": 499,
+      "stats": {
+        "quality": "normal",
+        "pool": {
+          "spriteAllocated": 54,
+          "spriteActive": 0,
+          "textAllocated": 4,
+          "textActive": 0,
+          "dropped": 0,
+          "limits": {
+            "sprites": 192,
+            "texts": 40,
+            "trails": 100,
+            "fragments": 4
+          }
+        },
+        "projectiles": {
+          "active": 0,
+          "allocated": 5,
+          "free": 5,
+          "trails": 5,
+          "orbits": 0,
+          "limit": 240
+        },
+        "seen": 6,
+        "seenLimit": 2048,
+        "events": {
+          "fire": 130,
+          "hit": 126,
+          "death": 12,
+          "experience": 13,
+          "level_up": 7
+        },
+        "skipped": 68,
+        "listeners": 1,
+        "tweens": 0
+      },
+      "alive": true,
+      "choices": 0,
+      "respawn": 0,
+      "fps": 27.060660225807183,
+      "frameP95": 50,
+      "heap": 53500000
+    },
+    {
+      "seconds": 23.129599999999627,
+      "objects": 508,
+      "stats": {
+        "quality": "normal",
+        "pool": {
+          "spriteAllocated": 54,
+          "spriteActive": 1,
+          "textAllocated": 4,
+          "textActive": 0,
+          "dropped": 0,
+          "limits": {
+            "sprites": 192,
+            "texts": 40,
+            "trails": 100,
+            "fragments": 4
+          }
+        },
+        "projectiles": {
+          "active": 1,
+          "allocated": 5,
+          "free": 4,
+          "trails": 5,
+          "orbits": 0,
+          "limit": 240
+        },
+        "seen": 2,
+        "seenLimit": 2048,
+        "events": {
+          "fire": 131,
+          "hit": 126,
+          "death": 12,
+          "experience": 13,
+          "level_up": 7
+        },
+        "skipped": 68,
+        "listeners": 1,
+        "tweens": 0
+      },
+      "alive": true,
+      "choices": 0,
+      "respawn": 0,
+      "fps": 27.06476953873246,
+      "frameP95": 50.10000000000218,
+      "heap": 53500000
+    },
+    {
+      "seconds": 24.162699999999255,
+      "objects": 503,
+      "stats": {
+        "quality": "normal",
+        "pool": {
+          "spriteAllocated": 54,
+          "spriteActive": 0,
+          "textAllocated": 4,
+          "textActive": 0,
+          "dropped": 0,
+          "limits": {
+            "sprites": 192,
+            "texts": 40,
+            "trails": 100,
+            "fragments": 4
+          }
+        },
+        "projectiles": {
+          "active": 2,
+          "allocated": 5,
+          "free": 3,
+          "trails": 5,
+          "orbits": 0,
+          "limit": 240
+        },
+        "seen": 4,
+        "seenLimit": 2048,
+        "events": {
+          "fire": 133,
+          "hit": 127,
+          "death": 12,
+          "experience": 13,
+          "level_up": 7
+        },
+        "skipped": 69,
+        "listeners": 1,
+        "tweens": 0
+      },
+      "alive": true,
+      "choices": 0,
+      "respawn": 0,
+      "fps": 27.273329249920526,
+      "frameP95": 50.10000000000218,
+      "heap": 53500000
+    },
+    {
+      "seconds": 25.195699999999256,
+      "objects": 499,
+      "stats": {
+        "quality": "normal",
+        "pool": {
+          "spriteAllocated": 54,
+          "spriteActive": 1,
+          "textAllocated": 4,
+          "textActive": 1,
+          "dropped": 0,
+          "limits": {
+            "sprites": 192,
+            "texts": 40,
+            "trails": 100,
+            "fragments": 4
+          }
+        },
+        "projectiles": {
+          "active": 2,
+          "allocated": 5,
+          "free": 3,
+          "trails": 5,
+          "orbits": 0,
+          "limit": 240
+        },
+        "seen": 14,
+        "seenLimit": 2048,
+        "events": {
+          "fire": 137,
+          "hit": 131,
+          "death": 13,
+          "experience": 14,
+          "level_up": 7
+        },
+        "skipped": 69,
+        "listeners": 1,
+        "tweens": 0
+      },
+      "alive": true,
+      "choices": 0,
+      "respawn": 0,
+      "fps": 27.30602994931675,
+      "frameP95": 50,
+      "heap": 53500000
+    },
+    {
+      "seconds": 26.22159999999963,
+      "objects": 504,
+      "stats": {
+        "quality": "normal",
+        "pool": {
+          "spriteAllocated": 54,
+          "spriteActive": 4,
+          "textAllocated": 4,
+          "textActive": 0,
+          "dropped": 0,
+          "limits": {
+            "sprites": 192,
+            "texts": 40,
+            "trails": 100,
+            "fragments": 4
+          }
+        },
+        "projectiles": {
+          "active": 1,
+          "allocated": 5,
+          "free": 4,
+          "trails": 5,
+          "orbits": 0,
+          "limit": 240
+        },
+        "seen": 16,
+        "seenLimit": 2048,
+        "events": {
+          "fire": 139,
+          "hit": 134,
+          "death": 13,
+          "experience": 14,
+          "level_up": 7
+        },
+        "skipped": 69,
+        "listeners": 1,
+        "tweens": 0
+      },
+      "alive": true,
+      "choices": 0,
+      "respawn": 0,
+      "fps": 27.34386917655712,
+      "frameP95": 50.10000000000218,
+      "heap": 53500000
+    },
+    {
+      "seconds": 27.238699999999255,
+      "objects": 517,
+      "stats": {
+        "quality": "normal",
+        "pool": {
+          "spriteAllocated": 54,
+          "spriteActive": 2,
+          "textAllocated": 4,
+          "textActive": 3,
+          "dropped": 0,
+          "limits": {
+            "sprites": 192,
+            "texts": 40,
+            "trails": 100,
+            "fragments": 4
+          }
+        },
+        "projectiles": {
+          "active": 2,
+          "allocated": 5,
+          "free": 3,
+          "trails": 5,
+          "orbits": 0,
+          "limit": 240
+        },
+        "seen": 15,
+        "seenLimit": 2048,
+        "events": {
+          "fire": 142,
+          "hit": 137,
+          "death": 14,
+          "experience": 15,
+          "level_up": 8
+        },
+        "skipped": 70,
+        "listeners": 1,
+        "tweens": 0
+      },
+      "alive": true,
+      "choices": 3,
+      "respawn": 0,
+      "fps": 27.497641223700857,
+      "frameP95": 50.10000000000218,
+      "heap": 53500000
+    },
+    {
+      "seconds": 28.332300000000746,
+      "objects": 485,
+      "stats": {
+        "quality": "normal",
+        "pool": {
+          "spriteAllocated": 54,
+          "spriteActive": 0,
+          "textAllocated": 4,
+          "textActive": 2,
+          "dropped": 0,
+          "limits": {
+            "sprites": 192,
+            "texts": 40,
+            "trails": 100,
+            "fragments": 4
+          }
+        },
+        "projectiles": {
+          "active": 1,
+          "allocated": 5,
+          "free": 4,
+          "trails": 5,
+          "orbits": 0,
+          "limit": 240
+        },
+        "seen": 15,
+        "seenLimit": 2048,
+        "events": {
+          "fire": 145,
+          "hit": 140,
+          "death": 14,
+          "experience": 15,
+          "level_up": 8
+        },
+        "skipped": 70,
+        "listeners": 1,
+        "tweens": 0
+      },
+      "alive": true,
+      "choices": 0,
+      "respawn": 0,
+      "fps": 27.671499767050786,
+      "frameP95": 50,
+      "heap": 53500000
+    },
+    {
+      "seconds": 29.36340000000037,
+      "objects": 485,
+      "stats": {
+        "quality": "normal",
+        "pool": {
+          "spriteAllocated": 54,
+          "spriteActive": 21,
+          "textAllocated": 4,
+          "textActive": 3,
+          "dropped": 0,
+          "limits": {
+            "sprites": 192,
+            "texts": 40,
+            "trails": 100,
+            "fragments": 4
+          }
+        },
+        "projectiles": {
+          "active": 1,
+          "allocated": 5,
+          "free": 4,
+          "trails": 5,
+          "orbits": 0,
+          "limit": 240
+        },
+        "seen": 25,
+        "seenLimit": 2048,
+        "events": {
+          "fire": 152,
+          "hit": 149,
+          "death": 15,
+          "experience": 16,
+          "level_up": 8
+        },
+        "skipped": 70,
+        "listeners": 1,
+        "tweens": 0
+      },
+      "alive": true,
+      "choices": 0,
+      "respawn": 0,
+      "fps": 27.687529373301107,
+      "frameP95": 50,
+      "heap": 53500000
+    },
+    {
+      "seconds": 30.394,
+      "objects": 481,
+      "stats": {
+        "quality": "normal",
+        "pool": {
+          "spriteAllocated": 54,
+          "spriteActive": 12,
+          "textAllocated": 4,
+          "textActive": 2,
+          "dropped": 0,
+          "limits": {
+            "sprites": 192,
+            "texts": 40,
+            "trails": 100,
+            "fragments": 4
+          }
+        },
+        "projectiles": {
+          "active": 2,
+          "allocated": 5,
+          "free": 3,
+          "trails": 5,
+          "orbits": 0,
+          "limit": 240
+        },
+        "seen": 29,
+        "seenLimit": 2048,
+        "events": {
+          "fire": 157,
+          "hit": 153,
+          "death": 16,
+          "experience": 17,
+          "level_up": 8
+        },
+        "skipped": 70,
+        "listeners": 1,
+        "tweens": 0
+      },
+      "alive": true,
+      "choices": 0,
+      "respawn": 0,
+      "fps": 27.637033625057576,
+      "frameP95": 66.59999999999854,
+      "heap": 53500000
+    },
+    {
+      "seconds": 31.433099999999627,
+      "objects": 481,
+      "stats": {
+        "quality": "normal",
+        "pool": {
+          "spriteAllocated": 54,
+          "spriteActive": 1,
+          "textAllocated": 4,
+          "textActive": 2,
+          "dropped": 0,
+          "limits": {
+            "sprites": 192,
+            "texts": 40,
+            "trails": 100,
+            "fragments": 4
+          }
+        },
+        "projectiles": {
+          "active": 3,
+          "allocated": 5,
+          "free": 2,
+          "trails": 5,
+          "orbits": 0,
+          "limit": 240
+        },
+        "seen": 26,
+        "seenLimit": 2048,
+        "events": {
+          "fire": 162,
+          "hit": 157,
+          "death": 16,
+          "experience": 17,
+          "level_up": 8
+        },
+        "skipped": 70,
+        "listeners": 1,
+        "tweens": 0
+      },
+      "alive": true,
+      "choices": 0,
+      "respawn": 0,
+      "fps": 27.614202862587856,
+      "frameP95": 50.10000000000218,
+      "heap": 53500000
+    },
+    {
+      "seconds": 32.4465,
+      "objects": 481,
+      "stats": {
+        "quality": "normal",
+        "pool": {
+          "spriteAllocated": 54,
+          "spriteActive": 10,
+          "textAllocated": 4,
+          "textActive": 0,
+          "dropped": 0,
+          "limits": {
+            "sprites": 192,
+            "texts": 40,
+            "trails": 100,
+            "fragments": 4
+          }
+        },
+        "projectiles": {
+          "active": 2,
+          "allocated": 5,
+          "free": 3,
+          "trails": 5,
+          "orbits": 0,
+          "limit": 240
+        },
+        "seen": 24,
+        "seenLimit": 2048,
+        "events": {
+          "fire": 168,
+          "hit": 164,
+          "death": 16,
+          "experience": 17,
+          "level_up": 8
+        },
+        "skipped": 70,
+        "listeners": 1,
+        "tweens": 0
+      },
+      "alive": true,
+      "choices": 0,
+      "respawn": 0,
+      "fps": 27.830428551615736,
+      "frameP95": 50.10000000000218,
+      "heap": 53500000
+    },
+    {
+      "seconds": 33.467400000000374,
+      "objects": 481,
+      "stats": {
+        "quality": "normal",
+        "pool": {
+          "spriteAllocated": 54,
+          "spriteActive": 14,
+          "textAllocated": 4,
+          "textActive": 1,
+          "dropped": 0,
+          "limits": {
+            "sprites": 192,
+            "texts": 40,
+            "trails": 100,
+            "fragments": 4
+          }
+        },
+        "projectiles": {
+          "active": 1,
+          "allocated": 5,
+          "free": 4,
+          "trails": 5,
+          "orbits": 0,
+          "limit": 240
+        },
+        "seen": 27,
+        "seenLimit": 2048,
+        "events": {
+          "fire": 173,
+          "hit": 168,
+          "death": 19,
+          "experience": 18,
+          "level_up": 8
+        },
+        "skipped": 70,
+        "listeners": 1,
+        "tweens": 0
+      },
+      "alive": true,
+      "choices": 0,
+      "respawn": 0,
+      "fps": 27.96751465605304,
+      "frameP95": 50,
+      "heap": 53500000
+    },
+    {
+      "seconds": 34.48140000000037,
+      "objects": 477,
+      "stats": {
+        "quality": "normal",
+        "pool": {
+          "spriteAllocated": 54,
+          "spriteActive": 1,
+          "textAllocated": 4,
+          "textActive": 0,
+          "dropped": 0,
+          "limits": {
+            "sprites": 192,
+            "texts": 40,
+            "trails": 100,
+            "fragments": 4
+          }
+        },
+        "projectiles": {
+          "active": 1,
+          "allocated": 5,
+          "free": 4,
+          "trails": 5,
+          "orbits": 0,
+          "limit": 240
+        },
+        "seen": 19,
+        "seenLimit": 2048,
+        "events": {
+          "fire": 175,
+          "hit": 170,
+          "death": 20,
+          "experience": 18,
+          "level_up": 8
+        },
+        "skipped": 70,
+        "listeners": 1,
+        "tweens": 0
+      },
+      "alive": false,
+      "choices": 0,
+      "respawn": 2,
+      "fps": 28.131108365669302,
+      "frameP95": 50,
+      "heap": 53500000
+    },
+    {
+      "seconds": 35.51,
+      "objects": 477,
+      "stats": {
+        "quality": "normal",
+        "pool": {
+          "spriteAllocated": 54,
+          "spriteActive": 0,
+          "textAllocated": 4,
+          "textActive": 0,
+          "dropped": 0,
+          "limits": {
+            "sprites": 192,
+            "texts": 40,
+            "trails": 100,
+            "fragments": 4
+          }
+        },
+        "projectiles": {
+          "active": 0,
+          "allocated": 5,
+          "free": 5,
+          "trails": 5,
+          "orbits": 0,
+          "limit": 240
+        },
+        "seen": 10,
+        "seenLimit": 2048,
+        "events": {
+          "fire": 175,
+          "hit": 171,
+          "death": 20,
+          "experience": 18,
+          "level_up": 8
+        },
+        "skipped": 70,
+        "listeners": 1,
+        "tweens": 0
+      },
+      "alive": false,
+      "choices": 0,
+      "respawn": 1.1,
+      "fps": 28.161081385525204,
+      "frameP95": 50,
+      "heap": 53500000
+    },
+    {
+      "seconds": 36.52130000000074,
+      "objects": 467,
+      "stats": {
+        "quality": "normal",
+        "pool": {
+          "spriteAllocated": 54,
+          "spriteActive": 0,
+          "textAllocated": 4,
+          "textActive": 0,
+          "dropped": 0,
+          "limits": {
+            "sprites": 192,
+            "texts": 40,
+            "trails": 100,
+            "fragments": 4
+          }
+        },
+        "projectiles": {
+          "active": 0,
+          "allocated": 5,
+          "free": 5,
+          "trails": 5,
+          "orbits": 0,
+          "limit": 240
+        },
+        "seen": 2,
+        "seenLimit": 2048,
+        "events": {
+          "fire": 175,
+          "hit": 171,
+          "death": 20,
+          "experience": 18,
+          "level_up": 8
+        },
+        "skipped": 70,
+        "listeners": 1,
+        "tweens": 0
+      },
+      "alive": false,
+      "choices": 0,
+      "respawn": 0.1,
+      "fps": 28.36700774616399,
+      "frameP95": 50,
+      "heap": 53500000
+    },
+    {
+      "seconds": 37.53359999999963,
+      "objects": 467,
+      "stats": {
+        "quality": "normal",
+        "pool": {
+          "spriteAllocated": 54,
+          "spriteActive": 0,
+          "textAllocated": 4,
+          "textActive": 0,
+          "dropped": 0,
+          "limits": {
+            "sprites": 192,
+            "texts": 40,
+            "trails": 100,
+            "fragments": 4
+          }
+        },
+        "projectiles": {
+          "active": 0,
+          "allocated": 5,
+          "free": 5,
+          "trails": 5,
+          "orbits": 0,
+          "limit": 240
+        },
+        "seen": 0,
+        "seenLimit": 2048,
+        "events": {
+          "fire": 175,
+          "hit": 171,
+          "death": 20,
+          "experience": 18,
+          "level_up": 8
+        },
+        "skipped": 70,
+        "listeners": 1,
+        "tweens": 0
+      },
+      "alive": false,
+      "choices": 0,
+      "respawn": 0,
+      "fps": 28.294647995396407,
+      "frameP95": 50,
+      "heap": 53500000
+    },
+    {
+      "seconds": 38.628400000000376,
+      "objects": 508,
+      "stats": {
+        "quality": "normal",
+        "pool": {
+          "spriteAllocated": 54,
+          "spriteActive": 0,
+          "textAllocated": 4,
+          "textActive": 0,
+          "dropped": 0,
+          "limits": {
+            "sprites": 192,
+            "texts": 40,
+            "trails": 100,
+            "fragments": 4
+          }
+        },
+        "projectiles": {
+          "active": 0,
+          "allocated": 5,
+          "free": 5,
+          "trails": 5,
+          "orbits": 0,
+          "limit": 240
+        },
+        "seen": 10,
+        "seenLimit": 2048,
+        "events": {
+          "fire": 179,
+          "hit": 177,
+          "death": 20,
+          "experience": 18,
+          "level_up": 8
+        },
+        "skipped": 78,
+        "listeners": 1,
+        "tweens": 0
+      },
+      "alive": true,
+      "choices": 0,
+      "respawn": 0,
+      "fps": 28.29524391380408,
+      "frameP95": 50,
+      "heap": 53500000
+    },
+    {
+      "seconds": 39.64459999999963,
+      "objects": 503,
+      "stats": {
+        "quality": "normal",
+        "pool": {
+          "spriteAllocated": 54,
+          "spriteActive": 27,
+          "textAllocated": 4,
+          "textActive": 0,
+          "dropped": 0,
+          "limits": {
+            "sprites": 192,
+            "texts": 40,
+            "trails": 100,
+            "fragments": 4
+          }
+        },
+        "projectiles": {
+          "active": 0,
+          "allocated": 5,
+          "free": 5,
+          "trails": 5,
+          "orbits": 0,
+          "limit": 240
+        },
+        "seen": 22,
+        "seenLimit": 2048,
+        "events": {
+          "fire": 182,
+          "hit": 183,
+          "death": 22,
+          "experience": 19,
+          "level_up": 8
+        },
+        "skipped": 78,
+        "listeners": 1,
+        "tweens": 0
+      },
+      "alive": true,
+      "choices": 0,
+      "respawn": 0,
+      "fps": 28.42757903976861,
+      "frameP95": 50,
+      "heap": 53500000
+    },
+    {
+      "seconds": 40.73,
+      "objects": 499,
+      "stats": {
+        "quality": "normal",
+        "pool": {
+          "spriteAllocated": 54,
+          "spriteActive": 6,
+          "textAllocated": 4,
+          "textActive": 0,
+          "dropped": 0,
+          "limits": {
+            "sprites": 192,
+            "texts": 40,
+            "trails": 100,
+            "fragments": 4
+          }
+        },
+        "projectiles": {
+          "active": 0,
+          "allocated": 5,
+          "free": 5,
+          "trails": 5,
+          "orbits": 0,
+          "limit": 240
+        },
+        "seen": 21,
+        "seenLimit": 2048,
+        "events": {
+          "fire": 185,
+          "hit": 188,
+          "death": 22,
+          "experience": 19,
+          "level_up": 8
+        },
+        "skipped": 78,
+        "listeners": 1,
+        "tweens": 0
+      },
+      "alive": true,
+      "choices": 0,
+      "respawn": 0,
+      "fps": 28.38195830601964,
+      "frameP95": 50,
+      "heap": 53500000
+    },
+    {
+      "seconds": 41.74569999999925,
+      "objects": 503,
+      "stats": {
+        "quality": "normal",
+        "pool": {
+          "spriteAllocated": 54,
+          "spriteActive": 18,
+          "textAllocated": 4,
+          "textActive": 1,
+          "dropped": 0,
+          "limits": {
+            "sprites": 192,
+            "texts": 40,
+            "trails": 100,
+            "fragments": 4
+          }
+        },
+        "projectiles": {
+          "active": 0,
+          "allocated": 5,
+          "free": 5,
+          "trails": 5,
+          "orbits": 0,
+          "limit": 240
+        },
+        "seen": 35,
+        "seenLimit": 2048,
+        "events": {
+          "fire": 192,
+          "hit": 195,
+          "death": 23,
+          "experience": 20,
+          "level_up": 9
+        },
+        "skipped": 78,
+        "listeners": 1,
+        "tweens": 0
+      },
+      "alive": true,
+      "choices": 0,
+      "respawn": 0,
+      "fps": 28.481975389082496,
+      "frameP95": 50,
+      "heap": 53500000
+    },
+    {
+      "seconds": 42.77040000000037,
+      "objects": 508,
+      "stats": {
+        "quality": "normal",
+        "pool": {
+          "spriteAllocated": 54,
+          "spriteActive": 20,
+          "textAllocated": 4,
+          "textActive": 2,
+          "dropped": 0,
+          "limits": {
+            "sprites": 192,
+            "texts": 40,
+            "trails": 100,
+            "fragments": 4
+          }
+        },
+        "projectiles": {
+          "active": 0,
+          "allocated": 5,
+          "free": 5,
+          "trails": 5,
+          "orbits": 0,
+          "limit": 240
+        },
+        "seen": 26,
+        "seenLimit": 2048,
+        "events": {
+          "fire": 195,
+          "hit": 198,
+          "death": 24,
+          "experience": 21,
+          "level_up": 9
+        },
+        "skipped": 78,
+        "listeners": 1,
+        "tweens": 0
+      },
+      "alive": true,
+      "choices": 0,
+      "respawn": 0,
+      "fps": 28.547780708153052,
+      "frameP95": 50,
+      "heap": 53500000
+    },
+    {
+      "seconds": 43.79990000000037,
+      "objects": 499,
+      "stats": {
+        "quality": "normal",
+        "pool": {
+          "spriteAllocated": 54,
+          "spriteActive": 1,
+          "textAllocated": 4,
+          "textActive": 0,
+          "dropped": 0,
+          "limits": {
+            "sprites": 192,
+            "texts": 40,
+            "trails": 100,
+            "fragments": 4
+          }
+        },
+        "projectiles": {
+          "active": 2,
+          "allocated": 5,
+          "free": 3,
+          "trails": 5,
+          "orbits": 0,
+          "limit": 240
+        },
+        "seen": 19,
+        "seenLimit": 2048,
+        "events": {
+          "fire": 199,
+          "hit": 200,
+          "death": 24,
+          "experience": 21,
+          "level_up": 9
+        },
+        "skipped": 78,
+        "listeners": 1,
+        "tweens": 0
+      },
+      "alive": true,
+      "choices": 0,
+      "respawn": 0,
+      "fps": 28.51604684028935,
+      "frameP95": 50,
+      "heap": 53500000
+    },
+    {
+      "seconds": 44.82659999999963,
+      "objects": 468,
+      "stats": {
+        "quality": "normal",
+        "pool": {
+          "spriteAllocated": 54,
+          "spriteActive": 6,
+          "textAllocated": 4,
+          "textActive": 1,
+          "dropped": 0,
+          "limits": {
+            "sprites": 192,
+            "texts": 40,
+            "trails": 100,
+            "fragments": 4
+          }
+        },
+        "projectiles": {
+          "active": 1,
+          "allocated": 5,
+          "free": 4,
+          "trails": 5,
+          "orbits": 0,
+          "limit": 240
+        },
+        "seen": 15,
+        "seenLimit": 2048,
+        "events": {
+          "fire": 201,
+          "hit": 202,
+          "death": 25,
+          "experience": 21,
+          "level_up": 9
+        },
+        "skipped": 78,
+        "listeners": 1,
+        "tweens": 0
+      },
+      "alive": true,
+      "choices": 0,
+      "respawn": 0,
+      "fps": 28.576718785902628,
+      "frameP95": 50,
+      "heap": 53500000
+    },
+    {
+      "seconds": 45.854400000000375,
+      "objects": 477,
+      "stats": {
+        "quality": "normal",
+        "pool": {
+          "spriteAllocated": 54,
+          "spriteActive": 0,
+          "textAllocated": 4,
+          "textActive": 1,
+          "dropped": 0,
+          "limits": {
+            "sprites": 192,
+            "texts": 40,
+            "trails": 100,
+            "fragments": 4
+          }
+        },
+        "projectiles": {
+          "active": 2,
+          "allocated": 5,
+          "free": 3,
+          "trails": 5,
+          "orbits": 0,
+          "limit": 240
+        },
+        "seen": 15,
+        "seenLimit": 2048,
+        "events": {
+          "fire": 205,
+          "hit": 205,
+          "death": 26,
+          "experience": 22,
+          "level_up": 9
+        },
+        "skipped": 83,
+        "listeners": 1,
+        "tweens": 0
+      },
+      "alive": true,
+      "choices": 0,
+      "respawn": 0,
+      "fps": 28.63411144841039,
+      "frameP95": 50,
+      "heap": 53500000
+    },
+    {
+      "seconds": 46.865199999999255,
+      "objects": 477,
+      "stats": {
+        "quality": "normal",
+        "pool": {
+          "spriteAllocated": 54,
+          "spriteActive": 0,
+          "textAllocated": 4,
+          "textActive": 0,
+          "dropped": 0,
+          "limits": {
+            "sprites": 192,
+            "texts": 40,
+            "trails": 100,
+            "fragments": 4
+          }
+        },
+        "projectiles": {
+          "active": 3,
+          "allocated": 5,
+          "free": 2,
+          "trails": 5,
+          "orbits": 0,
+          "limit": 240
+        },
+        "seen": 17,
+        "seenLimit": 2048,
+        "events": {
+          "fire": 210,
+          "hit": 207,
+          "death": 26,
+          "experience": 22,
+          "level_up": 9
+        },
+        "skipped": 86,
+        "listeners": 1,
+        "tweens": 0
+      },
+      "alive": true,
+      "choices": 0,
+      "respawn": 0,
+      "fps": 28.613982229885316,
+      "frameP95": 50,
+      "heap": 53500000
+    },
+    {
+      "seconds": 47.89219999999926,
+      "objects": 468,
+      "stats": {
+        "quality": "normal",
+        "pool": {
+          "spriteAllocated": 54,
+          "spriteActive": 0,
+          "textAllocated": 4,
+          "textActive": 0,
+          "dropped": 0,
+          "limits": {
+            "sprites": 192,
+            "texts": 40,
+            "trails": 100,
+            "fragments": 4
+          }
+        },
+        "projectiles": {
+          "active": 0,
+          "allocated": 5,
+          "free": 5,
+          "trails": 5,
+          "orbits": 0,
+          "limit": 240
+        },
+        "seen": 14,
+        "seenLimit": 2048,
+        "events": {
+          "fire": 210,
+          "hit": 209,
+          "death": 28,
+          "experience": 23,
+          "level_up": 9
+        },
+        "skipped": 86,
+        "listeners": 1,
+        "tweens": 0
+      },
+      "alive": true,
+      "choices": 0,
+      "respawn": 0,
+      "fps": 28.752072362514593,
+      "frameP95": 50,
+      "heap": 53500000
+    },
+    {
+      "seconds": 48.898900000000374,
+      "objects": 468,
+      "stats": {
+        "quality": "normal",
+        "pool": {
+          "spriteAllocated": 54,
+          "spriteActive": 6,
+          "textAllocated": 4,
+          "textActive": 1,
+          "dropped": 0,
+          "limits": {
+            "sprites": 192,
+            "texts": 40,
+            "trails": 100,
+            "fragments": 4
+          }
+        },
+        "projectiles": {
+          "active": 1,
+          "allocated": 5,
+          "free": 4,
+          "trails": 5,
+          "orbits": 0,
+          "limit": 240
+        },
+        "seen": 9,
+        "seenLimit": 2048,
+        "events": {
+          "fire": 212,
+          "hit": 210,
+          "death": 28,
+          "experience": 23,
+          "level_up": 9
+        },
+        "skipped": 86,
+        "listeners": 1,
+        "tweens": 0
+      },
+      "alive": true,
+      "choices": 0,
+      "respawn": 0,
+      "fps": 28.75320303728692,
+      "frameP95": 50,
+      "heap": 53500000
+    },
+    {
+      "seconds": 49.91430000000074,
+      "objects": 468,
+      "stats": {
+        "quality": "normal",
+        "pool": {
+          "spriteAllocated": 54,
+          "spriteActive": 0,
+          "textAllocated": 4,
+          "textActive": 1,
+          "dropped": 0,
+          "limits": {
+            "sprites": 192,
+            "texts": 40,
+            "trails": 100,
+            "fragments": 4
+          }
+        },
+        "projectiles": {
+          "active": 0,
+          "allocated": 5,
+          "free": 5,
+          "trails": 5,
+          "orbits": 0,
+          "limit": 240
+        },
+        "seen": 8,
+        "seenLimit": 2048,
+        "events": {
+          "fire": 214,
+          "hit": 212,
+          "death": 29,
+          "experience": 23,
+          "level_up": 9
+        },
+        "skipped": 86,
+        "listeners": 1,
+        "tweens": 0
+      },
+      "alive": true,
+      "choices": 0,
+      "respawn": 0,
+      "fps": 28.76931059836517,
+      "frameP95": 50,
+      "heap": 53500000
+    },
+    {
+      "seconds": 50.918699999999255,
+      "objects": 463,
+      "stats": {
+        "quality": "normal",
+        "pool": {
+          "spriteAllocated": 54,
+          "spriteActive": 0,
+          "textAllocated": 4,
+          "textActive": 0,
+          "dropped": 0,
+          "limits": {
+            "sprites": 192,
+            "texts": 40,
+            "trails": 100,
+            "fragments": 4
+          }
+        },
+        "projectiles": {
+          "active": 0,
+          "allocated": 5,
+          "free": 5,
+          "trails": 5,
+          "orbits": 0,
+          "limit": 240
+        },
+        "seen": 6,
+        "seenLimit": 2048,
+        "events": {
+          "fire": 214,
+          "hit": 212,
+          "death": 29,
+          "experience": 23,
+          "level_up": 9
+        },
+        "skipped": 86,
+        "listeners": 1,
+        "tweens": 0
+      },
+      "alive": true,
+      "choices": 0,
+      "respawn": 0,
+      "fps": 28.928468323033023,
+      "frameP95": 50,
+      "heap": 53500000
+    },
+    {
+      "seconds": 51.93090000000037,
+      "objects": 463,
+      "stats": {
+        "quality": "normal",
+        "pool": {
+          "spriteAllocated": 54,
+          "spriteActive": 0,
+          "textAllocated": 4,
+          "textActive": 0,
+          "dropped": 0,
+          "limits": {
+            "sprites": 192,
+            "texts": 40,
+            "trails": 100,
+            "fragments": 4
+          }
+        },
+        "projectiles": {
+          "active": 0,
+          "allocated": 5,
+          "free": 5,
+          "trails": 5,
+          "orbits": 0,
+          "limit": 240
+        },
+        "seen": 0,
+        "seenLimit": 2048,
+        "events": {
+          "fire": 214,
+          "hit": 212,
+          "death": 29,
+          "experience": 23,
+          "level_up": 9
+        },
+        "skipped": 86,
+        "listeners": 1,
+        "tweens": 0
+      },
+      "alive": true,
+      "choices": 0,
+      "respawn": 0,
+      "fps": 29.00007509979587,
+      "frameP95": 50,
+      "heap": 53500000
+    },
+    {
+      "seconds": 52.9485,
+      "objects": 458,
+      "stats": {
+        "quality": "normal",
+        "pool": {
+          "spriteAllocated": 54,
+          "spriteActive": 0,
+          "textAllocated": 4,
+          "textActive": 0,
+          "dropped": 0,
+          "limits": {
+            "sprites": 192,
+            "texts": 40,
+            "trails": 100,
+            "fragments": 4
+          }
+        },
+        "projectiles": {
+          "active": 0,
+          "allocated": 5,
+          "free": 5,
+          "trails": 5,
+          "orbits": 0,
+          "limit": 240
+        },
+        "seen": 0,
+        "seenLimit": 2048,
+        "events": {
+          "fire": 214,
+          "hit": 212,
+          "death": 29,
+          "experience": 23,
+          "level_up": 9
+        },
+        "skipped": 86,
+        "listeners": 1,
+        "tweens": 0
+      },
+      "alive": true,
+      "choices": 0,
+      "respawn": 0,
+      "fps": 29.047038070884042,
+      "frameP95": 50,
+      "heap": 53500000
+    },
+    {
+      "seconds": 53.95969999999925,
+      "objects": 463,
+      "stats": {
+        "quality": "normal",
+        "pool": {
+          "spriteAllocated": 54,
+          "spriteActive": 0,
+          "textAllocated": 4,
+          "textActive": 0,
+          "dropped": 0,
+          "limits": {
+            "sprites": 192,
+            "texts": 40,
+            "trails": 100,
+            "fragments": 4
+          }
+        },
+        "projectiles": {
+          "active": 0,
+          "allocated": 5,
+          "free": 5,
+          "trails": 5,
+          "orbits": 0,
+          "limit": 240
+        },
+        "seen": 0,
+        "seenLimit": 2048,
+        "events": {
+          "fire": 214,
+          "hit": 212,
+          "death": 29,
+          "experience": 23,
+          "level_up": 9
+        },
+        "skipped": 86,
+        "listeners": 1,
+        "tweens": 0
+      },
+      "alive": true,
+      "choices": 0,
+      "respawn": 0,
+      "fps": 29.16991754957907,
+      "frameP95": 50,
+      "heap": 53500000
+    },
+    {
+      "seconds": 54.96840000000037,
+      "objects": 463,
+      "stats": {
+        "quality": "normal",
+        "pool": {
+          "spriteAllocated": 54,
+          "spriteActive": 0,
+          "textAllocated": 4,
+          "textActive": 0,
+          "dropped": 0,
+          "limits": {
+            "sprites": 192,
+            "texts": 40,
+            "trails": 100,
+            "fragments": 4
+          }
+        },
+        "projectiles": {
+          "active": 0,
+          "allocated": 5,
+          "free": 5,
+          "trails": 5,
+          "orbits": 0,
+          "limit": 240
+        },
+        "seen": 0,
+        "seenLimit": 2048,
+        "events": {
+          "fire": 214,
+          "hit": 212,
+          "death": 29,
+          "experience": 23,
+          "level_up": 9
+        },
+        "skipped": 86,
+        "listeners": 1,
+        "tweens": 0
+      },
+      "alive": true,
+      "choices": 0,
+      "respawn": 0,
+      "fps": 29.253170912742394,
+      "frameP95": 50,
+      "heap": 53500000
+    },
+    {
+      "seconds": 55.9815,
+      "objects": 468,
+      "stats": {
+        "quality": "normal",
+        "pool": {
+          "spriteAllocated": 54,
+          "spriteActive": 2,
+          "textAllocated": 4,
+          "textActive": 0,
+          "dropped": 0,
+          "limits": {
+            "sprites": 192,
+            "texts": 40,
+            "trails": 100,
+            "fragments": 4
+          }
+        },
+        "projectiles": {
+          "active": 2,
+          "allocated": 5,
+          "free": 3,
+          "trails": 5,
+          "orbits": 0,
+          "limit": 240
+        },
+        "seen": 2,
+        "seenLimit": 2048,
+        "events": {
+          "fire": 216,
+          "hit": 212,
+          "death": 29,
+          "experience": 23,
+          "level_up": 9
+        },
+        "skipped": 86,
+        "listeners": 1,
+        "tweens": 0
+      },
+      "alive": true,
+      "choices": 0,
+      "respawn": 0,
+      "fps": 29.277529183748204,
+      "frameP95": 50,
+      "heap": 53500000
+    },
+    {
+      "seconds": 57.01390000000037,
+      "objects": 468,
+      "stats": {
+        "quality": "normal",
+        "pool": {
+          "spriteAllocated": 54,
+          "spriteActive": 4,
+          "textAllocated": 4,
+          "textActive": 2,
+          "dropped": 0,
+          "limits": {
+            "sprites": 192,
+            "texts": 40,
+            "trails": 100,
+            "fragments": 4
+          }
+        },
+        "projectiles": {
+          "active": 2,
+          "allocated": 5,
+          "free": 3,
+          "trails": 5,
+          "orbits": 0,
+          "limit": 240
+        },
+        "seen": 6,
+        "seenLimit": 2048,
+        "events": {
+          "fire": 218,
+          "hit": 214,
+          "death": 29,
+          "experience": 23,
+          "level_up": 9
+        },
+        "skipped": 86,
+        "listeners": 1,
+        "tweens": 0
+      },
+      "alive": true,
+      "choices": 0,
+      "respawn": 0,
+      "fps": 29.396340190725226,
+      "frameP95": 50,
+      "heap": 53500000
+    },
+    {
+      "seconds": 58.03359999999963,
+      "objects": 472,
+      "stats": {
+        "quality": "normal",
+        "pool": {
+          "spriteAllocated": 54,
+          "spriteActive": 6,
+          "textAllocated": 4,
+          "textActive": 0,
+          "dropped": 0,
+          "limits": {
+            "sprites": 192,
+            "texts": 40,
+            "trails": 100,
+            "fragments": 4
+          }
+        },
+        "projectiles": {
+          "active": 3,
+          "allocated": 5,
+          "free": 2,
+          "trails": 5,
+          "orbits": 0,
+          "limit": 240
+        },
+        "seen": 15,
+        "seenLimit": 2048,
+        "events": {
+          "fire": 221,
+          "hit": 217,
+          "death": 30,
+          "experience": 24,
+          "level_up": 10
+        },
+        "skipped": 86,
+        "listeners": 1,
+        "tweens": 0
+      },
+      "alive": false,
+      "choices": 0,
+      "respawn": 2.3,
+      "fps": 29.431175334331982,
+      "frameP95": 50,
+      "heap": 53500000
+    },
+    {
+      "seconds": 59.041900000000375,
+      "objects": 477,
+      "stats": {
+        "quality": "normal",
+        "pool": {
+          "spriteAllocated": 54,
+          "spriteActive": 7,
+          "textAllocated": 4,
+          "textActive": 0,
+          "dropped": 0,
+          "limits": {
+            "sprites": 192,
+            "texts": 40,
+            "trails": 100,
+            "fragments": 4
+          }
+        },
+        "projectiles": {
+          "active": 3,
+          "allocated": 5,
+          "free": 2,
+          "trails": 5,
+          "orbits": 0,
+          "limit": 240
+        },
+        "seen": 18,
+        "seenLimit": 2048,
+        "events": {
+          "fire": 225,
+          "hit": 219,
+          "death": 31,
+          "experience": 25,
+          "level_up": 11
+        },
+        "skipped": 86,
+        "listeners": 1,
+        "tweens": 0
+      },
+      "alive": false,
+      "choices": 0,
+      "respawn": 1.3,
+      "fps": 29.41978493239528,
+      "frameP95": 50,
+      "heap": 53500000
+    },
+    {
+      "seconds": 60.0665,
+      "objects": 473,
+      "stats": {
+        "quality": "normal",
+        "pool": {
+          "spriteAllocated": 54,
+          "spriteActive": 1,
+          "textAllocated": 4,
+          "textActive": 0,
+          "dropped": 0,
+          "limits": {
+            "sprites": 192,
+            "texts": 40,
+            "trails": 100,
+            "fragments": 4
+          }
+        },
+        "projectiles": {
+          "active": 3,
+          "allocated": 5,
+          "free": 2,
+          "trails": 5,
+          "orbits": 0,
+          "limit": 240
+        },
+        "seen": 14,
+        "seenLimit": 2048,
+        "events": {
+          "fire": 228,
+          "hit": 219,
+          "death": 31,
+          "experience": 25,
+          "level_up": 11
+        },
+        "skipped": 86,
+        "listeners": 1,
+        "tweens": 0
+      },
+      "alive": false,
+      "choices": 0,
+      "respawn": 0.3,
+      "fps": 29.50063679421974,
+      "frameP95": 50,
+      "heap": 53500000
+    },
+    {
+      "seconds": 61.076,
+      "objects": 473,
+      "stats": {
+        "quality": "normal",
+        "pool": {
+          "spriteAllocated": 54,
+          "spriteActive": 7,
+          "textAllocated": 4,
+          "textActive": 0,
+          "dropped": 0,
+          "limits": {
+            "sprites": 192,
+            "texts": 40,
+            "trails": 100,
+            "fragments": 4
+          }
+        },
+        "projectiles": {
+          "active": 1,
+          "allocated": 5,
+          "free": 4,
+          "trails": 5,
+          "orbits": 0,
+          "limit": 240
+        },
+        "seen": 17,
+        "seenLimit": 2048,
+        "events": {
+          "fire": 232,
+          "hit": 224,
+          "death": 31,
+          "experience": 25,
+          "level_up": 11
+        },
+        "skipped": 86,
+        "listeners": 1,
+        "tweens": 0
+      },
+      "alive": false,
+      "choices": 0,
+      "respawn": 0,
+      "fps": 29.438683871432705,
+      "frameP95": 50,
+      "heap": 53500000
+    },
+    {
+      "seconds": 62.16759999999963,
+      "objects": 542,
+      "stats": {
+        "quality": "normal",
+        "pool": {
+          "spriteAllocated": 54,
+          "spriteActive": 10,
+          "textAllocated": 4,
+          "textActive": 0,
+          "dropped": 0,
+          "limits": {
+            "sprites": 192,
+            "texts": 40,
+            "trails": 100,
+            "fragments": 4
+          }
+        },
+        "projectiles": {
+          "active": 0,
+          "allocated": 5,
+          "free": 5,
+          "trails": 5,
+          "orbits": 0,
+          "limit": 240
+        },
+        "seen": 31,
+        "seenLimit": 2048,
+        "events": {
+          "fire": 240,
+          "hit": 234,
+          "death": 33,
+          "experience": 26,
+          "level_up": 11
+        },
+        "skipped": 98,
+        "listeners": 1,
+        "tweens": 0
+      },
+      "alive": true,
+      "choices": 0,
+      "respawn": 0,
+      "fps": 29.452640925498347,
+      "frameP95": 50,
+      "heap": 53500000
+    },
+    {
+      "seconds": 63.201800000000745,
+      "objects": 529,
+      "stats": {
+        "quality": "normal",
+        "pool": {
+          "spriteAllocated": 54,
+          "spriteActive": 8,
+          "textAllocated": 4,
+          "textActive": 0,
+          "dropped": 0,
+          "limits": {
+            "sprites": 192,
+            "texts": 40,
+            "trails": 100,
+            "fragments": 4
+          }
+        },
+        "projectiles": {
+          "active": 2,
+          "allocated": 5,
+          "free": 3,
+          "trails": 5,
+          "orbits": 0,
+          "limit": 240
+        },
+        "seen": 28,
+        "seenLimit": 2048,
+        "events": {
+          "fire": 243,
+          "hit": 238,
+          "death": 33,
+          "experience": 26,
+          "level_up": 11
+        },
+        "skipped": 98,
+        "listeners": 1,
+        "tweens": 0
+      },
+      "alive": true,
+      "choices": 0,
+      "respawn": 0,
+      "fps": 29.477008566211374,
+      "frameP95": 50,
+      "heap": 53500000
+    },
+    {
+      "seconds": 64.23169999999925,
+      "objects": 528,
+      "stats": {
+        "quality": "normal",
+        "pool": {
+          "spriteAllocated": 54,
+          "spriteActive": 17,
+          "textAllocated": 4,
+          "textActive": 0,
+          "dropped": 0,
+          "limits": {
+            "sprites": 192,
+            "texts": 40,
+            "trails": 100,
+            "fragments": 4
+          }
+        },
+        "projectiles": {
+          "active": 1,
+          "allocated": 5,
+          "free": 4,
+          "trails": 5,
+          "orbits": 0,
+          "limit": 240
+        },
+        "seen": 19,
+        "seenLimit": 2048,
+        "events": {
+          "fire": 247,
+          "hit": 243,
+          "death": 34,
+          "experience": 27,
+          "level_up": 12
+        },
+        "skipped": 99,
+        "listeners": 1,
+        "tweens": 0
+      },
+      "alive": true,
+      "choices": 0,
+      "respawn": 0,
+      "fps": 29.424723306405124,
+      "frameP95": 50,
+      "heap": 53500000
+    },
+    {
+      "seconds": 65.25809999999963,
+      "objects": 529,
+      "stats": {
+        "quality": "normal",
+        "pool": {
+          "spriteAllocated": 54,
+          "spriteActive": 6,
+          "textAllocated": 4,
+          "textActive": 0,
+          "dropped": 0,
+          "limits": {
+            "sprites": 192,
+            "texts": 40,
+            "trails": 100,
+            "fragments": 4
+          }
+        },
+        "projectiles": {
+          "active": 0,
+          "allocated": 5,
+          "free": 5,
+          "trails": 5,
+          "orbits": 0,
+          "limit": 240
+        },
+        "seen": 26,
+        "seenLimit": 2048,
+        "events": {
+          "fire": 252,
+          "hit": 249,
+          "death": 34,
+          "experience": 27,
+          "level_up": 12
+        },
+        "skipped": 102,
+        "listeners": 1,
+        "tweens": 0
+      },
+      "alive": true,
+      "choices": 0,
+      "respawn": 0,
+      "fps": 29.48293008837234,
+      "frameP95": 50,
+      "heap": 53500000
+    },
+    {
+      "seconds": 66.27359999999963,
+      "objects": 533,
+      "stats": {
+        "quality": "normal",
+        "pool": {
+          "spriteAllocated": 54,
+          "spriteActive": 0,
+          "textAllocated": 4,
+          "textActive": 0,
+          "dropped": 0,
+          "limits": {
+            "sprites": 192,
+            "texts": 40,
+            "trails": 100,
+            "fragments": 4
+          }
+        },
+        "projectiles": {
+          "active": 2,
+          "allocated": 5,
+          "free": 3,
+          "trails": 5,
+          "orbits": 0,
+          "limit": 240
+        },
+        "seen": 28,
+        "seenLimit": 2048,
+        "events": {
+          "fire": 257,
+          "hit": 254,
+          "death": 34,
+          "experience": 27,
+          "level_up": 12
+        },
+        "skipped": 110,
+        "listeners": 1,
+        "tweens": 0
+      },
+      "alive": true,
+      "choices": 0,
+      "respawn": 0,
+      "fps": 29.483836701190384,
+      "frameP95": 50,
+      "heap": 53500000
+    },
+    {
+      "seconds": 67.30869999999925,
+      "objects": 519,
+      "stats": {
+        "quality": "normal",
+        "pool": {
+          "spriteAllocated": 54,
+          "spriteActive": 0,
+          "textAllocated": 4,
+          "textActive": 0,
+          "dropped": 0,
+          "limits": {
+            "sprites": 192,
+            "texts": 40,
+            "trails": 100,
+            "fragments": 4
+          }
+        },
+        "projectiles": {
+          "active": 1,
+          "allocated": 5,
+          "free": 4,
+          "trails": 5,
+          "orbits": 0,
+          "limit": 240
+        },
+        "seen": 20,
+        "seenLimit": 2048,
+        "events": {
+          "fire": 259,
+          "hit": 261,
+          "death": 34,
+          "experience": 27,
+          "level_up": 12
+        },
+        "skipped": 117,
+        "listeners": 1,
+        "tweens": 0
+      },
+      "alive": true,
+      "choices": 0,
+      "respawn": 0,
+      "fps": 29.37213168580023,
+      "frameP95": 50.099999999998545,
+      "heap": 53500000
+    },
+    {
+      "seconds": 68.329,
+      "objects": 472,
+      "stats": {
+        "quality": "normal",
+        "pool": {
+          "spriteAllocated": 54,
+          "spriteActive": 0,
+          "textAllocated": 4,
+          "textActive": 0,
+          "dropped": 0,
+          "limits": {
+            "sprites": 192,
+            "texts": 40,
+            "trails": 100,
+            "fragments": 4
+          }
+        },
+        "projectiles": {
+          "active": 2,
+          "allocated": 5,
+          "free": 3,
+          "trails": 5,
+          "orbits": 0,
+          "limit": 240
+        },
+        "seen": 19,
+        "seenLimit": 2048,
+        "events": {
+          "fire": 262,
+          "hit": 263,
+          "death": 35,
+          "experience": 28,
+          "level_up": 12
+        },
+        "skipped": 117,
+        "listeners": 1,
+        "tweens": 0
+      },
+      "alive": true,
+      "choices": 0,
+      "respawn": 0,
+      "fps": 29.401864508481026,
+      "frameP95": 50.099999999998545,
+      "heap": 53500000
+    },
+    {
+      "seconds": 69.33569999999925,
+      "objects": 477,
+      "stats": {
+        "quality": "normal",
+        "pool": {
+          "spriteAllocated": 54,
+          "spriteActive": 0,
+          "textAllocated": 4,
+          "textActive": 0,
+          "dropped": 0,
+          "limits": {
+            "sprites": 192,
+            "texts": 40,
+            "trails": 100,
+            "fragments": 4
+          }
+        },
+        "projectiles": {
+          "active": 4,
+          "allocated": 5,
+          "free": 1,
+          "trails": 5,
+          "orbits": 0,
+          "limit": 240
+        },
+        "seen": 22,
+        "seenLimit": 2048,
+        "events": {
+          "fire": 268,
+          "hit": 267,
+          "death": 36,
+          "experience": 29,
+          "level_up": 13
+        },
+        "skipped": 126,
+        "listeners": 1,
+        "tweens": 0
+      },
+      "alive": true,
+      "choices": 0,
+      "respawn": 0,
+      "fps": 29.407650027331115,
+      "frameP95": 50,
+      "heap": 53500000
+    },
+    {
+      "seconds": 70.35359999999963,
+      "objects": 473,
+      "stats": {
+        "quality": "normal",
+        "pool": {
+          "spriteAllocated": 54,
+          "spriteActive": 5,
+          "textAllocated": 4,
+          "textActive": 1,
+          "dropped": 0,
+          "limits": {
+            "sprites": 192,
+            "texts": 40,
+            "trails": 100,
+            "fragments": 4
+          }
+        },
+        "projectiles": {
+          "active": 3,
+          "allocated": 5,
+          "free": 2,
+          "trails": 5,
+          "orbits": 0,
+          "limit": 240
+        },
+        "seen": 20,
+        "seenLimit": 2048,
+        "events": {
+          "fire": 272,
+          "hit": 269,
+          "death": 36,
+          "experience": 29,
+          "level_up": 13
+        },
+        "skipped": 127,
+        "listeners": 1,
+        "tweens": 0
+      },
+      "alive": true,
+      "choices": 0,
+      "respawn": 0,
+      "fps": 29.394331783545454,
+      "frameP95": 50,
+      "heap": 53500000
+    },
+    {
+      "seconds": 71.36530000000074,
+      "objects": 473,
+      "stats": {
+        "quality": "normal",
+        "pool": {
+          "spriteAllocated": 54,
+          "spriteActive": 0,
+          "textAllocated": 4,
+          "textActive": 0,
+          "dropped": 0,
+          "limits": {
+            "sprites": 192,
+            "texts": 40,
+            "trails": 100,
+            "fragments": 4
+          }
+        },
+        "projectiles": {
+          "active": 3,
+          "allocated": 5,
+          "free": 2,
+          "trails": 5,
+          "orbits": 0,
+          "limit": 240
+        },
+        "seen": 14,
+        "seenLimit": 2048,
+        "events": {
+          "fire": 276,
+          "hit": 271,
+          "death": 36,
+          "experience": 29,
+          "level_up": 13
+        },
+        "skipped": 128,
+        "listeners": 1,
+        "tweens": 0
+      },
+      "alive": true,
+      "choices": 0,
+      "respawn": 0,
+      "fps": 29.440078021110793,
+      "frameP95": 50,
+      "heap": 53500000
+    },
+    {
+      "seconds": 72.37209999999963,
+      "objects": 473,
+      "stats": {
+        "quality": "normal",
+        "pool": {
+          "spriteAllocated": 54,
+          "spriteActive": 6,
+          "textAllocated": 4,
+          "textActive": 2,
+          "dropped": 0,
+          "limits": {
+            "sprites": 192,
+            "texts": 40,
+            "trails": 100,
+            "fragments": 4
+          }
+        },
+        "projectiles": {
+          "active": 2,
+          "allocated": 5,
+          "free": 3,
+          "trails": 5,
+          "orbits": 0,
+          "limit": 240
+        },
+        "seen": 14,
+        "seenLimit": 2048,
+        "events": {
+          "fire": 279,
+          "hit": 275,
+          "death": 36,
+          "experience": 29,
+          "level_up": 13
+        },
+        "skipped": 128,
+        "listeners": 1,
+        "tweens": 0
+      },
+      "alive": true,
+      "choices": 0,
+      "respawn": 0,
+      "fps": 29.45882535006566,
+      "frameP95": 50,
+      "heap": 53500000
+    },
+    {
+      "seconds": 73.39830000000075,
+      "objects": 478,
+      "stats": {
+        "quality": "normal",
+        "pool": {
+          "spriteAllocated": 54,
+          "spriteActive": 8,
+          "textAllocated": 5,
+          "textActive": 4,
+          "dropped": 0,
+          "limits": {
+            "sprites": 192,
+            "texts": 40,
+            "trails": 100,
+            "fragments": 4
+          }
+        },
+        "projectiles": {
+          "active": 3,
+          "allocated": 5,
+          "free": 2,
+          "trails": 5,
+          "orbits": 0,
+          "limit": 240
+        },
+        "seen": 21,
+        "seenLimit": 2048,
+        "events": {
+          "fire": 284,
+          "hit": 279,
+          "death": 37,
+          "experience": 30,
+          "level_up": 14
+        },
+        "skipped": 128,
+        "listeners": 1,
+        "tweens": 0
+      },
+      "alive": true,
+      "choices": 3,
+      "respawn": 0,
+      "fps": 29.53746885145811,
+      "frameP95": 50,
+      "heap": 53500000
+    },
+    {
+      "seconds": 74.48590000000037,
+      "objects": 482,
+      "stats": {
+        "quality": "normal",
+        "pool": {
+          "spriteAllocated": 54,
+          "spriteActive": 7,
+          "textAllocated": 5,
+          "textActive": 0,
+          "dropped": 0,
+          "limits": {
+            "sprites": 192,
+            "texts": 40,
+            "trails": 100,
+            "fragments": 4
+          }
+        },
+        "projectiles": {
+          "active": 1,
+          "allocated": 5,
+          "free": 4,
+          "trails": 5,
+          "orbits": 0,
+          "limit": 240
+        },
+        "seen": 22,
+        "seenLimit": 2048,
+        "events": {
+          "fire": 286,
+          "hit": 284,
+          "death": 39,
+          "experience": 30,
+          "level_up": 14
+        },
+        "skipped": 128,
+        "listeners": 1,
+        "tweens": 0
+      },
+      "alive": false,
+      "choices": 0,
+      "respawn": 2.1,
+      "fps": 29.562602368230273,
+      "frameP95": 50,
+      "heap": 53500000
+    },
+    {
+      "seconds": 75.49990000000037,
+      "objects": 486,
+      "stats": {
+        "quality": "normal",
+        "pool": {
+          "spriteAllocated": 54,
+          "spriteActive": 4,
+          "textAllocated": 5,
+          "textActive": 0,
+          "dropped": 0,
+          "limits": {
+            "sprites": 192,
+            "texts": 40,
+            "trails": 100,
+            "fragments": 4
+          }
+        },
+        "projectiles": {
+          "active": 0,
+          "allocated": 5,
+          "free": 5,
+          "trails": 5,
+          "orbits": 0,
+          "limit": 240
+        },
+        "seen": 14,
+        "seenLimit": 2048,
+        "events": {
+          "fire": 287,
+          "hit": 286,
+          "death": 39,
+          "experience": 30,
+          "level_up": 14
+        },
+        "skipped": 128,
+        "listeners": 1,
+        "tweens": 0
+      },
+      "alive": false,
+      "choices": 0,
+      "respawn": 1.2,
+      "fps": 29.576198114169543,
+      "frameP95": 50,
+      "heap": 53500000
+    },
+    {
+      "seconds": 76.52,
+      "objects": 481,
+      "stats": {
+        "quality": "normal",
+        "pool": {
+          "spriteAllocated": 54,
+          "spriteActive": 4,
+          "textAllocated": 5,
+          "textActive": 0,
+          "dropped": 0,
+          "limits": {
+            "sprites": 192,
+            "texts": 40,
+            "trails": 100,
+            "fragments": 4
+          }
+        },
+        "projectiles": {
+          "active": 0,
+          "allocated": 5,
+          "free": 5,
+          "trails": 5,
+          "orbits": 0,
+          "limit": 240
+        },
+        "seen": 11,
+        "seenLimit": 2048,
+        "events": {
+          "fire": 289,
+          "hit": 289,
+          "death": 39,
+          "experience": 30,
+          "level_up": 14
+        },
+        "skipped": 128,
+        "listeners": 1,
+        "tweens": 0
+      },
+      "alive": false,
+      "choices": 0,
+      "respawn": 0.2,
+      "fps": 29.65237846314689,
+      "frameP95": 50,
+      "heap": 53500000
+    },
+    {
+      "seconds": 77.544,
+      "objects": 476,
+      "stats": {
+        "quality": "normal",
+        "pool": {
+          "spriteAllocated": 54,
+          "spriteActive": 6,
+          "textAllocated": 5,
+          "textActive": 0,
+          "dropped": 0,
+          "limits": {
+            "sprites": 192,
+            "texts": 40,
+            "trails": 100,
+            "fragments": 4
+          }
+        },
+        "projectiles": {
+          "active": 0,
+          "allocated": 5,
+          "free": 5,
+          "trails": 5,
+          "orbits": 0,
+          "limit": 240
+        },
+        "seen": 11,
+        "seenLimit": 2048,
+        "events": {
+          "fire": 290,
+          "hit": 291,
+          "death": 40,
+          "experience": 31,
+          "level_up": 14
+        },
+        "skipped": 128,
+        "listeners": 1,
+        "tweens": 0
+      },
+      "alive": false,
+      "choices": 0,
+      "respawn": 0,
+      "fps": 29.660579799855565,
+      "frameP95": 50,
+      "heap": 53500000
+    },
+    {
+      "seconds": 78.61390000000037,
+      "objects": 550,
+      "stats": {
+        "quality": "normal",
+        "pool": {
+          "spriteAllocated": 54,
+          "spriteActive": 1,
+          "textAllocated": 5,
+          "textActive": 0,
+          "dropped": 0,
+          "limits": {
+            "sprites": 192,
+            "texts": 40,
+            "trails": 100,
+            "fragments": 4
+          }
+        },
+        "projectiles": {
+          "active": 1,
+          "allocated": 5,
+          "free": 4,
+          "trails": 5,
+          "orbits": 0,
+          "limit": 240
+        },
+        "seen": 11,
+        "seenLimit": 2048,
+        "events": {
+          "fire": 293,
+          "hit": 294,
+          "death": 40,
+          "experience": 31,
+          "level_up": 14
+        },
+        "skipped": 133,
+        "listeners": 1,
+        "tweens": 0
+      },
+      "alive": true,
+      "choices": 0,
+      "respawn": 0,
+      "fps": 29.65120716411835,
+      "frameP95": 50,
+      "heap": 53500000
+    },
+    {
+      "seconds": 79.62269999999926,
+      "objects": 536,
+      "stats": {
+        "quality": "normal",
+        "pool": {
+          "spriteAllocated": 54,
+          "spriteActive": 6,
+          "textAllocated": 5,
+          "textActive": 0,
+          "dropped": 0,
+          "limits": {
+            "sprites": 192,
+            "texts": 40,
+            "trails": 100,
+            "fragments": 4
+          }
+        },
+        "projectiles": {
+          "active": 0,
+          "allocated": 5,
+          "free": 5,
+          "trails": 5,
+          "orbits": 0,
+          "limit": 240
+        },
+        "seen": 17,
+        "seenLimit": 2048,
+        "events": {
+          "fire": 296,
+          "hit": 299,
+          "death": 41,
+          "experience": 32,
+          "level_up": 14
+        },
+        "skipped": 141,
+        "listeners": 1,
+        "tweens": 0
+      },
+      "alive": true,
+      "choices": 0,
+      "respawn": 0,
+      "fps": 29.68998829480975,
+      "frameP95": 50,
+      "heap": 53500000
+    },
+    {
+      "seconds": 80.648,
+      "objects": 536,
+      "stats": {
+        "quality": "normal",
+        "pool": {
+          "spriteAllocated": 54,
+          "spriteActive": 2,
+          "textAllocated": 5,
+          "textActive": 0,
+          "dropped": 0,
+          "limits": {
+            "sprites": 192,
+            "texts": 40,
+            "trails": 100,
+            "fragments": 4
+          }
+        },
+        "projectiles": {
+          "active": 2,
+          "allocated": 5,
+          "free": 3,
+          "trails": 5,
+          "orbits": 0,
+          "limit": 240
+        },
+        "seen": 17,
+        "seenLimit": 2048,
+        "events": {
+          "fire": 299,
+          "hit": 300,
+          "death": 42,
+          "experience": 33,
+          "level_up": 14
+        },
+        "skipped": 141,
+        "listeners": 1,
+        "tweens": 0
+      },
+      "alive": true,
+      "choices": 0,
+      "respawn": 0,
+      "fps": 29.659755976589626,
+      "frameP95": 50.09999999999127,
+      "heap": 53500000
+    },
+    {
+      "seconds": 81.6685,
+      "objects": 541,
+      "stats": {
+        "quality": "normal",
+        "pool": {
+          "spriteAllocated": 54,
+          "spriteActive": 16,
+          "textAllocated": 5,
+          "textActive": 2,
+          "dropped": 0,
+          "limits": {
+            "sprites": 192,
+            "texts": 40,
+            "trails": 100,
+            "fragments": 4
+          }
+        },
+        "projectiles": {
+          "active": 0,
+          "allocated": 5,
+          "free": 5,
+          "trails": 5,
+          "orbits": 0,
+          "limit": 240
+        },
+        "seen": 17,
+        "seenLimit": 2048,
+        "events": {
+          "fire": 303,
+          "hit": 306,
+          "death": 42,
+          "experience": 33,
+          "level_up": 14
+        },
+        "skipped": 141,
+        "listeners": 1,
+        "tweens": 0
+      },
+      "alive": true,
+      "choices": 0,
+      "respawn": 0,
+      "fps": 29.680966345653466,
+      "frameP95": 50.10000000000582,
+      "heap": 53500000
+    },
+    {
+      "seconds": 82.67369999999926,
+      "objects": 550,
+      "stats": {
+        "quality": "normal",
+        "pool": {
+          "spriteAllocated": 54,
+          "spriteActive": 8,
+          "textAllocated": 5,
+          "textActive": 2,
+          "dropped": 0,
+          "limits": {
+            "sprites": 192,
+            "texts": 40,
+            "trails": 100,
+            "fragments": 4
+          }
+        },
+        "projectiles": {
+          "active": 0,
+          "allocated": 5,
+          "free": 5,
+          "trails": 5,
+          "orbits": 0,
+          "limit": 240
+        },
+        "seen": 19,
+        "seenLimit": 2048,
+        "events": {
+          "fire": 306,
+          "hit": 310,
+          "death": 42,
+          "experience": 33,
+          "level_up": 14
+        },
+        "skipped": 141,
+        "listeners": 1,
+        "tweens": 0
+      },
+      "alive": true,
+      "choices": 0,
+      "respawn": 0,
+      "fps": 29.682958425714855,
+      "frameP95": 50,
+      "heap": 53500000
+    },
+    {
+      "seconds": 83.68119999999925,
+      "objects": 551,
+      "stats": {
+        "quality": "normal",
+        "pool": {
+          "spriteAllocated": 54,
+          "spriteActive": 1,
+          "textAllocated": 5,
+          "textActive": 0,
+          "dropped": 0,
+          "limits": {
+            "sprites": 192,
+            "texts": 40,
+            "trails": 100,
+            "fragments": 4
+          }
+        },
+        "projectiles": {
+          "active": 3,
+          "allocated": 5,
+          "free": 2,
+          "trails": 5,
+          "orbits": 0,
+          "limit": 240
+        },
+        "seen": 22,
+        "seenLimit": 2048,
+        "events": {
+          "fire": 311,
+          "hit": 313,
+          "death": 43,
+          "experience": 34,
+          "level_up": 15
+        },
+        "skipped": 142,
+        "listeners": 1,
+        "tweens": 0
+      },
+      "alive": true,
+      "choices": 0,
+      "respawn": 0,
+      "fps": 29.696001376651388,
+      "frameP95": 50,
+      "heap": 53500000
+    },
+    {
+      "seconds": 84.68619999999926,
+      "objects": 523,
+      "stats": {
+        "quality": "normal",
+        "pool": {
+          "spriteAllocated": 54,
+          "spriteActive": 0,
+          "textAllocated": 5,
+          "textActive": 0,
+          "dropped": 0,
+          "limits": {
+            "sprites": 192,
+            "texts": 40,
+            "trails": 100,
+            "fragments": 4
+          }
+        },
+        "projectiles": {
+          "active": 2,
+          "allocated": 5,
+          "free": 3,
+          "trails": 5,
+          "orbits": 0,
+          "limit": 240
+        },
+        "seen": 16,
+        "seenLimit": 2048,
+        "events": {
+          "fire": 313,
+          "hit": 314,
+          "death": 43,
+          "experience": 34,
+          "level_up": 15
+        },
+        "skipped": 142,
+        "listeners": 1,
+        "tweens": 0
+      },
+      "alive": true,
+      "choices": 0,
+      "respawn": 0,
+      "fps": 29.733297750991568,
+      "frameP95": 49.89999999999418,
+      "heap": 53500000
+    },
+    {
+      "seconds": 85.70619999999926,
+      "objects": 492,
+      "stats": {
+        "quality": "normal",
+        "pool": {
+          "spriteAllocated": 54,
+          "spriteActive": 14,
+          "textAllocated": 5,
+          "textActive": 2,
+          "dropped": 0,
+          "limits": {
+            "sprites": 192,
+            "texts": 40,
+            "trails": 100,
+            "fragments": 4
+          }
+        },
+        "projectiles": {
+          "active": 2,
+          "allocated": 5,
+          "free": 3,
+          "trails": 5,
+          "orbits": 0,
+          "limit": 240
+        },
+        "seen": 14,
+        "seenLimit": 2048,
+        "events": {
+          "fire": 317,
+          "hit": 318,
+          "death": 44,
+          "experience": 34,
+          "level_up": 15
+        },
+        "skipped": 143,
+        "listeners": 1,
+        "tweens": 0
+      },
+      "alive": false,
+      "choices": 0,
+      "respawn": 3,
+      "fps": 29.741104212875573,
+      "frameP95": 49.89999999999418,
+      "heap": 53500000
+    },
+    {
+      "seconds": 86.71619999999926,
+      "objects": 487,
+      "stats": {
+        "quality": "normal",
+        "pool": {
+          "spriteAllocated": 54,
+          "spriteActive": 6,
+          "textAllocated": 5,
+          "textActive": 0,
+          "dropped": 0,
+          "limits": {
+            "sprites": 192,
+            "texts": 40,
+            "trails": 100,
+            "fragments": 4
+          }
+        },
+        "projectiles": {
+          "active": 1,
+          "allocated": 5,
+          "free": 4,
+          "trails": 5,
+          "orbits": 0,
+          "limit": 240
+        },
+        "seen": 18,
+        "seenLimit": 2048,
+        "events": {
+          "fire": 321,
+          "hit": 323,
+          "death": 44,
+          "experience": 34,
+          "level_up": 15
+        },
+        "skipped": 149,
+        "listeners": 1,
+        "tweens": 0
+      },
+      "alive": false,
+      "choices": 0,
+      "respawn": 2,
+      "fps": 29.706098745102093,
+      "frameP95": 50,
+      "heap": 53500000
+    },
+    {
+      "seconds": 87.734,
+      "objects": 500,
+      "stats": {
+        "quality": "normal",
+        "pool": {
+          "spriteAllocated": 54,
+          "spriteActive": 0,
+          "textAllocated": 5,
+          "textActive": 0,
+          "dropped": 0,
+          "limits": {
+            "sprites": 192,
+            "texts": 40,
+            "trails": 100,
+            "fragments": 4
+          }
+        },
+        "projectiles": {
+          "active": 0,
+          "allocated": 5,
+          "free": 5,
+          "trails": 5,
+          "orbits": 0,
+          "limit": 240
+        },
+        "seen": 29,
+        "seenLimit": 2048,
+        "events": {
+          "fire": 328,
+          "hit": 331,
+          "death": 44,
+          "experience": 34,
+          "level_up": 15
+        },
+        "skipped": 164,
+        "listeners": 1,
+        "tweens": 0
+      },
+      "alive": false,
+      "choices": 0,
+      "respawn": 0.9,
+      "fps": 29.74898015708842,
+      "frameP95": 50,
+      "heap": 53500000
+    },
+    {
+      "seconds": 88.742,
+      "objects": 490,
+      "stats": {
+        "quality": "normal",
+        "pool": {
+          "spriteAllocated": 54,
+          "spriteActive": 0,
+          "textAllocated": 5,
+          "textActive": 0,
+          "dropped": 0,
+          "limits": {
+            "sprites": 192,
+            "texts": 40,
+            "trails": 100,
+            "fragments": 4
+          }
+        },
+        "projectiles": {
+          "active": 0,
+          "allocated": 5,
+          "free": 5,
+          "trails": 5,
+          "orbits": 0,
+          "limit": 240
+        },
+        "seen": 21,
+        "seenLimit": 2048,
+        "events": {
+          "fire": 331,
+          "hit": 333,
+          "death": 44,
+          "experience": 34,
+          "level_up": 15
+        },
+        "skipped": 169,
+        "listeners": 1,
+        "tweens": 0
+      },
+      "alive": false,
+      "choices": 0,
+      "respawn": 0,
+      "fps": 29.760395573239883,
+      "frameP95": 50,
+      "heap": 53500000
+    },
+    {
+      "seconds": 89.8165,
+      "objects": 566,
+      "stats": {
+        "quality": "normal",
+        "pool": {
+          "spriteAllocated": 54,
+          "spriteActive": 7,
+          "textAllocated": 5,
+          "textActive": 0,
+          "dropped": 0,
+          "limits": {
+            "sprites": 192,
+            "texts": 40,
+            "trails": 100,
+            "fragments": 4
+          }
+        },
+        "projectiles": {
+          "active": 1,
+          "allocated": 5,
+          "free": 4,
+          "trails": 5,
+          "orbits": 0,
+          "limit": 240
+        },
+        "seen": 18,
+        "seenLimit": 2048,
+        "events": {
+          "fire": 333,
+          "hit": 335,
+          "death": 46,
+          "experience": 35,
+          "level_up": 15
+        },
+        "skipped": 169,
+        "listeners": 1,
+        "tweens": 0
+      },
+      "alive": true,
+      "choices": 0,
+      "respawn": 0,
+      "fps": 29.816347775742763,
+      "frameP95": 50,
+      "heap": 53500000
+    },
+    {
+      "seconds": 90.90209999999962,
+      "objects": 557,
+      "stats": {
+        "quality": "normal",
+        "pool": {
+          "spriteAllocated": 54,
+          "spriteActive": 0,
+          "textAllocated": 5,
+          "textActive": 0,
+          "dropped": 0,
+          "limits": {
+            "sprites": 192,
+            "texts": 40,
+            "trails": 100,
+            "fragments": 4
+          }
+        },
+        "projectiles": {
+          "active": 0,
+          "allocated": 5,
+          "free": 5,
+          "trails": 5,
+          "orbits": 0,
+          "limit": 240
+        },
+        "seen": 12,
+        "seenLimit": 2048,
+        "events": {
+          "fire": 334,
+          "hit": 338,
+          "death": 47,
+          "experience": 35,
+          "level_up": 15
+        },
+        "skipped": 173,
+        "listeners": 1,
+        "tweens": 0
+      },
+      "alive": true,
+      "choices": 0,
+      "respawn": 0,
+      "fps": 29.834294257228503,
+      "frameP95": 50,
+      "heap": 53500000
+    },
+    {
+      "seconds": 91.91619999999925,
+      "objects": 553,
+      "stats": {
+        "quality": "normal",
+        "pool": {
+          "spriteAllocated": 54,
+          "spriteActive": 4,
+          "textAllocated": 5,
+          "textActive": 0,
+          "dropped": 0,
+          "limits": {
+            "sprites": 192,
+            "texts": 40,
+            "trails": 100,
+            "fragments": 4
+          }
+        },
+        "projectiles": {
+          "active": 0,
+          "allocated": 5,
+          "free": 5,
+          "trails": 5,
+          "orbits": 0,
+          "limit": 240
+        },
+        "seen": 10,
+        "seenLimit": 2048,
+        "events": {
+          "fire": 334,
+          "hit": 340,
+          "death": 47,
+          "experience": 35,
+          "level_up": 15
+        },
+        "skipped": 173,
+        "listeners": 1,
+        "tweens": 0
+      },
+      "alive": true,
+      "choices": 0,
+      "respawn": 0,
+      "fps": 29.831520450149398,
+      "frameP95": 50,
+      "heap": 53500000
+    },
+    {
+      "seconds": 92.9365,
+      "objects": 543,
+      "stats": {
+        "quality": "normal",
+        "pool": {
+          "spriteAllocated": 54,
+          "spriteActive": 5,
+          "textAllocated": 5,
+          "textActive": 1,
+          "dropped": 0,
+          "limits": {
+            "sprites": 192,
+            "texts": 40,
+            "trails": 100,
+            "fragments": 4
+          }
+        },
+        "projectiles": {
+          "active": 1,
+          "allocated": 5,
+          "free": 4,
+          "trails": 5,
+          "orbits": 0,
+          "limit": 240
+        },
+        "seen": 7,
+        "seenLimit": 2048,
+        "events": {
+          "fire": 337,
+          "hit": 342,
+          "death": 47,
+          "experience": 35,
+          "level_up": 15
+        },
+        "skipped": 174,
+        "listeners": 1,
+        "tweens": 0
+      },
+      "alive": true,
+      "choices": 0,
+      "respawn": 0,
+      "fps": 29.88061741081276,
+      "frameP95": 50,
+      "heap": 53500000
+    },
+    {
+      "seconds": 93.95440000000038,
+      "objects": 553,
+      "stats": {
+        "quality": "normal",
+        "pool": {
+          "spriteAllocated": 54,
+          "spriteActive": 0,
+          "textAllocated": 5,
+          "textActive": 0,
+          "dropped": 0,
+          "limits": {
+            "sprites": 192,
+            "texts": 40,
+            "trails": 100,
+            "fragments": 4
+          }
+        },
+        "projectiles": {
+          "active": 1,
+          "allocated": 5,
+          "free": 4,
+          "trails": 5,
+          "orbits": 0,
+          "limit": 240
+        },
+        "seen": 8,
+        "seenLimit": 2048,
+        "events": {
+          "fire": 338,
+          "hit": 344,
+          "death": 47,
+          "experience": 35,
+          "level_up": 15
+        },
+        "skipped": 175,
+        "listeners": 1,
+        "tweens": 0
+      },
+      "alive": true,
+      "choices": 0,
+      "respawn": 0,
+      "fps": 29.90809381136614,
+      "frameP95": 33.5,
+      "heap": 53500000
+    },
+    {
+      "seconds": 94.98219999999925,
+      "objects": 510,
+      "stats": {
+        "quality": "normal",
+        "pool": {
+          "spriteAllocated": 54,
+          "spriteActive": 0,
+          "textAllocated": 5,
+          "textActive": 0,
+          "dropped": 0,
+          "limits": {
+            "sprites": 192,
+            "texts": 40,
+            "trails": 100,
+            "fragments": 4
+          }
+        },
+        "projectiles": {
+          "active": 1,
+          "allocated": 5,
+          "free": 4,
+          "trails": 5,
+          "orbits": 0,
+          "limit": 240
+        },
+        "seen": 10,
+        "seenLimit": 2048,
+        "events": {
+          "fire": 339,
+          "hit": 346,
+          "death": 48,
+          "experience": 36,
+          "level_up": 15
+        },
+        "skipped": 176,
+        "listeners": 1,
+        "tweens": 0
+      },
+      "alive": true,
+      "choices": 0,
+      "respawn": 0,
+      "fps": 29.879251186799834,
+      "frameP95": 50,
+      "heap": 53500000
+    },
+    {
+      "seconds": 95.99180000000075,
+      "objects": 532,
+      "stats": {
+        "quality": "normal",
+        "pool": {
+          "spriteAllocated": 54,
+          "spriteActive": 0,
+          "textAllocated": 5,
+          "textActive": 0,
+          "dropped": 0,
+          "limits": {
+            "sprites": 192,
+            "texts": 40,
+            "trails": 100,
+            "fragments": 4
+          }
+        },
+        "projectiles": {
+          "active": 1,
+          "allocated": 5,
+          "free": 4,
+          "trails": 5,
+          "orbits": 0,
+          "limit": 240
+        },
+        "seen": 9,
+        "seenLimit": 2048,
+        "events": {
+          "fire": 340,
+          "hit": 348,
+          "death": 49,
+          "experience": 36,
+          "level_up": 15
+        },
+        "skipped": 179,
+        "listeners": 1,
+        "tweens": 0
+      },
+      "alive": true,
+      "choices": 0,
+      "respawn": 0,
+      "fps": 29.825464258405173,
+      "frameP95": 50,
+      "heap": 53500000
+    },
+    {
+      "seconds": 97.01690000000038,
+      "objects": 495,
+      "stats": {
+        "quality": "normal",
+        "pool": {
+          "spriteAllocated": 54,
+          "spriteActive": 0,
+          "textAllocated": 5,
+          "textActive": 0,
+          "dropped": 0,
+          "limits": {
+            "sprites": 192,
+            "texts": 40,
+            "trails": 100,
+            "fragments": 4
+          }
+        },
+        "projectiles": {
+          "active": 0,
+          "allocated": 5,
+          "free": 5,
+          "trails": 5,
+          "orbits": 0,
+          "limit": 240
+        },
+        "seen": 15,
+        "seenLimit": 2048,
+        "events": {
+          "fire": 343,
+          "hit": 352,
+          "death": 50,
+          "experience": 37,
+          "level_up": 16
+        },
+        "skipped": 186,
+        "listeners": 1,
+        "tweens": 0
+      },
+      "alive": true,
+      "choices": 0,
+      "respawn": 0,
+      "fps": 29.850469351216013,
+      "frameP95": 50,
+      "heap": 53500000
+    },
+    {
+      "seconds": 98.03819999999925,
+      "objects": 477,
+      "stats": {
+        "quality": "normal",
+        "pool": {
+          "spriteAllocated": 54,
+          "spriteActive": 6,
+          "textAllocated": 5,
+          "textActive": 0,
+          "dropped": 0,
+          "limits": {
+            "sprites": 192,
+            "texts": 40,
+            "trails": 100,
+            "fragments": 4
+          }
+        },
+        "projectiles": {
+          "active": 0,
+          "allocated": 5,
+          "free": 5,
+          "trails": 5,
+          "orbits": 0,
+          "limit": 240
+        },
+        "seen": 20,
+        "seenLimit": 2048,
+        "events": {
+          "fire": 346,
+          "hit": 356,
+          "death": 50,
+          "experience": 37,
+          "level_up": 16
+        },
+        "skipped": 188,
+        "listeners": 1,
+        "tweens": 0
+      },
+      "alive": true,
+      "choices": 0,
+      "respawn": 0,
+      "fps": 29.886309622167914,
+      "frameP95": 50,
+      "heap": 53500000
+    },
+    {
+      "seconds": 99.05140000000037,
+      "objects": 472,
+      "stats": {
+        "quality": "normal",
+        "pool": {
+          "spriteAllocated": 54,
+          "spriteActive": 0,
+          "textAllocated": 5,
+          "textActive": 0,
+          "dropped": 0,
+          "limits": {
+            "sprites": 192,
+            "texts": 40,
+            "trails": 100,
+            "fragments": 4
+          }
+        },
+        "projectiles": {
+          "active": 1,
+          "allocated": 5,
+          "free": 4,
+          "trails": 5,
+          "orbits": 0,
+          "limit": 240
+        },
+        "seen": 12,
+        "seenLimit": 2048,
+        "events": {
+          "fire": 348,
+          "hit": 359,
+          "death": 50,
+          "experience": 37,
+          "level_up": 16
+        },
+        "skipped": 188,
+        "listeners": 1,
+        "tweens": 0
+      },
+      "alive": true,
+      "choices": 0,
+      "respawn": 0,
+      "fps": 29.913761945817917,
+      "frameP95": 50,
+      "heap": 53500000
+    },
+    {
+      "seconds": 100.07319999999926,
+      "objects": 468,
+      "stats": {
+        "quality": "normal",
+        "pool": {
+          "spriteAllocated": 54,
+          "spriteActive": 11,
+          "textAllocated": 5,
+          "textActive": 2,
+          "dropped": 0,
+          "limits": {
+            "sprites": 192,
+            "texts": 40,
+            "trails": 100,
+            "fragments": 4
+          }
+        },
+        "projectiles": {
+          "active": 0,
+          "allocated": 5,
+          "free": 5,
+          "trails": 5,
+          "orbits": 0,
+          "limit": 240
+        },
+        "seen": 19,
+        "seenLimit": 2048,
+        "events": {
+          "fire": 351,
+          "hit": 364,
+          "death": 52,
+          "experience": 39,
+          "level_up": 16
+        },
+        "skipped": 188,
+        "listeners": 1,
+        "tweens": 0
+      },
+      "alive": true,
+      "choices": 0,
+      "respawn": 0,
+      "fps": 29.958070692253493,
+      "frameP95": 50,
+      "heap": 53500000
+    },
+    {
+      "seconds": 101.08590000000038,
+      "objects": 464,
+      "stats": {
+        "quality": "normal",
+        "pool": {
+          "spriteAllocated": 54,
+          "spriteActive": 6,
+          "textAllocated": 5,
+          "textActive": 2,
+          "dropped": 0,
+          "limits": {
+            "sprites": 192,
+            "texts": 40,
+            "trails": 100,
+            "fragments": 4
+          }
+        },
+        "projectiles": {
+          "active": 0,
+          "allocated": 5,
+          "free": 5,
+          "trails": 5,
+          "orbits": 0,
+          "limit": 240
+        },
+        "seen": 18,
+        "seenLimit": 2048,
+        "events": {
+          "fire": 354,
+          "hit": 367,
+          "death": 52,
+          "experience": 39,
+          "level_up": 16
+        },
+        "skipped": 188,
+        "listeners": 1,
+        "tweens": 0
+      },
+      "alive": true,
+      "choices": 0,
+      "respawn": 0,
+      "fps": 29.954721677306022,
+      "frameP95": 50,
+      "heap": 53500000
+    },
+    {
+      "seconds": 102.11430000000074,
+      "objects": 464,
+      "stats": {
+        "quality": "normal",
+        "pool": {
+          "spriteAllocated": 54,
+          "spriteActive": 0,
+          "textAllocated": 5,
+          "textActive": 0,
+          "dropped": 0,
+          "limits": {
+            "sprites": 192,
+            "texts": 40,
+            "trails": 100,
+            "fragments": 4
+          }
+        },
+        "projectiles": {
+          "active": 0,
+          "allocated": 5,
+          "free": 5,
+          "trails": 5,
+          "orbits": 0,
+          "limit": 240
+        },
+        "seen": 13,
+        "seenLimit": 2048,
+        "events": {
+          "fire": 355,
+          "hit": 368,
+          "death": 52,
+          "experience": 39,
+          "level_up": 16
+        },
+        "skipped": 188,
+        "listeners": 1,
+        "tweens": 0
+      },
+      "alive": true,
+      "choices": 0,
+      "respawn": 0,
+      "fps": 29.995798825433635,
+      "frameP95": 50,
+      "heap": 53500000
+    },
+    {
+      "seconds": 103.13659999999963,
+      "objects": 473,
+      "stats": {
+        "quality": "normal",
+        "pool": {
+          "spriteAllocated": 54,
+          "spriteActive": 6,
+          "textAllocated": 5,
+          "textActive": 0,
+          "dropped": 0,
+          "limits": {
+            "sprites": 192,
+            "texts": 40,
+            "trails": 100,
+            "fragments": 4
+          }
+        },
+        "projectiles": {
+          "active": 0,
+          "allocated": 5,
+          "free": 5,
+          "trails": 5,
+          "orbits": 0,
+          "limit": 240
+        },
+        "seen": 6,
+        "seenLimit": 2048,
+        "events": {
+          "fire": 356,
+          "hit": 369,
+          "death": 52,
+          "experience": 39,
+          "level_up": 16
+        },
+        "skipped": 188,
+        "listeners": 1,
+        "tweens": 0
+      },
+      "alive": true,
+      "choices": 0,
+      "respawn": 0,
+      "fps": 30.008745682909957,
+      "frameP95": 50,
+      "heap": 53500000
+    },
+    {
+      "seconds": 104.16509999999963,
+      "objects": 478,
+      "stats": {
+        "quality": "normal",
+        "pool": {
+          "spriteAllocated": 54,
+          "spriteActive": 0,
+          "textAllocated": 5,
+          "textActive": 0,
+          "dropped": 0,
+          "limits": {
+            "sprites": 192,
+            "texts": 40,
+            "trails": 100,
+            "fragments": 4
+          }
+        },
+        "projectiles": {
+          "active": 1,
+          "allocated": 5,
+          "free": 4,
+          "trails": 5,
+          "orbits": 0,
+          "limit": 240
+        },
+        "seen": 4,
+        "seenLimit": 2048,
+        "events": {
+          "fire": 357,
+          "hit": 370,
+          "death": 52,
+          "experience": 39,
+          "level_up": 16
+        },
+        "skipped": 188,
+        "listeners": 1,
+        "tweens": 0
+      },
+      "alive": true,
+      "choices": 0,
+      "respawn": 0,
+      "fps": 30.058052073103287,
+      "frameP95": 49.89999999999418,
+      "heap": 53500000
+    },
+    {
+      "seconds": 105.18809999999962,
+      "objects": 478,
+      "stats": {
+        "quality": "normal",
+        "pool": {
+          "spriteAllocated": 54,
+          "spriteActive": 8,
+          "textAllocated": 5,
+          "textActive": 0,
+          "dropped": 0,
+          "limits": {
+            "sprites": 192,
+            "texts": 40,
+            "trails": 100,
+            "fragments": 4
+          }
+        },
+        "projectiles": {
+          "active": 2,
+          "allocated": 5,
+          "free": 3,
+          "trails": 5,
+          "orbits": 0,
+          "limit": 240
+        },
+        "seen": 10,
+        "seenLimit": 2048,
+        "events": {
+          "fire": 361,
+          "hit": 373,
+          "death": 52,
+          "experience": 39,
+          "level_up": 16
+        },
+        "skipped": 188,
+        "listeners": 1,
+        "tweens": 0
+      },
+      "alive": true,
+      "choices": 0,
+      "respawn": 0,
+      "fps": 30.060320282160124,
+      "frameP95": 50,
+      "heap": 53500000
+    },
+    {
+      "seconds": 106.20469999999925,
+      "objects": 482,
+      "stats": {
+        "quality": "normal",
+        "pool": {
+          "spriteAllocated": 54,
+          "spriteActive": 7,
+          "textAllocated": 5,
+          "textActive": 1,
+          "dropped": 0,
+          "limits": {
+            "sprites": 192,
+            "texts": 40,
+            "trails": 100,
+            "fragments": 4
+          }
+        },
+        "projectiles": {
+          "active": 1,
+          "allocated": 5,
+          "free": 4,
+          "trails": 5,
+          "orbits": 0,
+          "limit": 240
+        },
+        "seen": 16,
+        "seenLimit": 2048,
+        "events": {
+          "fire": 363,
+          "hit": 377,
+          "death": 53,
+          "experience": 40,
+          "level_up": 17
+        },
+        "skipped": 188,
+        "listeners": 1,
+        "tweens": 0
+      },
+      "alive": true,
+      "choices": 0,
+      "respawn": 0,
+      "fps": 30.036335491743984,
+      "frameP95": 50,
+      "heap": 53500000
+    },
+    {
+      "seconds": 107.21240000000037,
+      "objects": 482,
+      "stats": {
+        "quality": "normal",
+        "pool": {
+          "spriteAllocated": 54,
+          "spriteActive": 0,
+          "textAllocated": 5,
+          "textActive": 0,
+          "dropped": 0,
+          "limits": {
+            "sprites": 192,
+            "texts": 40,
+            "trails": 100,
+            "fragments": 4
+          }
+        },
+        "projectiles": {
+          "active": 0,
+          "allocated": 5,
+          "free": 5,
+          "trails": 5,
+          "orbits": 0,
+          "limit": 240
+        },
+        "seen": 15,
+        "seenLimit": 2048,
+        "events": {
+          "fire": 363,
+          "hit": 379,
+          "death": 54,
+          "experience": 40,
+          "level_up": 17
+        },
+        "skipped": 188,
+        "listeners": 1,
+        "tweens": 0
+      },
+      "alive": true,
+      "choices": 0,
+      "respawn": 0,
+      "fps": 30.07112043838172,
+      "frameP95": 50,
+      "heap": 53500000
+    },
+    {
+      "seconds": 108.24169999999926,
+      "objects": 482,
+      "stats": {
+        "quality": "normal",
+        "pool": {
+          "spriteAllocated": 54,
+          "spriteActive": 0,
+          "textAllocated": 5,
+          "textActive": 0,
+          "dropped": 0,
+          "limits": {
+            "sprites": 192,
+            "texts": 40,
+            "trails": 100,
+            "fragments": 4
+          }
+        },
+        "projectiles": {
+          "active": 0,
+          "allocated": 5,
+          "free": 5,
+          "trails": 5,
+          "orbits": 0,
+          "limit": 240
+        },
+        "seen": 8,
+        "seenLimit": 2048,
+        "events": {
+          "fire": 363,
+          "hit": 380,
+          "death": 54,
+          "experience": 40,
+          "level_up": 17
+        },
+        "skipped": 188,
+        "listeners": 1,
+        "tweens": 0
+      },
+      "alive": true,
+      "choices": 0,
+      "respawn": 0,
+      "fps": 30.016158282806185,
+      "frameP95": 50,
+      "heap": 53500000
+    },
+    {
+      "seconds": 109.26690000000038,
+      "objects": 477,
+      "stats": {
+        "quality": "normal",
+        "pool": {
+          "spriteAllocated": 54,
+          "spriteActive": 6,
+          "textAllocated": 5,
+          "textActive": 1,
+          "dropped": 0,
+          "limits": {
+            "sprites": 192,
+            "texts": 40,
+            "trails": 100,
+            "fragments": 4
+          }
+        },
+        "projectiles": {
+          "active": 0,
+          "allocated": 5,
+          "free": 5,
+          "trails": 5,
+          "orbits": 0,
+          "limit": 240
+        },
+        "seen": 3,
+        "seenLimit": 2048,
+        "events": {
+          "fire": 363,
+          "hit": 382,
+          "death": 54,
+          "experience": 40,
+          "level_up": 17
+        },
+        "skipped": 188,
+        "listeners": 1,
+        "tweens": 0
+      },
+      "alive": true,
+      "choices": 0,
+      "respawn": 0,
+      "fps": 30.009060375044616,
+      "frameP95": 50,
+      "heap": 53500000
+    },
+    {
+      "seconds": 110.29119999999925,
+      "objects": 472,
+      "stats": {
+        "quality": "normal",
+        "pool": {
+          "spriteAllocated": 54,
+          "spriteActive": 1,
+          "textAllocated": 5,
+          "textActive": 1,
+          "dropped": 0,
+          "limits": {
+            "sprites": 192,
+            "texts": 40,
+            "trails": 100,
+            "fragments": 4
+          }
+        },
+        "projectiles": {
+          "active": 0,
+          "allocated": 5,
+          "free": 5,
+          "trails": 5,
+          "orbits": 0,
+          "limit": 240
+        },
+        "seen": 6,
+        "seenLimit": 2048,
+        "events": {
+          "fire": 364,
+          "hit": 384,
+          "death": 55,
+          "experience": 40,
+          "level_up": 17
+        },
+        "skipped": 188,
+        "listeners": 1,
+        "tweens": 0
+      },
+      "alive": false,
+      "choices": 0,
+      "respawn": 2.8,
+      "fps": 30.04770095193345,
+      "frameP95": 50,
+      "heap": 53500000
+    },
+    {
+      "seconds": 111.30359999999963,
+      "objects": 472,
+      "stats": {
+        "quality": "normal",
+        "pool": {
+          "spriteAllocated": 54,
+          "spriteActive": 1,
+          "textAllocated": 5,
+          "textActive": 0,
+          "dropped": 0,
+          "limits": {
+            "sprites": 192,
+            "texts": 40,
+            "trails": 100,
+            "fragments": 4
+          }
+        },
+        "projectiles": {
+          "active": 0,
+          "allocated": 5,
+          "free": 5,
+          "trails": 5,
+          "orbits": 0,
+          "limit": 240
+        },
+        "seen": 9,
+        "seenLimit": 2048,
+        "events": {
+          "fire": 365,
+          "hit": 386,
+          "death": 56,
+          "experience": 40,
+          "level_up": 17
+        },
+        "skipped": 188,
+        "listeners": 1,
+        "tweens": 0
+      },
+      "alive": false,
+      "choices": 0,
+      "respawn": 1.7,
+      "fps": 30.05293629316582,
+      "frameP95": 50,
+      "heap": 53500000
+    },
+    {
+      "seconds": 112.32040000000038,
+      "objects": 472,
+      "stats": {
+        "quality": "normal",
+        "pool": {
+          "spriteAllocated": 54,
+          "spriteActive": 0,
+          "textAllocated": 5,
+          "textActive": 0,
+          "dropped": 0,
+          "limits": {
+            "sprites": 192,
+            "texts": 40,
+            "trails": 100,
+            "fragments": 4
+          }
+        },
+        "projectiles": {
+          "active": 0,
+          "allocated": 5,
+          "free": 5,
+          "trails": 5,
+          "orbits": 0,
+          "limit": 240
+        },
+        "seen": 4,
+        "seenLimit": 2048,
+        "events": {
+          "fire": 365,
+          "hit": 386,
+          "death": 56,
+          "experience": 40,
+          "level_up": 17
+        },
+        "skipped": 188,
+        "listeners": 1,
+        "tweens": 0
+      },
+      "alive": false,
+      "choices": 0,
+      "respawn": 0.8,
+      "fps": 30.065749351187005,
+      "frameP95": 50,
+      "heap": 53500000
+    },
+    {
+      "seconds": 113.34830000000075,
+      "objects": 472,
+      "stats": {
+        "quality": "normal",
+        "pool": {
+          "spriteAllocated": 54,
+          "spriteActive": 0,
+          "textAllocated": 5,
+          "textActive": 0,
+          "dropped": 0,
+          "limits": {
+            "sprites": 192,
+            "texts": 40,
+            "trails": 100,
+            "fragments": 4
+          }
+        },
+        "projectiles": {
+          "active": 0,
+          "allocated": 5,
+          "free": 5,
+          "trails": 5,
+          "orbits": 0,
+          "limit": 240
+        },
+        "seen": 0,
+        "seenLimit": 2048,
+        "events": {
+          "fire": 365,
+          "hit": 386,
+          "death": 56,
+          "experience": 40,
+          "level_up": 17
+        },
+        "skipped": 188,
+        "listeners": 1,
+        "tweens": 0
+      },
+      "alive": false,
+      "choices": 0,
+      "respawn": 0,
+      "fps": 30.09305821696635,
+      "frameP95": 50,
+      "heap": 53500000
+    },
+    {
+      "seconds": 114.44469999999926,
+      "objects": 590,
+      "stats": {
+        "quality": "normal",
+        "pool": {
+          "spriteAllocated": 54,
+          "spriteActive": 4,
+          "textAllocated": 5,
+          "textActive": 0,
+          "dropped": 0,
+          "limits": {
+            "sprites": 192,
+            "texts": 40,
+            "trails": 100,
+            "fragments": 4
+          }
+        },
+        "projectiles": {
+          "active": 1,
+          "allocated": 5,
+          "free": 4,
+          "trails": 5,
+          "orbits": 0,
+          "limit": 240
+        },
+        "seen": 11,
+        "seenLimit": 2048,
+        "events": {
+          "fire": 368,
+          "hit": 394,
+          "death": 56,
+          "experience": 40,
+          "level_up": 17
+        },
+        "skipped": 192,
+        "listeners": 1,
+        "tweens": 0
+      },
+      "alive": true,
+      "choices": 0,
+      "respawn": 0,
+      "fps": 30.101874529794934,
+      "frameP95": 50,
+      "heap": 53500000
+    },
+    {
+      "seconds": 115.45169999999925,
+      "objects": 584,
+      "stats": {
+        "quality": "normal",
+        "pool": {
+          "spriteAllocated": 54,
+          "spriteActive": 25,
+          "textAllocated": 5,
+          "textActive": 0,
+          "dropped": 0,
+          "limits": {
+            "sprites": 192,
+            "texts": 40,
+            "trails": 100,
+            "fragments": 4
+          }
+        },
+        "projectiles": {
+          "active": 1,
+          "allocated": 5,
+          "free": 4,
+          "trails": 5,
+          "orbits": 0,
+          "limit": 240
+        },
+        "seen": 29,
+        "seenLimit": 2048,
+        "events": {
+          "fire": 373,
+          "hit": 406,
+          "death": 57,
+          "experience": 40,
+          "level_up": 17
+        },
+        "skipped": 198,
+        "listeners": 1,
+        "tweens": 0
+      },
+      "alive": true,
+      "choices": 0,
+      "respawn": 0,
+      "fps": 30.099167010966685,
+      "frameP95": 50,
+      "heap": 53500000
+    },
+    {
+      "seconds": 116.47319999999925,
+      "objects": 584,
+      "stats": {
+        "quality": "normal",
+        "pool": {
+          "spriteAllocated": 54,
+          "spriteActive": 2,
+          "textAllocated": 5,
+          "textActive": 0,
+          "dropped": 0,
+          "limits": {
+            "sprites": 192,
+            "texts": 40,
+            "trails": 100,
+            "fragments": 4
+          }
+        },
+        "projectiles": {
+          "active": 0,
+          "allocated": 5,
+          "free": 5,
+          "trails": 5,
+          "orbits": 0,
+          "limit": 240
+        },
+        "seen": 35,
+        "seenLimit": 2048,
+        "events": {
+          "fire": 377,
+          "hit": 414,
+          "death": 59,
+          "experience": 41,
+          "level_up": 17
+        },
+        "skipped": 204,
+        "listeners": 1,
+        "tweens": 0
+      },
+      "alive": true,
+      "choices": 0,
+      "respawn": 0,
+      "fps": 30.109930868217088,
+      "frameP95": 50,
+      "heap": 53500000
+    },
+    {
+      "seconds": 117.48690000000038,
+      "objects": 585,
+      "stats": {
+        "quality": "normal",
+        "pool": {
+          "spriteAllocated": 54,
+          "spriteActive": 5,
+          "textAllocated": 5,
+          "textActive": 1,
+          "dropped": 0,
+          "limits": {
+            "sprites": 192,
+            "texts": 40,
+            "trails": 100,
+            "fragments": 4
+          }
+        },
+        "projectiles": {
+          "active": 2,
+          "allocated": 5,
+          "free": 3,
+          "trails": 5,
+          "orbits": 0,
+          "limit": 240
+        },
+        "seen": 34,
+        "seenLimit": 2048,
+        "events": {
+          "fire": 384,
+          "hit": 419,
+          "death": 60,
+          "experience": 41,
+          "level_up": 17
+        },
+        "skipped": 210,
+        "listeners": 1,
+        "tweens": 0
+      },
+      "alive": true,
+      "choices": 0,
+      "respawn": 0,
+      "fps": 30.1054841007805,
+      "frameP95": 50,
+      "heap": 53500000
+    },
+    {
+      "seconds": 118.50640000000037,
+      "objects": 580,
+      "stats": {
+        "quality": "normal",
+        "pool": {
+          "spriteAllocated": 54,
+          "spriteActive": 11,
+          "textAllocated": 5,
+          "textActive": 2,
+          "dropped": 0,
+          "limits": {
+            "sprites": 192,
+            "texts": 40,
+            "trails": 100,
+            "fragments": 4
+          }
+        },
+        "projectiles": {
+          "active": 0,
+          "allocated": 5,
+          "free": 5,
+          "trails": 5,
+          "orbits": 0,
+          "limit": 240
+        },
+        "seen": 36,
+        "seenLimit": 2048,
+        "events": {
+          "fire": 391,
+          "hit": 432,
+          "death": 61,
+          "experience": 42,
+          "level_up": 17
+        },
+        "skipped": 216,
+        "listeners": 1,
+        "tweens": 0
+      },
+      "alive": true,
+      "choices": 0,
+      "respawn": 0,
+      "fps": 30.133393639499545,
+      "frameP95": 50,
+      "heap": 53500000
+    },
+    {
+      "seconds": 119.5185,
+      "objects": 528,
+      "stats": {
+        "quality": "normal",
+        "pool": {
+          "spriteAllocated": 54,
+          "spriteActive": 5,
+          "textAllocated": 5,
+          "textActive": 1,
+          "dropped": 0,
+          "limits": {
+            "sprites": 192,
+            "texts": 40,
+            "trails": 100,
+            "fragments": 4
+          }
+        },
+        "projectiles": {
+          "active": 2,
+          "allocated": 5,
+          "free": 3,
+          "trails": 5,
+          "orbits": 0,
+          "limit": 240
+        },
+        "seen": 48,
+        "seenLimit": 2048,
+        "events": {
+          "fire": 400,
+          "hit": 443,
+          "death": 63,
+          "experience": 43,
+          "level_up": 18
+        },
+        "skipped": 233,
+        "listeners": 1,
+        "tweens": 0
+      },
+      "alive": true,
+      "choices": 0,
+      "respawn": 0,
+      "fps": 30.171061383802506,
+      "frameP95": 50,
+      "heap": 53500000
+    },
+    {
+      "seconds": 120.52890000000038,
+      "objects": 501,
+      "stats": {
+        "quality": "normal",
+        "pool": {
+          "spriteAllocated": 54,
+          "spriteActive": 6,
+          "textAllocated": 5,
+          "textActive": 1,
+          "dropped": 0,
+          "limits": {
+            "sprites": 192,
+            "texts": 40,
+            "trails": 100,
+            "fragments": 4
+          }
+        },
+        "projectiles": {
+          "active": 0,
+          "allocated": 5,
+          "free": 5,
+          "trails": 5,
+          "orbits": 0,
+          "limit": 240
+        },
+        "seen": 38,
+        "seenLimit": 2048,
+        "events": {
+          "fire": 403,
+          "hit": 448,
+          "death": 63,
+          "experience": 43,
+          "level_up": 18
+        },
+        "skipped": 236,
+        "listeners": 1,
+        "tweens": 0
+      },
+      "alive": true,
+      "choices": 0,
+      "respawn": 0,
+      "fps": 30.183607264641704,
+      "frameP95": 50,
+      "heap": 53500000
+    },
+    {
+      "seconds": 121.55090000000037,
+      "objects": 501,
+      "stats": {
+        "quality": "normal",
+        "pool": {
+          "spriteAllocated": 54,
+          "spriteActive": 1,
+          "textAllocated": 5,
+          "textActive": 1,
+          "dropped": 0,
+          "limits": {
+            "sprites": 192,
+            "texts": 40,
+            "trails": 100,
+            "fragments": 4
+          }
+        },
+        "projectiles": {
+          "active": 0,
+          "allocated": 5,
+          "free": 5,
+          "trails": 5,
+          "orbits": 0,
+          "limit": 240
+        },
+        "seen": 16,
+        "seenLimit": 2048,
+        "events": {
+          "fire": 405,
+          "hit": 451,
+          "death": 64,
+          "experience": 43,
+          "level_up": 18
+        },
+        "skipped": 236,
+        "listeners": 1,
+        "tweens": 0
+      },
+      "alive": true,
+      "choices": 0,
+      "respawn": 0,
+      "fps": 30.168431496599275,
+      "frameP95": 50,
+      "heap": 53500000
+    },
+    {
+      "seconds": 122.5855,
+      "objects": 492,
+      "stats": {
+        "quality": "normal",
+        "pool": {
+          "spriteAllocated": 54,
+          "spriteActive": 5,
+          "textAllocated": 5,
+          "textActive": 1,
+          "dropped": 0,
+          "limits": {
+            "sprites": 192,
+            "texts": 40,
+            "trails": 100,
+            "fragments": 4
+          }
+        },
+        "projectiles": {
+          "active": 0,
+          "allocated": 5,
+          "free": 5,
+          "trails": 5,
+          "orbits": 0,
+          "limit": 240
+        },
+        "seen": 13,
+        "seenLimit": 2048,
+        "events": {
+          "fire": 406,
+          "hit": 453,
+          "death": 66,
+          "experience": 44,
+          "level_up": 18
+        },
+        "skipped": 236,
+        "listeners": 1,
+        "tweens": 0
+      },
+      "alive": false,
+      "choices": 0,
+      "respawn": 2.8,
+      "fps": 30.19117269171313,
+      "frameP95": 33.5,
+      "heap": 53500000
+    },
+    {
+      "seconds": 123.609,
+      "objects": 497,
+      "stats": {
+        "quality": "normal",
+        "pool": {
+          "spriteAllocated": 54,
+          "spriteActive": 0,
+          "textAllocated": 5,
+          "textActive": 0,
+          "dropped": 0,
+          "limits": {
+            "sprites": 192,
+            "texts": 40,
+            "trails": 100,
+            "fragments": 4
+          }
+        },
+        "projectiles": {
+          "active": 0,
+          "allocated": 5,
+          "free": 5,
+          "trails": 5,
+          "orbits": 0,
+          "limit": 240
+        },
+        "seen": 6,
+        "seenLimit": 2048,
+        "events": {
+          "fire": 406,
+          "hit": 453,
+          "death": 66,
+          "experience": 44,
+          "level_up": 18
+        },
+        "skipped": 236,
+        "listeners": 1,
+        "tweens": 0
+      },
+      "alive": false,
+      "choices": 0,
+      "respawn": 1.8,
+      "fps": 30.183886286597254,
+      "frameP95": 49.89999999999418,
+      "heap": 53500000
+    }
+  ]
+}

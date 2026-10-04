@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "source": "environment/source-atlas-v1.png",
+  "source_size": [
+    1254,
+    1254
+  ],
+  "ground": {
+    "path": "tiles/ground-v1.png",
+    "tile_size": 32,
+    "columns": 13,
+    "count": 52
+  },
+  "details": {
+    "path": "tiles/details-v1.png",
+    "tile_size": 32,
+    "count": 4
+  },
+  "props": {
+    "fir": "props/fir-v1.png",
+    "oak": "props/oak-v1.png",
+    "dead-tree": "props/dead-tree-v1.png",
+    "boulder": "props/boulder-v1.png",
+    "pillar": "props/pillar-v1.png",
+    "wall": "props/wall-v1.png",
+    "rubble": "props/rubble-v1.png"
+  }
+}

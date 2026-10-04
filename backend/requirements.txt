@@ -1,0 +1,11 @@
+# 역할: 서버·마이그레이션·SQLite 테스트의 고정 의존성. 수정 후 Docker 빌드와 서버 테스트를 확인합니다.
+fastapi==0.115.12
+uvicorn[standard]==0.34.2
+pydantic-settings==2.9.1
+SQLAlchemy==2.0.40
+asyncmy==0.2.10
+alembic==1.15.2
+aiosqlite==0.21.0
+pytest==8.3.5
+httpx==0.28.1
+websockets==15.0.1

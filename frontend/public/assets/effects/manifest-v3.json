@@ -1,0 +1,33 @@
+{
+  "frameSize": 64,
+  "columns": 4,
+  "rows": 4,
+  "frames": {
+    "muzzle": [
+      4,
+      12
+    ],
+    "hit": [
+      5,
+      13
+    ],
+    "monsterDeath": [
+      8,
+      14
+    ],
+    "playerDeath": [
+      9
+    ],
+    "experience": [
+      10
+    ],
+    "levelUp": [
+      11,
+      15
+    ]
+  },
+  "sourceSize": [
+    1254,
+    1254
+  ]
+}

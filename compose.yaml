@@ -1,0 +1,62 @@
+# 역할: MySQL 준비→FastAPI 준비→Nginx 프론트 순서로 시작합니다. DB는 named volume, 실시간 월드는 단일 서버 메모리입니다.
+services:
+  db:
+    image: mysql:8.4
+    restart: unless-stopped
+    environment:
+      MYSQL_DATABASE: ${MYSQL_DATABASE:?Copy .env.example to .env}
+      MYSQL_USER: ${MYSQL_USER:?Missing MYSQL_USER}
+      MYSQL_PASSWORD: ${MYSQL_PASSWORD:?Missing MYSQL_PASSWORD}
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD:?Missing MYSQL_ROOT_PASSWORD}
+    volumes:
+      - mysql_data:/var/lib/mysql
+    healthcheck:
+      test: ["CMD-SHELL", "MYSQL_PWD=$$MYSQL_PASSWORD mysql -h 127.0.0.1 -u$$MYSQL_USER $$MYSQL_DATABASE -e 'SELECT 1'"]
+      interval: 5s
+      timeout: 3s
+      retries: 30
+  backend:
+    build: ./backend
+    restart: unless-stopped
+    environment:
+      DATABASE_URL: mysql+asyncmy://${MYSQL_USER}:${MYSQL_PASSWORD}@db:3306/${MYSQL_DATABASE}?charset=utf8mb4
+      ALLOWED_ORIGINS: ${ALLOWED_ORIGINS:?Missing ALLOWED_ORIGINS}
+    depends_on:
+      db:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8000/api/ready', timeout=2)"]
+      interval: 10s
+      timeout: 3s
+      retries: 10
+  web :
+    build: ./frontend
+    restart: unless-stopped
+    ports:
+      - "${HTTP_PORT:-8080}:80"
+    depends_on:
+      backend:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "wget", "-q", "-O", "/dev/null", "http://127.0.0.1/"]
+      interval: 10s
+      timeout: 3s
+      retries: 5
+
+  # cloudflared:
+  #   image: cloudflare/cloudflared:latest
+  #   restart: unless-stopped
+
+  #   # Cloudflare와 Tunnel 연결을 시작합니다.
+  #   command: tunnel --no-autoupdate --protocol http2 run
+
+  #   environment:
+  #     # Cloudflare Dashboard에서 발급받은 Tunnel Token
+  #     TUNNEL_TOKEN: ${CLOUDFLARE_TUNNEL_TOKEN:?Missing CLOUDFLARE_TUNNEL_TOKEN}
+
+  #   # web이 생성된 뒤 cloudflared를 실행합니다.
+  #   depends_on:
+  #     - web
+
+volumes:
+  mysql_data:

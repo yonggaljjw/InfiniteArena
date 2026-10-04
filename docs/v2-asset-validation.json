@@ -1,0 +1,30 @@
+[
+  {
+    "path": "frontend/public/assets/characters/player-v2.png",
+    "size": [
+      512,
+      512
+    ],
+    "frames": 64,
+    "frameSize": [
+      64,
+      64
+    ],
+    "allFramesPopulated": true,
+    "sha256": "927006a268e22e8a58bc729d39dc030e16a33887baa03e85429a204b29b74969"
+  },
+  {
+    "path": "frontend/public/assets/monsters/ghoul-v2.png",
+    "size": [
+      512,
+      512
+    ],
+    "frames": 64,
+    "frameSize": [
+      64,
+      64
+    ],
+    "allFramesPopulated": true,
+    "sha256": "20d6693c6c3c670bc90994987f392fd77b54070d778e8e9ad6016091e3f2e053"
+  }
+]

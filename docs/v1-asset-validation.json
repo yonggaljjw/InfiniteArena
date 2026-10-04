@@ -1,0 +1,114 @@
+[
+  {
+    "path": "frontend/public/assets/ambient/dust-v1.png",
+    "size": [
+      3,
+      3
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "path": "frontend/public/assets/ambient/shadow-v1.png",
+    "size": [
+      64,
+      32
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "path": "frontend/public/assets/environment/fir-canopy-v1.png",
+    "size": [
+      119,
+      106
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "path": "frontend/public/assets/environment/source-atlas-v1.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "path": "frontend/public/assets/environment/oak-canopy-v1.png",
+    "size": [
+      158,
+      106
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "path": "frontend/public/assets/tiles/details-v1.png",
+    "size": [
+      128,
+      32
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "path": "frontend/public/assets/tiles/ground-v1.png",
+    "size": [
+      416,
+      128
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "path": "frontend/public/assets/props/fir-v1.png",
+    "size": [
+      119,
+      160
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "path": "frontend/public/assets/props/boulder-v1.png",
+    "size": [
+      160,
+      119
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "path": "frontend/public/assets/props/pillar-v1.png",
+    "size": [
+      133,
+      160
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "path": "frontend/public/assets/props/dead-tree-v1.png",
+    "size": [
+      158,
+      160
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "path": "frontend/public/assets/props/oak-v1.png",
+    "size": [
+      158,
+      160
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "path": "frontend/public/assets/props/rubble-v1.png",
+    "size": [
+      160,
+      117
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "path": "frontend/public/assets/props/wall-v1.png",
+    "size": [
+      160,
+      128
+    ],
+    "mode": "RGBA"
+  }
+]
